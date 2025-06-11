@@ -1,9 +1,9 @@
 # 🌸 My Second Brain
 
 > “I’m not **hoarding** information —  
-> I’m **cultivating** it.” — _probably me after discovering Obsidian_
+> I’m **cultivating** it.” — _Thomas Lu_
 
-A public, searchable and constantly-evolving snapshot of my Obsidian vault, rendered as a sleek static site with **[FlowerShow](https://github.com/flowershow/flowershow)**. If you’re curious about knowledge management, PKM, or just want to borrow a few neurons, you’re in the right repo.
+A public and constantly-evolving snapshot of my Obsidian vault, rendered as a sleek static site with **[FlowerShow](https://github.com/flowershow/flowershow)**. If this repo helps you, pls show it some love with a ⭐️!
 
 ---
 
