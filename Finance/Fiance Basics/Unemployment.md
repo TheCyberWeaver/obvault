@@ -1,4 +1,4 @@
-![Exported image|492](Unemployment.png)
+![[Unemployment.png]]
 
 Note that the unemployment rate is calculated as the percentage of the labor force that is unemployed, rather than the percent of the total population.
  
