@@ -1,1 +1,1 @@
-![Exported image](Exported%20image%2020250519111108-0.png)
+![[Exported image 20250519111108-0.png]]
