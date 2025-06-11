@@ -1,12 +1,12 @@
 
 ## 6.1 Theorem
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=64&selection=318,0,318,30&color=note|p.59]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=64&selection=318,0,318,30&color=note|p.59]]
 > > Every cyclic group is abelian.
 
 ## 6.6 Theorem
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=66&selection=53,1,54,38&color=note|p.61]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=66&selection=53,1,54,38&color=note|p.61]]
 > > A subgroup of a cyclic group is cyclic
 
 ## 6.14 Theorem
