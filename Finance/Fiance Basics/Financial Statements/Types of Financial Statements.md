@@ -1,6 +1,6 @@
 
   
-![Exported image](Exported%20image%2020250519111050-0.png)
+![[Exported image 20250519111050-0.png]]
 - **Income Statement** shows profitability.
 - **Balance Sheet** reveals financial stability.
 - **Cash Flow Statement** highlights cash generation and usage.
