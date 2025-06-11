@@ -1,6 +1,6 @@
 ## 10.2 Definition of Cosets
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=102&selection=491,1,561,0&color=note|p.97]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=102&selection=491,1,561,0&color=note|p.97]]
 > > Let H be a subgroup of a group G. The subset $a H = \{ah | h ∈ H \}$ of G is the **left coset of H** containing a, while the subset $H a = \{ha | h ∈ H \}$ is the** right coset** of H containing a.
 > 
 > 
@@ -22,7 +22,7 @@ the cosets are $\{0,3\}\{1,4\}\{2,5\}$
 ![[Pasted image 20250605105608.png|459]]
 We see the partition of the group again forms a group.
 ## The Theorem of Lagrange
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=105&selection=241,0,254,1&color=note|p.100]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=105&selection=241,0,254,1&color=note|p.100]]
 >
 > > Every coset (left or right) of a subgroup H of a group G has the same number of elements as H .
 
@@ -42,13 +42,13 @@ Therefore $$ord⁡(g)=p$$
 
 ## 10.13 Definition
 
-> [!PDF|yellow] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=106&selection=91,2,120,1&color=yellow|p.101]]
+> [!PDF|yellow] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=106&selection=91,2,120,1&color=yellow|p.101]]
 >
 > > The number of left cosets of H in G is *the index* (G : H ) of H in G.
 
 ## 10.14 Theorem
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=106&selection=189,0,261,1&color=note|p.101]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=106&selection=189,0,261,1&color=note|p.101]]
 >
 > > Suppose H and K are subgroups of a group G such that K ≤ H ≤ G, and suppose (H : K ) and (G : H ) are both finite. Then (G : K ) is finite, and (G : K ) = (G : H )(H : K )
 
