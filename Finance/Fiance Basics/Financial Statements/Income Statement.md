@@ -1,4 +1,4 @@
-![Exported image](Exported%20image%2020250519111137-0.png)
+![[Exported image 20250519111137-0.png]]
 
 We can see that Clear Lake Sporting Goods has outstanding debt, so it incurred interest expense of $2,000 in the current year and $3,000 the prior year. Since it recorded net income (not a loss), it must also record income tax expense of $6,000 in the current and $5,000 in the prior year.
 
@@ -8,4 +8,4 @@ Amortization is similar to depreciation. It is the spreading of the cost of an i
 
 # Example
 
-![Exported image](Exported%20image%2020250519111139-3.png) 
+![[Exported image 20250519111139-3.png]] 
