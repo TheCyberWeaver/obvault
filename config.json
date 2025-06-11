@@ -1,3 +1,9 @@
 {
   "showSidebar": true
+  "contentExclude": [
+    "/tmp",
+    "/Excalidraw",
+    "/Plans",
+    "private.md"
+  ]
 }
