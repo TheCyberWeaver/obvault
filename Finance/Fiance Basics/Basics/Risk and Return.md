@@ -1,4 +1,4 @@
-![A graph shows risk and return with risk represente...](Exported%20image%2020250519111048-0.png)      
+![[Exported image 20250519111048-0.png]]      
 **Default risk** on a financial security is the chance that the issuer will fail to make the required payment. For example, a homeowner may fail to make a monthly mortgage payment, or a corporation may default on required semiannual interest payments on a bond.
  
 **Inflation risk** occurs when investors have less purchasing power from the realized cash flows from an investment due to rising prices or inflation.
@@ -7,7 +7,7 @@
  
 **Non-diversifiable risk**, or systematic risk, is what remains after portfolio diversification has eliminated unnecessary diversifiable risk. We measure non-diversifiable risk with a statistical term called beta. Subsequent chapters on risk and return provide a more in-depth discussion of beta.
 
-![Exported image](Exported%20image%2020250519111049-1.png)
+![[Exported image 20250519111049-1.png]]
 
 - β=1: The asset moves in line with the market.
 - β\>1: The asset is more volatile than the market (higher risk).
