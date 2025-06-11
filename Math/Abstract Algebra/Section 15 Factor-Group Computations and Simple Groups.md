@@ -13,7 +13,7 @@ $$\lvert S_n\rvert=2\lvert A_n\rvert$$
 
 ## 15.6 Falsity of the Converse of [[Section 10 Cosets and The Theorem of Lagrange#The Theorem of Lagrange|the Theorem of Lagrange]]
 
-> [!warning] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=151&selection=47,13,64,1&color=note|p.146]]
+> [!warning] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=151&selection=47,13,64,1&color=note|p.146]]
 > > It is false that if d divides the order of G, then there must exist a subgroup H of G having order d
 > 
 
@@ -28,7 +28,7 @@ Summary
 Let $G=H\times K$, then $G/\bar{H}\simeq K$,  where $\bar {H}=\{(h,e)|h\in H\}$  
 
 ## 15.9 Theorem
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=152&selection=162,1,163,43&color=note|p.147]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=152&selection=162,1,163,43&color=note|p.147]]
 > > A factor group of a cyclic group is cyclic.
 > 
 
@@ -52,26 +52,26 @@ Consider:
 $$(\mathbb Z \times \mathbb Z)/ \langle (1,1)\rangle\simeq\mathbb Z$$
 
 ## 15.14 Definition Simple Groups
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=154&selection=6,1,12,1&color=note|p.149]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=154&selection=6,1,12,1&color=note|p.149]]
 > > A group is simple if it is nontrivial and has no proper nontrivial normal subgroups. 
 
 E.g. A group of prime order can have no nontrivial proper subgroups of any sort ([[Section 10 Cosets and The Theorem of Lagrange#The Theorem of Lagrange|The Theorem of Lagrange]])
 
 ## 15.15 Theorem 
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=154&selection=16,1,28,2&color=note|p.149]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=154&selection=16,1,28,2&color=note|p.149]]
 > > The alternating group $A_n$ is simple for n ≥ 5.
 > 
 
 - [ ] Proof⏫
 
 ## 15.18 Theorem
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=155&selection=7,0,19,10&color=note|p.150]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=155&selection=7,0,19,10&color=note|p.150]]
 > > M is a maximal normal subgroup of G if and only if G/M is simple.
 
 ## The  Center and Commutator Sub Groups
 
-> [!warning] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=155&selection=169,0,169,35&color=note|p.150]]
+> [!warning] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=155&selection=169,0,169,35&color=note|p.150]]
 > > The Center and Commutator Subgroups
 > 
 > Skipped
