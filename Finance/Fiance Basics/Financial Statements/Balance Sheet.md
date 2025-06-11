@@ -1,12 +1,12 @@
-![Exported image|488](Exported%20image%2020250519111144-0.png)
-![Exported image|486](Exported%20image%2020250519111145-1.png)
-![Exported image|490](Exported%20image%2020250519111146-2.png) 
+![[Exported image 20250519111144-0.png]]
+![[Exported image 20250519111145-1.png]]
+![[Exported image 20250519111146-2.png]] 
 - **Accounts Payable** (应付账款)
 - **[[Unearned Revenue]]** (预收收入)
 - **Notes Payable** (应付票据)
 
 # Example： Apple Inc.
- ![Exported image|682](Exported%20image%2020250519111146-3.png) ![Exported image|677](Exported%20image%2020250519111147-4.png)
+ ![[Exported image 20250519111146-3.png]] ![[Exported image 20250519111147-4.png]]
 
 
 - **[[Term Debt]]** (期限债务)
@@ -24,7 +24,7 @@
 - balance sheet reflects balances at only one given point in time.
 	- For example, if a firm were concerned with certain ratios or investor/lender expectations of its cash balance, it could choose to not pay several vendor payments in the last week of December. Thus, on December 31, the firm reflects a high cash balance on its balance sheet. However, by the end of the first week of January, it has caught up on late vendor payments and again shows a low cash balance.
 - Internally generated assets and the firm’s human capital are not included        
-![Exported image](Exported%20image%2020250519111202-16.png)
+![[Exported image 20250519111202-16.png]]
 
 # Expense Versus Payable
 
