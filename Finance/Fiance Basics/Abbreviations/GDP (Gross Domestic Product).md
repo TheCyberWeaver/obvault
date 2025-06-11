@@ -1,0 +1,1 @@
+**Gross domestic product (GDP)** is a measure of the size of an economy. A country's GDP is the dollar value of all of the final goods and service produced within that country during a year. GDP measures the value of all of the automobiles produced, apples grown, heart surgeries performed, students educated, and all other new goods and services produced in a current year.
