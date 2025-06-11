@@ -1,5 +1,5 @@
 
-![Exported image|672](Exported%20image%2020250519111209-1.png)
+![[Exported image 20250519111209-1.png]]
 
 | **Operating Cash Flow (经营活动现金流)** | **Investing Cash Flow (投资活动现金流)** | **Financing Cash Flow (筹资活动现金流)** | **Detailed Analysis**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | --------------------------------- | --------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -12,4 +12,4 @@
 | Negative (负)                      | Positive (正)                      | Positive (正)                      | **Analysis**: Negative operating cash flow with positive investing and financing cash flows could indicate that the company is attempting to turn around its performance by selling assets and taking on debt. However, persistent negative operating cash flow may highlight fundamental issues. **Conclusion**: Warning sign; high-risk situation where the company may face challenges if operational cash flow does not improve.                                   |
 | Negative (负)                      | Negative (负)                      | Negative (负)                      | **Analysis**: Negative cash flows in all three categories are a critical warning sign. It implies that the company is struggling operationally, isn’t investing in future growth, and may not have access to financing. This could lead to severe liquidity issues or potential bankruptcy if the situation persists. **Conclusion**: High financial distress, potentially unsustainable without significant restructuring or capital injection.                       |
 
- ![Exported image](Exported%20image%2020250519111210-2.png)
+ ![[Exported image 20250519111210-2.png]]
