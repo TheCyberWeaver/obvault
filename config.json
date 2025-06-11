@@ -1,6 +1,4 @@
 {
-  
-  "showComments": true,
   "showSidebar": true,
   "contentExclude": [
     "/tmp",
