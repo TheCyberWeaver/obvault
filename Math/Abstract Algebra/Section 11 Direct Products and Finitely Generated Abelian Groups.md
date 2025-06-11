@@ -50,7 +50,7 @@ $$lcm(3,12,15)=60$$
 > [!tip]
 >  Similar to factorizing an integer into prime powers, but $2^3\neq 2^2\times 2$
 
-> [!PDF|] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=42,0,43,1|p.109]]
+> [!PDF|] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=42,0,43,1|p.109]]
 > > The proof is omitted here. 
 > 
 > LOL
@@ -81,7 +81,7 @@ $$360=2^3 3^2 5$$
 > A group G is **decomposable** if it is isomorphic to a direct product of two proper nontrivial subgroups. Otherwise G is **indecomposable**
 
 ## 11.15 Theorem
-> [!info] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=238,0,239,17|p.109]]
+> [!info] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=238,0,239,17|p.109]]
 > > The finite **indecomposable** abelian groups are exactly the cyclic groups with order a power of a prime.
 > 
 > 
@@ -102,7 +102,7 @@ But $\mathbb Z_{p^{r}}$ itself contains an element of order $p^{r}$.
 They cannot be isomorphic, so $\mathbb Z_{p^{r}}$ is indecomposable.
 
 ## 11.16 Theorem
-> [!Note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=320,1,337,1&color=yellow|p.109]]
+> [!Note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=320,1,337,1&color=yellow|p.109]]
 > > If m divides the order of a finite abelian group G, then G has a subgroup of order m.
 
 > [!warning]
@@ -110,7 +110,7 @@ They cannot be isomorphic, so $\mathbb Z_{p^{r}}$ is indecomposable.
 
 ## 11.17 Theorem
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=115&selection=303,0,316,10&color=note|p.110]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=115&selection=303,0,316,10&color=note|p.110]]
 > > If m is a square free integer, that is, m is not divisible by the square of any prime, then every abelian group of order m is cyclic.
 > 
 > extension to [[#11.3 Example]]
