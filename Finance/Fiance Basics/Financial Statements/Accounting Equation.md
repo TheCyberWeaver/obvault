@@ -98,8 +98,8 @@
 > [!NOTE]
 > Equity essentially represents the net worth of an organization
 
-![Exported image](Exported%20image%2020250519111126-9.png)
-![Exported image](Exported%20image%2020250519111126-10.png)
+![[Exported image 20250519111126-9.png]]
+![[Exported image 20250519111126-10.png]]
 
 # Example Scenario
 
