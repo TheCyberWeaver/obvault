@@ -1,4 +1,21 @@
 {
+  "nav": {
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/investbrain-dark.png", 
+    "title": "My Second Brain", 
+    "links": [   
+      {
+        "href": "https://www.thomas-hub.com/",
+        "name": "About"
+      }
+    ],
+    "social": [  
+      {
+        "label": "github",
+        "name": "GitHub Repo",
+        "href": "https://github.com/TheCyberWeaver/obvault/"
+      }
+    ]
+  },
   "showSidebar": true,
   "contentExclude": [
     "/tmp",
