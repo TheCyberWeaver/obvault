@@ -44,7 +44,7 @@ $(ah_1)(bh_2)=a(h_1b)h_2=a(bh_3)h_2=ab(h_3h_2)$
 
 ## The Fundamental Homomorphism Theorem
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=145&selection=166,1,264,1&color=note|p.140]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=145&selection=166,1,264,1&color=note|p.140]]
 > > Let φ : G → G′ be a group homomorphism with kernel H . Then φ[G] is a group, and μ : G/H → φ[G] given by μ(g H ) = φ(g) is an isomorphism. If γ : G → G/H is the homomorphism given by γ (g) = g H , then φ(g) = μγ (g) for each g ∈ G.
 > 
 > 
@@ -107,7 +107,7 @@ Classify the group $(\mathbb Z_4 \times \mathbb Z_2)/(\{0\}\times\mathbb Z_2)$
 
 ## 14.15 Definition Automorphism
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=146&selection=590,1,678,1&color=note|p.141]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=146&selection=590,1,678,1&color=note|p.141]]
 > > - An isomorphism $φ : G → G$ of a group $G$ with itself is an **automorphism** of $G$. 
 > > - The automorphism $i_g : G → G$, where  $i_g(x) = gxg^{-1}$ for all $x ∈ G$, is the **inner automorphism of G** by g. 
 > > - Performing $i_g$ on x is called **conjugation of x by g**. 
