@@ -1,5 +1,5 @@
-![Exported image](20250519111046-0.png)     
 
+![[Exported image 20250519111046-0.png]]
 ## Business Finance:
 
 1. **Working Capital Management (WCM)**:
@@ -26,4 +26,4 @@
 
 ## Financial Markets and Institutions
 
-![Exported image](Exported%20image%2020250519111047-1.png)
+![[Exported image 20250519111047-1.png]]
