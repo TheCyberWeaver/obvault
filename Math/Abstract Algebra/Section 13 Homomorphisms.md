@@ -1,5 +1,5 @@
 ## 13.1 Definition
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=130&selection=123,0,141,8&color=note|p.125]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=130&selection=123,0,141,8&color=note|p.125]]
 > > A map φ of a group G into a group G′ is a homomorphism if the homomorphism property $$\phi (ab) = \phi(a)\phi(b)$$ holds for all $a,b \in G$.
 
 
@@ -9,12 +9,12 @@
 > if G is abelian, then G' must also be abelian:$$a'b'=\phi(a)\phi(b)=\phi(ab)=\phi(ba)=\phi(b)\phi(a)=b'a'$$
 
 Recall: 
-- $det(AB)=det(A)det(B)$ on invertible n\*n matrices ([Determinant](content/Math/Linear%20Algebra/Determinant.md))
+- $det(AB)=det(A)det(B)$ on invertible n\*n matrices ([Determinant](Math/Linear%20Algebra/Determinant.md))
 - matrix A is invertible if and only if det(A) is nonzero.
 
 This means that det is a homomorphism mapping $GL(n,\mathbb{R})$ (the multiplicative group of all invertible n\*n matrices) into the multiplicative group $\mathbb{R}^*$ of non zero real numbers.
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=132&selection=217,0,224,1&color=note|p.127]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=132&selection=217,0,224,1&color=note|p.127]]
 > > Homomorphisms of a group G into itself are often useful for studying the structure of G
 
 
@@ -28,7 +28,7 @@ $\sigma: F\rightarrow\mathbb R$ $$\sigma(f)=\int_0^1 f(x)dx $$
 $\gamma: \mathbb Z \rightarrow \mathbb Z_n$ $$\gamma(m)=r\ ,\text{where r is the remainder given by the division when m/n}$$ 
 Here, it is a many-to-one map
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=133&selection=286,0,354,18&color=note|p.128]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=133&selection=286,0,354,18&color=note|p.128]]
 > > Composition of group homomorphisms is again a group homomorphism. That is, if φ : G → G′ and γ : G′ → G′′ are both group homomorphisms then their composition (γ ◦ φ) : G → G′′, where (γ ◦ φ)(g) = γ (φ(g)) for g ∈ G, is also a homomorphism. (See Exercise 49.)
 
 
@@ -39,13 +39,13 @@ let $\phi$ be a homomorphism of a group $G$ into a group $G'$
 - If $a ∈ G$, then $φ(a^{-1}) = φ(a)^{-1}$.
 - If H is a subgroup of $G$, then $φ[H]$ is a subgroup of $G'$.
 - If $K'$ is a subgroup of $G' ∩ φ[G]$, then $φ^{-1}[K']$ is a subgroup of $G$.
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=134&selection=57,0,61,56&color=note|p.129]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=134&selection=57,0,61,56&color=note|p.129]]
 > > Loosely speaking, φ preserves the identity element, inverses, and subgroups.
 > 
 
 ## 13.11 Definition Im
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=133&selection=395,0,511,1&color=note|p.128]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=133&selection=395,0,511,1&color=note|p.128]]
 > > Let φ be a mapping of a set X into a set Y , and let A ⊆ X and B ⊆ Y . 
 > > - The image $φ[A]$ of A in Y under φ is $\{φ(a) | a \in A\}$.  Similar to [[Section 8 Groups of Permutations#8.14 Definition|Definition of Image of group under a function]]
 > > - The set φ\[X] is the range of φ. 
@@ -61,7 +61,7 @@ In other words: The Elements in G that correspond to the identity element in G'
 **Example: Linear Transformation**
 Let $\phi:\mathbb{R}^n \rightarrow \mathbb{R}^m$ and A be an $m\times n$ matrix of real numbers: $$\phi(\mathbf v)=A \mathbf v$$ $\phi$ is a homomorphism, because $\phi(v+w)=A(v+w)=Av+Aw=\phi(v)+\phi(w)$ 
 This is known as a linear transformation.
-$Ker(\phi)$ is known as the *[[content/Math/Linear Algebra/Null Space]]* of A. It consists all $\mathbf v\in \mathbb R^n$ such that $A\mathbf v=\mathbf 0$  (the zero vector)
+$Ker(\phi)$ is known as the *[[Math/Linear Algebra/Null Space]]* of A. It consists all $\mathbf v\in \mathbb R^n$ such that $A\mathbf v=\mathbf 0$  (the zero vector)
 
 ## 13.15 Theorem
 let $H=Ker(\phi)$, $a \in G$. Then: $$\phi^{-1}[\{\phi(a)\}]=aH=Ha$$In other words. 
@@ -86,7 +86,7 @@ Geometrically, this map projects each nonzero complex number radially onto the u
 - $\phi(f)=f'$
 $Ker(\phi)$= all constant functions, which form a subgroup C of F.
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=136&selection=335,0,343,1&color=note|p.131]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=136&selection=335,0,343,1&color=note|p.131]]
 > > Thus Ker(φ) consists of all constant functions, which form a subgroup C of F
 > 
 > A better way is to say C is a subgroup of D, since $Ker(\phi)$ is normally not defined in $G'$
@@ -123,7 +123,7 @@ This proves that:
 
 ## 13.19 Definition normal
 
-> [!PDF|note] [[content/Math/_Books_/A First Course in Abstract Algebra.pdf#page=137&selection=182,0,210,1&color=note|p.132]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=137&selection=182,0,210,1&color=note|p.132]]
 > > A subgroup H of a group G is normal if its left and right cosets coincide, that is, if g H = Hg for all g ∈ G. 
 > 
 > all abelian groups are normal. Trivial.
