@@ -47,6 +47,6 @@ $$期末留存收益=期初留存收益+净收入−支付的股利$$
 This equation shows that **retained earnings grow with net income** (profits) and **decrease with dividend payments**. 
 
 # Examples
-![Exported image](Exported%20image%2020250519111213-3.png) ![Exported image](Exported%20image%2020250519111214-4.png) ![Exported image](Exported%20image%2020250519111218-5.png) 
+![[Exported image 20250519111213-3.png]] ![[Exported image 20250519111214-4.png]] ![[Exported image 20250519111218-5.png]] 
 - **[[Accumulated Other Comprehensive Income]]** (AOCI, 累积其他综合收益)
 
