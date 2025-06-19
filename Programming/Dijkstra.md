@@ -15,7 +15,7 @@ int networkDelayTime(vector<vector<int>> &times, int n, int k) {
     }
     vector<int> dist(n + 1, INT_MAX);
     vector<bool> visited(n + 1, false);
-    auto cmp = [](const Edge &a, const Edge &b) { return a.second > b.second; };
+    auto cmp = [](const Edge &a, const Edge &b) { return a.second > b.second;};
     priority_queue<Edge, vector<Edge>, decltype(cmp)> pq(cmp);
 
     pq.push({k, 0});
