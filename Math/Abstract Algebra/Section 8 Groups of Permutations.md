@@ -4,10 +4,11 @@
 
 ## 8.7 Example
 
-The nth dihedral group is defined as $D_n$ or the symmetries of a regular n-gon.
-$S_3 \simeq D_3$  
+> [!Example]
+> The nth dihedral group is defined as $D_n$ or the symmetries of a regular n-gon.
+> $S_3 \simeq D_3$  
 
-## 8.14 Definition
+## 8.14 Definition Image
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=87&selection=7,0,64,0&color=note|p.82]]
 > > Let f : A → B be a function and let H be a subset of A. 
