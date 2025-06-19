@@ -47,7 +47,7 @@ let $\phi$ be a homomorphism of a group $G$ into a group $G'$
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=133&selection=395,0,511,1&color=note|p.128]]
 > > Let φ be a mapping of a set X into a set Y , and let A ⊆ X and B ⊆ Y . 
-> > - The image $φ[A]$ of A in Y under φ is $\{φ(a) | a \in A\}$.  Similar to [[Section 8 Groups of Permutations#8.14 Definition|Definition of Image of group under a function]]
+> > - The image $φ[A]$ of A in Y under φ is $\{φ(a) | a \in A\}$.  Similar to [[Section 8 Groups of Permutations#8.14 Definition Image|Definition of Image of group under a function]]
 > > - The set φ\[X] is the range of φ. 
 > > - The inverse image $φ^{-1}[B]$ of B in X is $\{x \in X | φ(x) \in B\}$. 
 > 
