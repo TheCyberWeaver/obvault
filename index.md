@@ -26,6 +26,6 @@ Programming
 - [[Leetcode Tasks]]
 ## Ongoing Updates
 
-I’ll be continuously adding new topics and refining structures. Bookmark this page (or better yet, **[star the repo]([TheCyberWeaver/obvault: My second brain](https://github.com/TheCyberWeaver/obvault/))) and check back often—there’s always something new brewing!
+I’ll be continuously adding new topics and refining structures. Bookmark this page (or better yet, [star the repo]([TheCyberWeaver/obvault: My second brain](https://github.com/TheCyberWeaver/obvault/))) and check back often—there’s always something new brewing!
 
 ---
