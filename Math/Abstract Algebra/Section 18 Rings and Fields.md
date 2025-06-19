@@ -1,7 +1,7 @@
 
 ## 18.1 Definition Rings
 
-[[Algebra Structure.excalidraw|Overview of Algebra Structures]]
+
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=172&selection=70,0,210,1&color=note|p.167]]
 > > A **ring** 〈R, +, ·〉 is a set R together with two binary operations + and ·, which we call addition and multiplication, defined on R such that the following axioms are satisfied: 
@@ -10,7 +10,7 @@
 > > - R3. For all a, b, c ∈ R, the left distributive law, a · (b + c) = (a · b) + (a · c) and the right distributive law (a + b) · c = (a · c) + (b · c) hold. 
 
 For example, $M_n(R)$ ($n\times n$ matrix with real number entries) is a ring
-
+![[Algebra Structure.excalidraw|Overview of Algebra Structures]]
 ## 18.8 Properties of a ring
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=175&selection=89,1,158,1&color=note|p.170]]
 > > If R is a ring with additive identity 0, then for any a, b ∈ R we have 
