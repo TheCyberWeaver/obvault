@@ -16,7 +16,7 @@
 - [x] ★ 3 Longest Substring Without Repeating Characters ✅ 2025-05-28
 - [x] 424 Longest Repeating Character Replacement ✅ 2025-06-02
 - [x] 76 Minimum Window Substring ✅ 2025-06-02
-- [x] 438 [[Find All Anagrams in a String]] ✅ 2025-06-02
+- [x] 438 Find All Anagrams in a String ✅ 2025-06-02
 - [x] ★ 239 [[Sliding Window Maximum]] ✅ 2025-06-02
 
 ### 3. 栈／队列 / 单调结构
