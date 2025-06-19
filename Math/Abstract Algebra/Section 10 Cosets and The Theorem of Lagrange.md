@@ -1,10 +1,10 @@
-## 2 Definition of Cosets
+## 10.2 Definition of Cosets
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=102&selection=491,1,561,0&color=note|p.97]]
 > > Let H be a subgroup of a group G. The subset $a H = \{ah | h ∈ H \}$ of G is the **left coset of H** containing a, while the subset $H a = \{ha | h ∈ H \}$ is the** right coset** of H containing a.
 > 
 > 
-## 3 Example
+## 10.3 Example
 
 > [!Example]
 > $3\mathbb Z=\{\cdots,-3,0,3,\cdots\}$
@@ -19,7 +19,7 @@ The **right cosets** of $3\mathbb Z$ of $\mathbb Z$ are:
 > [!NOTE]
 > For a subgroup H of an abelian group G, the partition of G into left cosets of H and the partition into right cosets are the same. Trivial
 
-## 4 Example
+## 10.4 Example
 partition of $\mathbb Z_6$ into cosets of the subgroup $H=\{0,3\}$ 
 the cosets are $\{0,3\}\{1,4\}\{2,5\}$ 
 ![[Pasted image 20250605105608.png|459]]
@@ -30,7 +30,7 @@ We see the partition of the group again forms a group. This group is called as [
 >
 > > Every coset (left or right) of a subgroup H of a group G has the same number of elements as H .
 
-## 11 Theorem
+## 10.11 Theorem
 
 > [!NOTE]
 > Every group of prime order is cyclic
@@ -44,13 +44,13 @@ Lagrange says $ord⁡(g)$ divides $\\lvert G\\rvert=p$.
 Since$$ g≠e, ord⁡(g)>1$$The only divisors of the prime p are 1 and p.  
 Therefore $$ord⁡(g)=p$$
 
-## 13 Definition
+## 10.13 Definition
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=106&selection=91,2,120,1&color=yellow|p.101]]
 >
 > > The number of left cosets of H in G is *the index* (G : H ) of H in G.
 
-## 14 Theorem
+## 10.14 Theorem
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=106&selection=189,0,261,1&color=note|p.101]]
 >
