@@ -19,4 +19,4 @@ I’ll be continuously adding new topics and refining structures. Bookmark this 
 
 ---
 ## AI Reports
-<List dir="/Reports"/>
+<List dir="/obvault/Reports"/>
