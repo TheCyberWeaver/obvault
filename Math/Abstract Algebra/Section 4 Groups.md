@@ -7,7 +7,7 @@ A group $\langle G,*\rangle$ is a set $G$, with a operation $*$, such that the f
 - identity element e for $*$
 - Every element in $G$ is invertible 
 
-Group is a algebra structure: [[Algebra Structure.excalidraw]]
+Group is a algebra structure: ![[Algebra Structure.excalidraw]]
 
 ## Definition Group - from the view of Category Theory
 
