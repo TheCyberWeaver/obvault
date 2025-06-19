@@ -16,7 +16,7 @@ If $gcd(n,m)=1$ then $m\frac n 1=mn=m0=0$
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=184&selection=393,0,407,1&color=note|p.179]]
 > > An integral domain D is a commutative ring with unity $1 \neq 0$ and containing no divisors of 0. 
 
-[[Algebra Structure.excalidraw]]
+![[Algebra Structure.excalidraw]]
 
 This means we can factorize a polynomial and solve an equation as we do normally. 
 There is no other other solutions than $x=r_1$ and $x=r_2$ 
