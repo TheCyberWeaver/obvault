@@ -5,8 +5,6 @@ description: Join me as I explore the world. Here, ideas, research, and sparks o
 cta:
   - href: https://www.thomas-hub.com/
     label: About me
-  - href: /featured
-    label: Featured posts
 
 ---
 ## What Is This?
