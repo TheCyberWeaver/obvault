@@ -1,6 +1,8 @@
 
 ## 18.1 Definition Rings
 
+[[Algebra Structure.excalidraw|Overview of Algebra Structures]]
+
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=172&selection=70,0,210,1&color=note|p.167]]
 > > A **ring** 〈R, +, ·〉 is a set R together with two binary operations + and ·, which we call addition and multiplication, defined on R such that the following axioms are satisfied: 
 > > - R1. 〈R, +〉 is an abelian group. 
@@ -25,6 +27,9 @@ For example, $M_n(R)$ ($n\times n$ matrix with real number entries) is a ring
 
 
 ## 18.16 Definition Division Ring and Field
+
+[[Algebra Structure.excalidraw|Overview of Algebra Structures]]
+
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=178&selection=187,1,242,1&color=note|p.173]]
 > > Let R be a ring with unity $1 \neq 0$. An element u in R is a **unit** of R if it has a multiplicative inverse in R.
 > > If every nonzero element of R is a **unit**, then R is a **division ring** (or **skew field**). 
