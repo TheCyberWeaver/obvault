@@ -14,7 +14,7 @@
 | **Universality**   | Always exists for any two groups.                                                       | Only when within G those two subgroups satisfy the three internal-product axioms.                           |
 | **Isomorphism**    | $H\times K$ is the group.                                                               | You get an isomorphism $\varphi: H\times K \xrightarrow{\sim} G, \varphi(h,k)=hk$.                          |
 
-##  11.3 Example
+##  3 Example
 
 > [!example]
 > $\mathbb{Z}_{2}\times\mathbb{Z}_{3}$ is cyclic with Generator $(1,1)$
@@ -26,20 +26,20 @@
 *Case 1:* $gcm(n,m)=1$
 	pick the Generator $(1,1)$ :$$ (1,1)^{k}=(k\bmod n,k\bmod m)=(0,0)$$which means: $$k=lcm(n,m)$$ $k=lcm(n,m)=nm=\lvert \mathbb{Z}_{n}\times\mathbb{Z}_{m}\rvert$ meaning $(1,1)$ is a generator of $Z_{nm}$. 
 *Case 2:* $gcm(n,m)>1$
-	For any element $a,b\in\mathbb{Z}_{n}\times\mathbb{Z}_{m}$ $$ord(a,b)=lcm(ord(a),ord(b))$$ according to the Theorem of Lagrange ([[#10 The Theorem of Lagrange]]): $$ord(a)\mid n, \ ord(b)\mid m$$then: $$ord(a,b)=lcm(ord(a),ord(b))\leq lcm(n,m)<nm$$This means no generator can generate the full $\mathbb{Z}_{n}\times\mathbb{Z}_{m}$ Thus it is not cyclic	. $q.e.d.$ 
+	For any element $a,b\in\mathbb{Z}_{n}\times\mathbb{Z}_{m}$ $$ord(a,b)=lcm(ord(a),ord(b))$$ according to the Theorem of Lagrange ([[Section 10 Cosets and The Theorem of Lagrange#The Theorem of Lagrange|The Theorem of Lagrange]]): $$ord(a)\mid n, \ ord(b)\mid m$$then: $$ord(a,b)=lcm(ord(a),ord(b))\leq lcm(n,m)<nm$$This means no generator can generate the full $\mathbb{Z}_{n}\times\mathbb{Z}_{m}$ Thus it is not cyclic	. $q.e.d.$ 
 
-## 11.10 Example
+## 10 Example
 
 > [!example]
 > Find the order of (8, 4, 10) in the group Z12 × Z60 × Z24. 
 
-- 8 is of order 3 in $\mathbb Z_{12}$ : $3=12/gcd(8,12)$ (6.14[[Section 6 Cyclic Groups]]) 
+- 8 is of order 3 in $\mathbb Z_{12}$ : $3=12/gcd(8,12)$ ([[Section 6 Cyclic Groups#14 Theorem]]) 
 - 4 is of order 15 in $\mathbb Z_{60}$
 - 10 is of order 12 in $\mathbb Z_{24}$
 $$lcm(3,12,15)=60$$
 (8,4,10) has an order of 60 in the Group Z12 × Z60 × Z24
 
-## 11.12 Fundamental Theorem of Finitely Generated Abelian Groups 
+## 12 Fundamental Theorem of Finitely Generated Abelian Groups 
 
 > [!NOTE] Fundamental Theorem of Finitely Generated Abelian Groups
 > Every finitely generated abelian group G is isomorphic to a direct product of cyclic groups in the form $$\mathbb{Z}_{(p_1)^{r_1}} \times \mathbb{Z}_{(p_2)^{r_2}} \times \cdots \times \mathbb{Z}_{(p_n)^{r_n}}\times \mathbb{Z}\times \mathbb{Z}\times \cdots \times \mathbb{Z}$$ where $p_i$ are primes, and $r_i$ are positive integers.
@@ -59,14 +59,14 @@ $$lcm(3,12,15)=60$$
 > [!NOTE]
 > $\mathbb Z_n\times \mathbb Z_m$ is isomorphic to $\mathbb Z_{nm}$ if and only if $gcd(n,m)=1$
 
-## 11.13 Example
+## 13 Example
 
 > [!Example]
 > Find all abelian groups, up to isomorphism, of order 360. 
 
 ***up to isomorphism***: any abelian groups of order 360 should be isomorphic to one of the founded groups
 
-make use of [[#11.12 Fundamental Theorem of Finitely Generated Abelian Groups]]
+make use of [[#12 Fundamental Theorem of Finitely Generated Abelian Groups]]
 $$360=2^3 3^2 5$$ 
 1. $\mathbb{Z}_2\times\mathbb{Z}_2\times\mathbb{Z}_2\times\mathbb{Z}_3\times\mathbb{Z}_3\times\mathbb{Z}_5$
 2. $\mathbb{Z}_2\times\mathbb{Z}_4\times\mathbb{Z}_3\times\mathbb{Z}_3\times\mathbb{Z}_5$
@@ -75,12 +75,12 @@ $$360=2^3 3^2 5$$
 5. $\mathbb{Z}_8\times\mathbb{Z}_3\times\mathbb{Z}_3\times\mathbb{Z}_5$
 6. $\mathbb{Z}_8\times\mathbb{Z}_9\times\mathbb{Z}_5$
 
-## 11.14 Definition
+## 14 Definition
 
 > [!Note]
 > A group G is **decomposable** if it is isomorphic to a direct product of two proper nontrivial subgroups. Otherwise G is **indecomposable**
 
-## 11.15 Theorem
+## 15 Theorem
 > [!info] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=238,0,239,17|p.109]]
 > > The finite **indecomposable** abelian groups are exactly the cyclic groups with order a power of a prime.
 > 
@@ -97,23 +97,23 @@ $\mathbb{Z}_2\times\mathbb{Z}_2 ≅ V_4$ **(indecomposable)**
 | $\mathbb{Z}_{15}$                    | ✓      | $3\cdot5$ | $\cong \mathbf{Z}_{3}\times\mathbf{Z}_{5}$ | decomposable   |
 
 Suppose $\mathbb Z_{p^{r}}$ could decompose as $\mathbb Z_{p^{i}}\times\mathbb Z_{p^{j}}$ with $i,j\ge1$ and $i+j=r$.  
-In that product, the order of any element is at most $lcm(p^i,p^j)=p^{\max(i,j)}<p^{r}$ ([[#11.3 Example]]).  
+In that product, the order of any element is at most $lcm(p^i,p^j)=p^{\max(i,j)}<p^{r}$ ([[#3 Example]]).  
 But $\mathbb Z_{p^{r}}$ itself contains an element of order $p^{r}$.  
 They cannot be isomorphic, so $\mathbb Z_{p^{r}}$ is indecomposable.
 
-## 11.16 Theorem
+## 16 Theorem
 > [!Note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=320,1,337,1&color=yellow|p.109]]
 > > If m divides the order of a finite abelian group G, then G has a subgroup of order m.
 
 > [!warning]
 > Proof not understood
 
-## 11.17 Theorem
+## 17 Theorem
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=115&selection=303,0,316,10&color=note|p.110]]
 > > If m is a square free integer, that is, m is not divisible by the square of any prime, then every abelian group of order m is cyclic.
 > 
-> extension to [[#11.3 Example]]
+> extension to [[#3 Example]]
 
 $G=\mathbb{Z}_{p_1} \times \mathbb{Z}_{p_2} \times \cdots \times \mathbb{Z}_{p_n}$
 primes are coprime to each other. G is cyclic.
