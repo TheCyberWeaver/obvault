@@ -17,7 +17,8 @@ This is my **Second Brain**:
 ## Table of Content
 
 Math
-- [[A First Course in Abstract Algebra]]
+- [[Section 4 Groups|Abstract Algebra]]
+- [[Category Theory Intro]]
 
 Finance
 - [[Definition of Finance]]
