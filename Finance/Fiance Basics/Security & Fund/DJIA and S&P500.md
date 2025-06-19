@@ -1,14 +1,14 @@
 # Key Differences between the DJIA and the S&P 500
 
-|Aspect|Dow Jones Industrial Average (DJIA)|S&P 500|
-|---|---|---|
-|**Number of Companies**|30 large companies|500 large companies|
-|**Type of Index**|Price-weighted index|Market-capitalization-weighted index|
-|**Industries Represented**|Primarily blue-chip companies|Broad range of industries|
-|**Calculation Method**|Price-weighted (based on stock prices)|Market-cap weighted (based on company size)|
-|**Representation of Market**|Smaller, more selective|Broader, more comprehensive|
-|**Market Sentiment**|Reflects performance of very large, established companies|Reflects overall health of the large-cap U.S. market|
-|**Volatility**|Typically less volatile|More volatile due to broader exposure|
+| Aspect                       | Dow Jones Industrial Average (DJIA)                       | S&P 500                                              |
+| ---------------------------- | --------------------------------------------------------- | ---------------------------------------------------- |
+| **Number of Companies**      | 30 large companies                                        | 500 large companies                                  |
+| **Type of Index**            | Price-weighted index                                      | Market-capitalization-weighted index                 |
+| **Industries Represented**   | Primarily blue-chip companies                             | Broad range of industries                            |
+| **Calculation Method**       | Price-weighted (based on stock prices)                    | Market-cap weighted (based on company size)          |
+| **Representation of Market** | Smaller, more selective                                   | Broader, more comprehensive                          |
+| **Market Sentiment**         | Reflects performance of very large, established companies | Reflects overall health of the large-cap U.S. market |
+| **Volatility**               | Typically less volatile                                   | More volatile due to broader exposure                |
 
 stock market indices in the United States. Both track the performance of a selection of large companies, but they differ in composition, calculation methods, and the insights they offer about the market.
 # How the S&P Is Weighted
