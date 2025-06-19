@@ -5,7 +5,10 @@
 > 
 > 
 ## 10.3 Example
-$3\mathbb Z=\{\cdots,-3,0,3,\cdots\}$
+
+> [!Example]
+> $3\mathbb Z=\{\cdots,-3,0,3,\cdots\}$
+
 The **left cosets** of $3\mathbb Z$ of $\mathbb Z$ are:
 - $1+3\mathbb Z$
 - $2+3\mathbb Z$
@@ -20,7 +23,8 @@ The **right cosets** of $3\mathbb Z$ of $\mathbb Z$ are:
 partition of $\mathbb Z_6$ into cosets of the subgroup $H=\{0,3\}$ 
 the cosets are $\{0,3\}\{1,4\}\{2,5\}$ 
 ![[Pasted image 20250605105608.png|459]]
-We see the partition of the group again forms a group.
+We see the partition of the group again forms a group. This group is called as [[Section 14 Factor Groups#14.1 Definition Factor Group|Factor Group]]
+
 ## The Theorem of Lagrange
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=105&selection=241,0,254,1&color=note|p.100]]
 >
@@ -42,7 +46,7 @@ Therefore $$ord⁡(g)=p$$
 
 ## 10.13 Definition
 
-> [!PDF|yellow] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=106&selection=91,2,120,1&color=yellow|p.101]]
+> [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=106&selection=91,2,120,1&color=yellow|p.101]]
 >
 > > The number of left cosets of H in G is *the index* (G : H ) of H in G.
 
