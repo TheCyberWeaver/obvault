@@ -61,7 +61,7 @@ In other words: The Elements in G that correspond to the identity element in G'
 **Example: Linear Transformation**
 Let $\phi:\mathbb{R}^n \rightarrow \mathbb{R}^m$ and A be an $m\times n$ matrix of real numbers: $$\phi(\mathbf v)=A \mathbf v$$ $\phi$ is a homomorphism, because $\phi(v+w)=A(v+w)=Av+Aw=\phi(v)+\phi(w)$ 
 This is known as a linear transformation.
-$Ker(\phi)$ is known as the *[[Math/Linear Algebra/Null Space]]* of A. It consists all $\mathbf v\in \mathbb R^n$ such that $A\mathbf v=\mathbf 0$  (the zero vector)
+$Ker(\phi)$ is known as the *[[Null Space (Kernel of a Matrix)]]* of A. It consists all $\mathbf v\in \mathbb R^n$ such that $A\mathbf v=\mathbf 0$  (the zero vector)
 
 ## 13.15 Theorem
 let $H=Ker(\phi)$, $a \in G$. Then: $$\phi^{-1}[\{\phi(a)\}]=aH=Ha$$In other words. 
