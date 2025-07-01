@@ -1,5 +1,5 @@
 
-## Definition Group - normal definition
+## Definition: Group - normal definition
 
 A group $\langle G,*\rangle$ is a set $G$, with a operation $*$, such that the following axioms are satisfied:
 - The set is *closed* under $*$
@@ -9,7 +9,7 @@ A group $\langle G,*\rangle$ is a set $G$, with a operation $*$, such that the f
 
 Group is a algebra structure: ![[Algebra Structure.excalidraw]]
 
-## Definition Group - from the view of Category Theory
+## Definition: Group - from the view of Category Theory
 
 > [!PDF|note] [[Algebra Chapter 0.pdf#page=63&selection=217,0,236,1&color=note|Algebra Chapter 0, p.63]]
 > > Definition: A group is a groupoid with a single object. 
