@@ -16,8 +16,6 @@ If $gcd(n,m)=1$ then $m\frac n 1=mn=m0=0$
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=184&selection=393,0,407,1&color=note|p.179]]
 > > An integral domain D is a commutative ring with unity $1 \neq 0$ and containing no divisors of 0. 
 
-![[Algebra Structure.excalidraw]]
-
 This means we can factorize a polynomial and solve an equation as we do normally. 
 There is no other other solutions than $x=r_1$ and $x=r_2$ 
 $(x-r_1) (x-r_2)=0$  
@@ -29,6 +27,7 @@ $(x-r_1) (x-r_2)=0$
 > A direct product of two nonzero rings $R$ and $S$ cannot be an integral domain,
 > because $(r,0)(s,0)=(0,0)$ for $r\in R$ and $s\in S$ 
 
+![[Algebra Structure.excalidraw]]
 ## 19.9 Theorem
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=185&selection=63,1,68,21&color=note|p.180]]
 > > Every field F is an integral domain
@@ -37,7 +36,7 @@ $(x-r_1) (x-r_2)=0$
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=186&selection=7,0,7,38&color=note|p.181]]
 > > Every finite integral domain is a field.
 
--> If p is a prime, $\mathbb Z_p$ is a field
+-  If p is a prime, $\mathbb Z_p$ is a field
 
 ## 19.13 Definition The Characteristic of the ring $R$
 
