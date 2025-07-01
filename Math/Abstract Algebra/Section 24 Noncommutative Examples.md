@@ -20,6 +20,7 @@ An example is $\langle End(\langle\mathbb Z\times \mathbb Z,+\rangle,+,\cdot\ran
 
 ## 24.3 Weyl Algebra
 
+
 Define two Endomorphism $X,Y\in End(\langle F[x],+\rangle)$  (F is a field of characteristic zero, see [[Section 19 Integral Domains#19.13 Definition The Characteristic of the ring $R$|characteristic of ring]])
 - X: multiply the polynomial by x
 - Y: the derivative of the polynomial 
