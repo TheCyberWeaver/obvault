@@ -105,7 +105,7 @@ Classify the group $(\mathbb Z_4 \times \mathbb Z_2)/(\{0\}\times\mathbb Z_2)$
 > [!NOTE]
 > Every subgroup H of an abelian group G is normal
 
-## 14.15 Definition Automorphism
+## 14.15 Definition: Automorphism
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=146&selection=590,1,678,1&color=note|p.141]]
 > > - An isomorphism $φ : G → G$ of a group $G$ with itself is an **automorphism** of $G$. 
@@ -126,6 +126,7 @@ Classify the group $(\mathbb Z_4 \times \mathbb Z_2)/(\{0\}\times\mathbb Z_2)$
 > [!NOTE]
 > Hence every conjugate subgroup is isomorphic to $H$.
 
+See how Automorphism is defined in Category Theory: [[Special Morphisms#Definition: Automorphism]]
 ## Ways to Prove $H$ is a Normal Subgroup - Summary
 
 1. $ghg^{−1} ∈ H$ for all $g ∈ G$ and $h ∈ H$ . 
