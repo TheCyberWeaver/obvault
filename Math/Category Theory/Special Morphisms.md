@@ -20,16 +20,17 @@ In **Grp** It is defined as: [[Section 24 Noncommutative Examples#Rings of Endom
 ## Definition Groupoid
 
 > [!NOTE]
-> A category, in which every morphism is an isomorphism, is call ***groupoid***. 
+> A category, in which every morphism is an isomorphism, is called ***groupoid***. 
 
 - [[Category Theory Intro#What is a Category]]
 - [[Category Theory Intro#Difference between Morphism and Function]]
 - [[#Definition Isomorphisms]]
-## Definition Automorphism
+## Definition: Automorphism
 An Automorphism of an object A of category C is an isomorphism from A to itself.
 
-> [!NOTE]
-> If a morphism is endomorphism and isomorphism at the same time, it is a **automorphism**
+> [!PDF|note] [[Algebra Chapter 0.pdf#page=51&selection=9,0,44,10&color=note|Algebra Chapter 0, p.51]]
+> > If a morphism is a endomorphism and an isomorphism at the same time, it is a **automorphism**
+> 
 
 The set of automorphisms of A is denoted $Aut_C(A)$
 - Every element $f\in Aut_C(A)$ has an inverse $f^{-1}\in Aut_C(A)$
@@ -38,8 +39,9 @@ The set of automorphisms of A is denoted $Aut_C(A)$
 - the composition of two elements $f,g$ in this set is again an element $gf\in Aut_C(A)$
 
 > [!Tip]
-> This Definition seems familiar, doesn't it. See [[Section 4 Groups]]
+> This Definition seems familiar, doesn't it? See [[Section 4 Groups]]
 
+See how Automorphism is defined in Group Theory: [[Section 14 Factor Groups#14.15 Definition: Automorphism]]
 ## Difference between Automorphism and endomorphism
 
 | Property                | Endomorphism                               | Automorphism                                                |
