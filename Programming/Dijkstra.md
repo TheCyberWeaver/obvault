@@ -1,4 +1,19 @@
 [算法学习笔记(6)：最短路问题 - 知乎](https://zhuanlan.zhihu.com/p/96621396)
+
+算法过程：
+
+将结点分成两个集合：已确定最短路长度的点集（记为$S$集合）的和未确定最短路长度的点集（记为$T$集合）。一开始所有的点都属于$T$集合。
+
+初始化$dis(s)=0$，其他点的$dis$均为$+\infty$。
+
+然后重复这些操作：
+
+1. 从$T$集合中，选取一个最短路长度最小的结点，移到$S$集合中。
+2. 对那些刚刚被加入$S$集合的结点的所有出边执行松弛操作。
+
+直到$T$集合为空，算法结束。
+
+**Time Complexity**: $O(n^2)$  
 ### Example 0:
 [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 
