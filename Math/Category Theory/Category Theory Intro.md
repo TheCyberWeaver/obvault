@@ -39,7 +39,7 @@ See [[Special Morphisms]]
 Similar Morphisms can also be multivalued map or partial functions...
 
 ## Examples 2
-Consider a abstract Example
+Consider an abstract Example
 Let C be a category, and let A be an object of C
 We define a category $C_A$ with:
 - $Obj(C_A)$= all morphisms from any objects of C to A (e.g. $Z\overset{f}{\rightarrow} A$)
@@ -63,7 +63,7 @@ Define category Set\* as the category obtained by considering morphisms in C fro
 	- A function $f$ from the singleton set $\{\ast\}$ to any set $S$ is uniquely determined by the image of that single point—namely, once the element $s = f(\ast)$ is specified, the entire function $f$ is completely characterized. Thus we don't need to write out how $f$ looks like.
 - A morphism between two such objects is $(S,s)\rightarrow(T,t)$ with set function $\sigma(s)=t$
 - s and t are here basepoints.
-- [[Category Example]]
+- ![[Category Example]]
 Object of Set\* are called **pointed sets** 
 
 ## Example 4
