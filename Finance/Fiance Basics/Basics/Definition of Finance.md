@@ -1,5 +1,5 @@
 
-![[Exported image 20250519111046-0.png]]
+![[20250519111046-0.png]]
 ## Business Finance:
 
 1. **Working Capital Management (WCM)**:
