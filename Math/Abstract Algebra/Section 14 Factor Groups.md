@@ -45,7 +45,9 @@ $(ah_1)(bh_2)=a(h_1b)h_2=a(bh_3)h_2=ab(h_3h_2)$
 ## The Fundamental Homomorphism Theorem
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=145&selection=166,1,264,1&color=note|p.140]]
-> > Let φ : G → G′ be a group homomorphism with kernel H . Then φ[G] is a group, and μ : G/H → φ[G] given by μ(g H ) = φ(g) is an isomorphism. If γ : G → G/H is the homomorphism given by γ (g) = g H , then φ(g) = μγ (g) for each g ∈ G.
+> > Let $\phi : G → G^{'}$ be a group homomorphism with kernel $H$ . Then $\phi[G]$ is a group, and $μ : G/H → \phi[G]$ given by $μ(g H ) = \phi(g)$ is an isomorphism. 
+> > 
+> > If $γ : G → G/H$ is the homomorphism given by $γ (g) = g H$ , then $\phi(g) = μγ (g)$ for each $g ∈ G$.
 > 
 > 
 
