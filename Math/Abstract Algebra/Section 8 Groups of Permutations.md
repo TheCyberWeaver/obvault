@@ -12,7 +12,7 @@
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=87&selection=7,0,64,0&color=note|p.82]]
 > > Let f : A → B be a function and let H be a subset of A. 
-> > **The image of H under f** is $\{ f (h) | h ∈ H \}$ and is denoted by f \[H].
+> > **The image of H under f** is $\{ f (h) | h ∈ H \}$ and is denoted by $f[H]$.
 
 ## 8.16 Cayley's Theorem 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=87&selection=473,0,473,53&color=note|p.82]]
