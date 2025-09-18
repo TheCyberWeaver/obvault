@@ -16,7 +16,7 @@
      $$
 
 ## Relation to Homomorphism  
-   In abstract algebra, the [[Section 13 Homomorphisms#13.13 Definition $Ker( phi)$|kernel of a homomorphism]] $\varphi$ is $\{x\mid \varphi(x)=0\}$. A matrix $A$ is a linear map, so its kernel matches this definition:  
+   In abstract algebra, the [[Section 13 Homomorphisms#13.13 Definition Kernel|kernel of a homomorphism]] $\varphi$ is $\{x\mid \varphi(x)=0\}$. A matrix $A$ is a linear map, so its kernel matches this definition:  
    $$  
      \ker(A) = \{\,x \mid A(x)=0\}.  
    $$
