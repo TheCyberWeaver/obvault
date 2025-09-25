@@ -13,11 +13,14 @@ tags:
 This is my **digital garden**:  
 - A centralized place for notes and references  
 - A networked repository where related concepts link and evolve 
-
-## Ongoing Updates
-
-I’ll be continuously adding new topics and refining structures. Bookmark this page (or better yet, [star the repo]([TheCyberWeaver/obvault: My second brain](https://github.com/TheCyberWeaver/obvault/))) and check back often—there’s always something new brewing!
+---
+## ETH Notes
+![[ETH Content.base]]
 
 ---
 ## AI Reports
 <List dir="/obvault/Reports"/>
+
+## Ongoing Updates
+
+I’ll be continuously adding new topics and refining structures. Bookmark this page (or better yet, [star the repo]([TheCyberWeaver/obvault: My second brain](https://github.com/TheCyberWeaver/obvault/))) and check back often—there’s always something new brewing!
