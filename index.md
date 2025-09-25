@@ -1,11 +1,12 @@
 ---
-showHero: true
+showHero: false
 title: Welcome to my second brain!
 description: Join me as I explore the world. Here, ideas, research, and sparks of inspiration are captured, organized, and interconnected.
 cta:
   - href: https://www.thomas-hub.com/
     label: About me
-
+tags:
+  - linker-exclude
 ---
 ## What Is This?
 
