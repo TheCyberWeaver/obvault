@@ -9,7 +9,7 @@
 > if G is abelian, then G' must also be abelian:$$a'b'=\phi(a)\phi(b)=\phi(ab)=\phi(ba)=\phi(b)\phi(a)=b'a'$$
 
 Recall: 
-- $det(AB)=det(A)det(B)$ on invertible n\*n matrices ([Determinant](Math/Linear%20Algebra/Determinant.md))
+- $det(AB)=det(A)det(B)$ on invertible n\*n matrices ([Determinant](Determinant.md))
 - matrix A is invertible if and only if det(A) is nonzero.
 
 This means that det is a homomorphism mapping $GL(n,\mathbb{R})$ (the multiplicative group of all invertible n\*n matrices) into the multiplicative group $\mathbb{R}^*$ of non zero real numbers.
