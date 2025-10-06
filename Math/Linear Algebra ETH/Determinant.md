@@ -26,9 +26,9 @@
   The only solution of $A x=0$ is the trivial one, $x=0$.
 - **Unique solvability**  
   For every $b\in\mathbb R^n$, the equation $A x=b$ has exactly one solution.
-- **Linear independence of columns**  
+- **[[Linear Independence|Linear independence]] of columns**  
   The columns of $A$ form a basis of $\mathbb R^n$.
-- **Linear independence of rows**  
+- **[[Linear Independence]] of rows**  
   The rows of $A$ form a basis of $\mathbb R^n$.
 - **Bijectivity of the associated map**  
   The linear map $T:\mathbb R^n\to\mathbb R^n,\;T(x)=Ax$ is bijective.
