@@ -54,7 +54,7 @@ $f\in O(g):100n\leq100n^{2}$ with $C=100, n\geq 1$
 $f(n)=n^{1.6}+3n+4\in O(n^{1.6})$
 	$\frac{f(n)}{g(n)}=1+3n^{-0.6}+4n^{-1.6}<1+3+4=8$
 ## Beispiel 2
-Sei$a>0$
+Sei $a>0$
 $f(n)=\ln n\in O(n^a)$
 $\lim_{ n \to \infty }\frac{\ln n}{n^a}=\lim_{ n \to \infty }\frac{\frac{1}{n}}{an^{a-1}}=\lim_{ n \to \infty }\frac{1}{an^a}=0$
 
