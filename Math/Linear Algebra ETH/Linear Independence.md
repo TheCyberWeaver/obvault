@@ -48,7 +48,7 @@ $\implies \mathbf{v}_{k}=\sum^{k-1}_{j=0}\left( -\frac{\lambda_{j}}{\lambda_{k}}
 $S_{3}\implies S_{1}$ Eine Linearkombination der vorherigen ist auch eine Linearkombination der anderen.
 
 # Equivalent Statements to linear independence
-1. ==None of the vectors== is a linear combination of the other ones. (see [[#Definition 1.21]])
+1. ==None of the vectors== is a [[Linear combination|linear combination]] of the other ones. (see [[#Definition 1.21]])
 2. ==There are no scalars== $\lambda_{1},\lambda_{2},\dots,\lambda_{n}$ besides $0, 0, . . . , 0$ such that $\sum^n_{j=1}\lambda_{j}\mathbf{v}_{j}=\mathbf{0}$. We also say that $\mathbf{0}$ can only be written as a trivial linear combination of the vectors.
 3. ==None of the vectors== is a linear combination of the previous ones.
 
@@ -58,12 +58,34 @@ Note that: a linear combination of linearly independent vectors can be written a
 # Span of vectors
 
 Spann von Vektoren: Menge aller Linearkombinationen
-## Definition 1.25
+## Definition of Span 1.25
 Let $\mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{n}\in \mathbb{R}^m$. Their span is the set of all linear combinations.
-## Example
+### Example
 ![[Pasted image 20250924115325.png|583]]
 $\mathbf{Span}(\mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{n}):=\left\{ \sum^n_{j=1}\lambda_{j}\mathbf{v}_{j}:\lambda_{j}\in \mathbb{R}, \forall j\in[n] \right\}$
 
 ## Lemma 1.26
 Let $\mathbf{v_{1},v_{2},\dots,v_{n}}\in \mathbb{R}^m$, and let $\mathbf{v}\in \mathbb{R}^m$be a linear combination of $\mathbf{v_{1},v_{2},\dots,v_{n}}$
-The ...
+Then 
+$$
+\underbrace{ Span(\mathbf{v}_{1},\dots,\mathbf{v}_{n}) }_{ S }=\underbrace{ Span(\mathbf{v}_{1},\dots,\mathbf{v}_{n},\mathbf{v}) }_{ T }
+$$
+Beweisidee:
+ - Jedes Element von $S$ ist auch in $T$ ($S$ ist Teilmenge von $T$) 
+ - Jedes Element von $T$ ist auch in $S$ ($T$ ist Teilmenge von $S$)
+	 $\implies$ Dann haben wir $S=T$
+***Proof***
+$S\subseteq T$: Jedes $\mathbf{w}\in S$ ist Linearkombination von $\mathbf{v}_{1},\dots,\mathbf{v}_{n}$ und deshalb auch eine Linearkombination von $\mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{n},\mathbf{v}$ (plus $0\mathbf{v}$), also $\mathbf{w}\in T$
+
+$T\subseteq S$ Jedes $\mathbf{w}\in T$ ist Linearkombination von $\mathbf{v}_{1},\dots,\mathbf{v}_{n},\mathbf{v}$
+d.h. $\mathbf{w}=\sum^n_{j=1}\lambda_j\mathbf{v}_{j}\lambda \mathbf{v}$
+wir wissen $\mathbf{v}$ ist Linearkombination von $\mathbf{v}_{1},\dots,\mathbf{v}_{n}$
+zusammen $\mathbf{w}=\sum^n_{j=1}\lambda_j\mathbf{v}_{j}\lambda \mathbf{v}+\lambda \sum^n_{j=1}u_{j}v_{j}$
+$=\underbrace{ \sum^n_{j=1}(\lambda_{j}+\lambda u_{j})v_{j} }_{ \text{Linearkombination von }\mathbf{v_{1},\dots ,\mathbf{v_{n}}} }$
+
+## Lemma 1.28
+![[LinArg assignment 1#6. Challenge 1.6]]
+
+### Another Proof through [[Steinitz exchange lemma]]
+![[Steinitz exchange lemma]]
+- [ ] Proof
