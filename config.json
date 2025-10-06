@@ -6,6 +6,10 @@
       {
         "href": "https://www.thomas-hub.com/",
         "name": "About"
+      },
+      {
+        "href": "http://www.thomas-hub.com:8083/",
+        "name": "Share count"
       }
     ],
     "social": [  
