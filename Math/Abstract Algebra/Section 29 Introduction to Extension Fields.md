@@ -80,7 +80,7 @@ If we in insert x into $\pi$ , we get this:$\alpha \;=\; x + \langle x^2+1\rangl
 > > Then $\alpha$ is transcendental over $F$ if and only if $\phi_\alpha$ gives an isomorphism of $F[x]$ with a subdomain of $E$, that is, if and only if $\phi_\alpha$ is a one-to-one map
 
 **Proof**:
-The element $α$ is transcendental over $F$ if and only if $f (α) \neq 0$ for all nonzero $f (x) ∈ F[x]$, which is true (by definition) if and only if $\phi_\alpha ( f (x)) \neq 0$ for all nonzero $f (x) ∈ F[x]$, which is true if and only if the kernel of $\phi_\alpha$ is $\{0\}$ (remember [[Section 13 Homomorphisms#13.13 Definition Kernel]]), that is, if and only if $\phi_\alpha$ is a one-to-one map. 
+The element $α$ is transcendental over $F$ if and only if $f (α) \neq 0$ for all nonzero $f (x) ∈ F[x]$, which is true (by definition) if and only if $\phi_\alpha ( f (x)) \neq 0$ for all nonzero $f (x) ∈ F[x]$, which is true if and only if the [[Kernel|kernel]] of $\phi_\alpha$ is $\{0\}$ (remember [[Section 13 Homomorphisms#13.13 Definition Kernel]]), that is, if and only if $\phi_\alpha$ is a one-to-one map. 
 
 **Notes**:
 Remember [[Section 14 Factor Groups#The Fundamental Homomorphism Theorem|The Fundamental Homomorphism Theorem]]: $$F[x]/ker\; \phi_\alpha\cong Im(\phi_\alpha)\subseteq E$$
