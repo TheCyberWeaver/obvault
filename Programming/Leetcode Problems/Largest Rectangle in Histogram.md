@@ -1,4 +1,4 @@
-[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/ "https://leetcode.com/problems/largest-rectangle-in-histogram/description/")
+[84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/ "https://leetcode.com/problems/largest-rectangle-in-histogram/description/")
 
 Given an array of integers `heights` representing the histogram's bar height where the width of each bar is `1`, return _the area of the largest rectangle in the histogram_.
 
