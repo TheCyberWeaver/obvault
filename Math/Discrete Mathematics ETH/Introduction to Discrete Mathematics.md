@@ -39,3 +39,5 @@ Wenn in einer Menge p von n Planeten 1 Planet bewohnt ist, so sind es alle Plane
 $n=1$ : gilt
 $n\to n+1$ : Seien n Planeten $p_{1},\dots,p_{n}$ gegeben, wobei oBdA $p_{1}$ bewohnt sei. Dann sind nach Voraus $p_{1},\dots,p_{n}$ und $p_{1},p_{3},\dots,p_{n+1}$ bewohnt
 
+---
+| [[Aussagenlogik]]
