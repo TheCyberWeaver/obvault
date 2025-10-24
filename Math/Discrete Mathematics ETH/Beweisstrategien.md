@@ -1,4 +1,4 @@
-
+#eth 
 > [!Important]
 > Wenn Interpretation klar, dann kann PL-Formel als Aussage interpretiert werden
 # Beweise für Implikationen $S\implies T$
@@ -13,7 +13,7 @@
 	- $\implies$ es existiert $w$ mit $ab=w\cdot w$ 
 	- $\implies$ $a\cdot b$ ist eine Quadratzahl
 ## Indirekter Beweis (von $S\implies T$)
-- nimm $T$ als falsch an, zeige, dass  falsch ist
+- nimm $T$ als falsch an, zeige, dass $S$ falsch ist
 - Begründung: $\neg G\to \neg F\models F\to G$ 
 - Beispiel: Die Wurzel einer irrationalen Zahl $x>0$ ist irrational
 	- $S$: $x>0$ irrational
@@ -41,6 +41,9 @@
 	- $\implies gcd(m,n)\geq 2$
 	- falsch
 
+## Pigeonhole principle 
+![[Pasted image 20251006175542.jpg]]
+just write „Pigeonhole principle“ to prevent complicated explanations 
 # Beweise für Aussagen der Form $\forall n P(n)$ (Universum $U=\mathbb{N}$)
 1. beweise $P(0)$ wahr
 2. beweise für alle n, dass $P(n) \text{ wahr}\implies P(n+1)\text{ wahr}$
