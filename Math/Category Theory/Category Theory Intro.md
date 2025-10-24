@@ -1,4 +1,4 @@
-## What is a Category
+## Wha[[Set|set]]et|set]]s a Category
 
 A category $\mathcal C$ consists of *four* things:
 - **Objects**: a class $Obj(\mathcal C)$ called the class of objects of $\mathcal C$
@@ -13,7 +13,7 @@ They follow the following properties:
 
 A class is a collection of objects. One can think it as a fancy way of calling a collection.
 > [!Tip]
-> Every set can be considered as a class
+> Every [[Set|set]] can be considered as a class
 
 We cannot have a set of all sets (because of Russell paradox)
 However, we can have a class of all sets, which is called a proper class (a class that is not a set) 
