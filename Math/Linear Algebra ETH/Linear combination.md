@@ -1,5 +1,7 @@
 ---
 email: anguhl@ethz.ch
+tags:
+  - linker-exclude
 ---
 #eth 
 ## Linear combination
