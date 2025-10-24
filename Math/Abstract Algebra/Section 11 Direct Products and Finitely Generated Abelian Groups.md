@@ -5,14 +5,14 @@
 | external direct product |   $\prod_{i=1}^{n} G_i$ | $\mathbb{Z_2 \times Z_3}=(0,0),(0,1),(0,2),(1,0),(1,1),(1,2)$ |
 | internal direct product | $G≅H×K$| $\mathbb{Z_6​≅Z_2​×Z_3​}$|
 
-| Aspect             | External Direct Product $H\times K$                                                     | Internal Direct Product in G                                                                                |
-| ------------------ | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Starting data**  | Two _separate_ groups HH, KK.                                                           | One big group G with subgroups $H,K\subseteq G$.                                                            |
-| **Underlying set** | Ordered pairs $(h,k):h\in H,\,k\in K$.                                                  | Just the elements of G.                                                                                     |
+| Aspect             | External Direct Product $H\times K$                                                 | Internal Direct Product in G                                                                                |
+| ------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Starting data**  | Two _separate_ groups HH, KK.                                                       | One big group G with subgroups $H,K\subseteq G$.                                                            |
+| **Underlying set** | Ordered pairs $(h,k):h\in H,\,k\in K$.                                              | Just the elements of G.                                                                                     |
 | **Group law**      | Component-wise: $(G,*),(H,+)$ $(g_1​,h_1​)\times(g_2​,h_2​)=(g_1​∗g_2​,h_1​+h_2​)$. | The original multiplication in G.                                                                           |
-| **Construction**   | “External”: you build a brand-new group out of H and K.                                 | “Internal”: you recognise that $G\cong H\times K$ because G splits as H K with $H\cap K=\{e\}$ and $hk=kh$. |
-| **Universality**   | Always exists for any two groups.                                                       | Only when within G those two subgroups satisfy the three internal-product axioms.                           |
-| **Isomorphism**    | $H\times K$ is the group.                                                               | You get an isomorphism $\varphi: H\times K \xrightarrow{\sim} G, \varphi(h,k)=hk$.                          |
+| **Construction**   | “External”: you build a brand-new group out of H and K.                             | “Internal”: you recognise that $G\cong H\times K$ because G splits as H K with $H\cap K=\{e\}$ and $hk=kh$. |
+| **Universality**   | Always exists for any two groups.                                                   | Only when within G those two subgroups satisfy the three internal-product axioms.                           |
+| **Isomorphism**    | $H\times K$ is the group.                                                           | You get an isomorphism $\varphi: H\times K \xrightarrow{\sim} G, \varphi(h,k)=hk$.                          |
 
 ##  11.3 Example
 
@@ -31,13 +31,13 @@
 ## 11.10 Example
 
 > [!example]
-> Find the order of (8, 4, 10) in the group Z12 × Z60 × Z24. 
+> Find the order of (8, 4, 10) in the group $\mathbb{Z}_{12}\times \mathbb{Z}_{60}\times \mathbb{Z}_{24}$. 
 
 - 8 is of order 3 in $\mathbb Z_{12}$ : $3=12/gcd(8,12)$ ([[Section 6 Cyclic Groups#6.14 Theorem]]) 
 - 4 is of order 15 in $\mathbb Z_{60}$
 - 10 is of order 12 in $\mathbb Z_{24}$
 $$lcm(3,12,15)=60$$
-(8,4,10) has an order of 60 in the Group Z12 × Z60 × Z24
+(8,4,10) has an order of 60 in the Group $\mathbb{Z}_{12}\times \mathbb{Z}_{60}\times \mathbb{Z}_{24}$
 
 ## 11.12 Fundamental Theorem of Finitely Generated Abelian Groups 
 
