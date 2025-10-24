@@ -14,7 +14,7 @@ This is called **Divide and conquer**
 $M(n)$: The number of digit multiplications needed to calculate the multiplication of two numbers which have n digits respectively.
 - $M(2^0)=1$
 - $M(2^k)=3\cdot{} M(2^{k-1})$  //Rekurrenz
-- $M(2^k)=3^k$ // kein Beweis, für Beweis braucht man [[Induktion]]
+- $M(2^k)=3^k$ // kein Beweis, für Beweis braucht man [[Induction]]
 
 $n=2^k\Longrightarrow k=\log_{2}n \Longrightarrow 3^k=3^{\log_{2}n} = n^{\log_{2}3}=n^{1.58}$
 

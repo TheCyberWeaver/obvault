@@ -55,5 +55,3 @@ It’s crucial **not** to confuse the direction of implication. **Proving S�
 ![[Pasted image 20250924145817.png]]
 
 
----
-[[Introduction to Discrete Mathematics]] | [[Prädikatenlogik]]

@@ -50,6 +50,7 @@ $S_{3}\implies S_{1}$ Eine Linearkombination der vorherigen ist auch eine Linear
 # Equivalent Statements to linear independence
 1. ==None of the vectors== is a [[Linear combination|linear combination]] of the other ones. (see [[#Definition 1.21]])
 2. ==There are no scalars== $\lambda_{1},\lambda_{2},\dots,\lambda_{n}$ besides $0, 0, . . . , 0$ such that $\sum^n_{j=1}\lambda_{j}\mathbf{v}_{j}=\mathbf{0}$. We also say that $\mathbf{0}$ can only be written as a trivial linear combination of the vectors.
+	1. $A\mathbf{x}=\mathbf{0}$ has only the trivial solution $\mathbf{x}=0$
 3. ==None of the vectors== is a linear combination of the previous ones.
 
 Note that: a linear combination of linearly independent vectors can be written as a linear combination ==in only one way==

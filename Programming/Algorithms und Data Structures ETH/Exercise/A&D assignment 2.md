@@ -48,6 +48,7 @@ $f_{n}\leq c\cdot\alpha ^{n}$
 $1+\alpha=\alpha^{2}$
 $\alpha= \frac{1+\sqrt{ 5 }}{2}$
 
+Also known as the the **golden ratio** $\varphi$
 # 2.3 O-notation quiz
 ![[Pasted image 20251001133627.png]]
 1. $\lim_{ n \to \infty } \frac{f(n)}{g(n)}=\lim_{ n \to \infty }\frac{2n^{5}+10n^{2}}{\frac{1}{100}n^{6}}=\lim_{ n \to \infty } \frac{200}{n}+\lim_{ n \to \infty } \frac{1000}{n^{4}}=0+0=0$ 

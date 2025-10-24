@@ -65,8 +65,7 @@ Automorphism is a stricter morphism.
 > $$f\circ \alpha'=f\circ \alpha''\Longrightarrow\alpha'=\alpha''$$ 
 
 Or we can write it in this way:
-$f(\alpha')=f(\alpha'')\Longrightarrow \alpha'=\alpha''$ 
-Similar to the definition of injective functions in the Set Theory.
+$f(\alpha')=f(\alpha'')\Longrightarrow \alpha'=\alpha''$ Similar to the definition of [[Set#Injective|injective functions in the Set Theory]]
 
 In the category **Set** the monomorphisms are precisely the injective functions (one-to-one) 
 ## Definition Epimorphism
@@ -77,7 +76,7 @@ In the category **Set** the monomorphisms are precisely the injective functions 
 > for all objects Z of C and all morphisms $\alpha'$ $\alpha''$ $\in Hom_C(A,Z)$
 > $$\alpha'\circ f= \alpha''\circ f\Longrightarrow\alpha'=\alpha''$$
 
-In the category **Set** the monomorphisms are precisely the surjective functions (onto) 
+In the category **Set** the monomorphisms are precisely the [[Set#Surjective|surjective functions]] (onto) 
 
 Difference between monomorphism and Epimorphism is just left composition and right composition.
 

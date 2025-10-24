@@ -1,4 +1,4 @@
-
+#eth 
 $$
 T(n)=a\cdot T\left( \frac{n}{b}\right)+n^{c}
 $$
@@ -19,3 +19,5 @@ $T(n)=4T\left( \frac{n}{2}+O(n) \right)$
 - $b=2$
 - $c=1$
 $\implies T(n)=O(n^{2})$
+
+##

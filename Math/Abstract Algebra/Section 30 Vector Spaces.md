@@ -1,12 +1,14 @@
 
 ## 30.1 Definition: Vector Space
-
+$\langle V,+,\cdot \rangle$ is a vector space if:
 for all $a, b \in F$ and $\alpha,\beta \in V$
-
 ![[Pasted image 20250730195539.png|246]]
-
+- $+: V\times V\to V$ a function (addition)
+- $\cdot: \mathbb{R}\times V\to V$ a function (scalar multiplication)
 **Example**:
-$\langle\Bbb R_n,+\rangle$
+$\langle\Bbb R^{n},+,\cdot\rangle$
+- $\mathbb{R}^{n}=\underbrace{ \mathbb{R}\times \mathbb{R}\times\dots \times \mathbb{R} }_{ n }$
+
 ## 30.6 Definition: Span
 
 If all vectors in the vector space can be expressed as a linear combination of a set of vectors in the vector space, this vector set span (or generate ) this vector space. If this is a minimal subset, it is a basis.

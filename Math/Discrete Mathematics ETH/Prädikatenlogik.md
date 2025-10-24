@@ -4,7 +4,7 @@
 - Konstanten aus $U$ : $0,1,\pi…$
 - Prädikate $P$,$Q$ : $prime(x), less(x)…$
 - Funktionen: $f,g$ : $square(x),add(x)…$
-- Operatoren: $\neg,\wedge,\vee,\to, \leftrightarrow$
+- Operatoren: $\neg,\wedge,\vee,\to, \leftrightarrow$ similar to [[Aussagenlogik]]
 - Quantoren: $\forall x$, $\exists x$
 
 ## Beispiel
@@ -40,7 +40,5 @@ $$
 $$
 
 
----
-[[Aussagenlogik]] | [[Beweisstrategien]]
 
 

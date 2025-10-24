@@ -1,3 +1,4 @@
+#eth 
 $$
 \ln(n!)=n\ln n-n+O(\ln n)
 $$
