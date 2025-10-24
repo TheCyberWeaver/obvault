@@ -5,6 +5,10 @@ $\mathrm{Ker}(T):=\{\mathbf{x}\in \mathbb{R}^{n}:T(x)=\mathbf{0}\}\subseteq \mat
 $$
 \mathrm{Ker}(T)=\mathrm{N}(A)
 $$
+
+> [!NOTE]
+> The kernel of a matrix is the null space of it
+
 ![[Null Space (Kernel of a Matrix)#Properties]]
 
 # Image
