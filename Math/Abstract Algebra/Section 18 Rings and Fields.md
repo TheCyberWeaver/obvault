@@ -4,8 +4,8 @@
 
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=172&selection=70,0,210,1&color=note|p.167]]
-> > A **ring** 〈R, +, ·〉 is a set R together with two binary operations + and ·, which we call addition and multiplication, defined on R such that the following axioms are satisfied: 
-> > - R1. 〈R, +〉 is an abelian group. 
+> > A **ring** $\langle \mathbb{R},+,\cdot \rangle$ is a set R together with two binary operations + and ·, which we call addition and multiplication, defined on R such that the following axioms are satisfied: 
+> > - R1. $\langle \mathbb{R},+,\cdot \rangle$ is an abelian group. 
 > > - R2. Multiplication is associative. 
 > > - R3. For all a, b, c ∈ R, the left distributive law, a · (b + c) = (a · b) + (a · c) and the right distributive law (a + b) · c = (a · c) + (b · c) hold. 
 
