@@ -1,6 +1,6 @@
 
 ## 30.1 Definition: Vector Space
-$\langle V,+,\cdot \rangle$ is a vector space if:
+$\langle V,+,\cdot \rangle$ is a **vector space over $F$** if:
 for all $a, b \in F$ and $\alpha,\beta \in V$
 ![[Pasted image 20250730195539.png|246]]
 - $+: V\times V\to V$ a function (addition)
