@@ -114,3 +114,8 @@ $N(A)=\mathbb{R}^{n}\Longleftrightarrow A=\mathbf{0}$
 
 
 
+# Trace
+The trace of a matrix is the sum of its diagonal elements.
+$$
+\text{tr}(A)=\sum_{i=1}^{n} a_{ii}
+$$
