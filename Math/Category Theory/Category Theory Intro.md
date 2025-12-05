@@ -1,4 +1,4 @@
-## Wha[[Set|set]]et|set]]s a Category
+## What is a Category
 
 A category $\mathcal C$ consists of *four* things:
 - **Objects**: a class $Obj(\mathcal C)$ called the class of objects of $\mathcal C$
@@ -29,7 +29,7 @@ However, we can have a class of all sets, which is called a proper class (a clas
 | **Structure Requirement** | No extra requirements beyond “each input has a unique output”         | Must **preserve the structure** of its category (e.g. group law, topology)                  |
 | **Identity**              | Identity function $\mathrm{id}_A$ on set A                            | Identity morphism $1_A$ on object AA                                                        |
 | **Examples**              | Any rule mapping elements of one set to another (e.g. $x\mapsto x^2$) | In **Set**: functions; in **Grp**: group homomorphisms; in **Top**: continuous maps |
-See [[Special Morphisms]]
+See [[Morphisms]]
 ## Examples 1
 
 | Category       | Objects  | Morphisms $A\to B$                          | Composition                                                                                                                                                           | Identity on A                     |
