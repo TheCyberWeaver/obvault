@@ -48,7 +48,7 @@ $\neg(a=b)\implies \neg(\{ a \}\neq \{ b \})$
 
 **Proof**:
 $(A\subseteq B)\wedge(B\subseteq A)\overset{ \cdot }{ \implies }(\forall x((x \in A)\to(x \in B)))\wedge(\forall x((x \in B)\to(x \in A)))$ Definition $\subseteq$
- $\overset{ \cdot }{ \implies }\forall x(x \in A\leftrightarrow x \in B)$ [[Aussagenlogik]]
+ $\overset{ \cdot }{ \implies }\forall x(x \in A\leftrightarrow x \in B)$ [[Propositional Logic]]
 $\overset{ \cdot }{ \implies } A=B$ Definition $=$
 
 
