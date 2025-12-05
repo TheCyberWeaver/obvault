@@ -46,8 +46,8 @@
     {trigger: "sm", replacement: "\\setminus", options: "mA"},
 
     // Spaces
-    {trigger: ";;", replacement: "\\;", options: "mA"},
-    {trigger: "\\;;", replacement: "\\quad", options: "mA"},
+    {trigger: ";;", replacement: "\\;\t", options: "mA"},
+    {trigger: "\\;;", replacement: "\\quad\t", options: "mA"},
 
     // Basic operations
     {trigger: "sr", replacement: "^{2}", options: "mA"},
@@ -60,7 +60,7 @@
 	{trigger: "sq", replacement: "\\sqrt{ $0 }$1", options: "mA"},
 	{trigger: "//", replacement: "\\frac{$0}{$1}$2", options: "mA"},
     {trigger: "inv", replacement: "^{-1}", options: "mA"},
-    {trigger: /([A-Za-z])(?<!\\(?:leq|geq|neq|to|implies|dots|cdot|cdots))(\d)/, replacement: "[[0]]_{[[1]]}", options: "rmA", description: "Auto letter subscript", priority: -1},
+    {trigger: /([A-Za-z\}])(?<!\\(?:leq|geq|neq|to|implies|dots|cdot|cdots))(\d)/, replacement: "[[0]]_{[[1]]}", options: "rmA", description: "Auto letter subscript", priority: -1},
     //{trigger: /([A-Za-z])(\d)/, replacement: "[[0]]_{[[1]]}", options: "rmA", description: "Auto letter subscript", priority: -1},
 
     {trigger: /([^\\])(exp|log|ln)/, replacement: "[[0]]\\[[1]]", options: "rmA"},
@@ -69,10 +69,12 @@
 	{trigger: "Im", replacement: "\\mathrm{Im}", options: "mA"},
     {trigger: "bf", replacement: "\\mathbf{$0}$1", options: "mA"},
 	{trigger: "rm", replacement: "\\mathrm{$0}$1", options: "mA"},
+	{trigger: "cal", replacement: "\\mathcal{$0}$1", options: "mA"},
 
     // Linear algebra
     {trigger: /([^\\])(det)/, replacement: "[[0]]\\[[1]]", options: "rmA"},
     {trigger: "trace", replacement: "\\mathrm{Tr}", options: "mA"},
+    {trigger: "\\det[", replacement: "\\det \\begin{bmatrix}\t$0\\end{bmatrix}", options: "mA"},
 
     // More operations
 	{trigger: "([a-zA-Z])hat", replacement: "\\hat{[[0]]}", options: "rmA"},
@@ -105,18 +107,23 @@
     {trigger: "xnn", replacement: "x_{n}", options: "mA"},
 	{trigger: "\\xii", replacement: "x_{i}", options: "mA", priority: 1},
 	{trigger: "xjj", replacement: "x_{j}", options: "mA"},
-	{trigger: "xp1", replacement: "x_{n+1}", options: "mA"},
 	{trigger: "ynn", replacement: "y_{n}", options: "mA"},
 	{trigger: "yii", replacement: "y_{i}", options: "mA"},
 	{trigger: "yjj", replacement: "y_{j}", options: "mA"},
+	
+	{trigger: "ii", replacement: "_{i}", options: "mA"},
+	{trigger: "jj", replacement: "_{j}", options: "mA"},
+	{trigger: "kk", replacement: "_{k}", options: "mA"},
+	{trigger: "ll", replacement: "_{ll}", options: "mA"},
 
     // Symbols
-    {trigger: "ooo", replacement: "\\infty", options: "mA"},
+    {trigger: "inf", replacement: "\\infty", options: "mA"},
 	//{trigger: "sum", replacement: "\\sum", options: "mA"},
-	{trigger: "prod", replacement: "\\prod", options: "mA"},
+	//{trigger: "prod", replacement: "\\prod", options: "mA"},
 	{trigger: "sum", replacement: "\\sum_{${0:i}=${1:1}}^{${2:n}} $3", options: "mA"},
 	{trigger: "prod", replacement: "\\prod_{${0:i}=${1:1}}^{${2:n}} $3", options: "mA"},
     {trigger: "lim", replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
+    {trigger: "proj", replacement: "\\text{proj}_{${0:S}}(${1:b})", options: "mA"},
     {trigger: "+-", replacement: "\\pm", options: "mA"},
 	{trigger: "-+", replacement: "\\mp", options: "mA"},
     {trigger: "...", replacement: "\\dots", options: "mA"},
@@ -126,17 +133,28 @@
     {trigger: "xx", replacement: "\\times", options: "mA"},
     {trigger: "**", replacement: "\\cdot", options: "mA"},
     {trigger: "oo", replacement: "\\circ", options: "mA"},
+    {trigger: "\\circ+", replacement: "\\oplus", options: "mA"},
+    {trigger: "\\circ.", replacement: "\\odot", options: "mA"},
+    {trigger: "\\circ*", replacement: "\\odot", options: "mA"},
+    {trigger: "\\circx", replacement: "\\otimes", options: "mA"},
+    {trigger: "\\circ-", replacement: "\\ominus", options: "mA"},
     {trigger: "para", replacement: "\\parallel", options: "mA"},
 
 	{trigger: "===", replacement: "\\equiv", options: "mA"},
     {trigger: "!=", replacement: "\\neq", options: "mA"},
+    {trigger: "=def", replacement: "\\overset{ def }{ = }", options: "mA"},
 	{trigger: ">=", replacement: "\\geq", options: "mA"},
 	{trigger: "<=", replacement: "\\leq", options: "mA"},
 	{trigger: ">>", replacement: "\\gg", options: "mA"},
 	{trigger: "<<", replacement: "\\ll", options: "mA"},
 	{trigger: "sim", replacement: "\\sim", options: "mA"},
-	{trigger: "sim=", replacement: "\\simeq", options: "mA"},
+	{trigger: "\\sim=", replacement: "\\simeq", options: "mA"},
+	{trigger: "iso", replacement: "\\simeq", options: "mA"},
     {trigger: "prop", replacement: "\\propto", options: "mA"},
+    
+    {trigger: "<_", replacement: "\\preceq", options: "mA"},
+    {trigger: "<~", replacement: "\\prec", options: "mA"},
+    {trigger: "\\prec~", replacement: "\\preccurlyeq", options: "mA"},
 
 
     {trigger: "<->", replacement: "\\leftrightarrow ", options: "mA"},
@@ -161,17 +179,31 @@
     {trigger: "sup=", replacement: "\\supseteq", options: "mA"},
 	{trigger: "eset", replacement: "\\varnothing", options: "mA"},
 	{trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
-	{trigger: "e\\xi sts", replacement: "\\exists", options: "mA", priority: 1},
+	{trigger: "<>", replacement: "\\langle $0 \\rangle$1", options: "mA"},
+	{trigger: "fa", replacement: "\\forall{${0:a}}\\; ($1)", options: "mA"},
+	{trigger: "e\\xi sts", replacement: "\\exists{${0:a}}\\; ($1)", options: "mA", priority: 1},
+	{trigger: "EE", replacement: "\\exists{${0:a}}\\; ($1)", options: "mA", priority: 1},
 	{trigger: "mo\\nablas", replacement: "\\models", options: "mA", priority: 1},
 	{trigger: "\\Longleftarrow>", replacement: "\\longleftrightarrow", options: "mA", priority: 1},
 	{trigger: "\\leq>", replacement: "\\Longleftrightarrow", options: "mA", priority: 1},
 	{trigger: "\\xi nn", replacement: "x \\in", options: "mA", priority: 1},
 	//{trigger: "\\xid", replacement: "x_{$0}$1", options: "mA", priority: 1},
 	{trigger: "top", replacement: "\\top", options: "mA"},
+	{trigger: "perp", replacement: "\\perp", options: "mA"},
+	{trigger: "com", replacement: "^{\\perp}", options: "mA"},
 	{trigger: "trans", replacement: "^{\\top}", options: "mA"},
-
+	{trigger: "dag", replacement: "^{\\dagger}", options: "mA"},
+	{trigger: "mod", replacement: "\\pmod{$0}", options: "mA"},
+	
+	
+	{trigger: "AA", replacement: "\\mathcal{A}", options: "mA"},
+	{trigger: "SS", replacement: "\\mathcal{S}", options: "mA"},
+	{trigger: "DD", replacement: "\\mathcal{D}", options: "mA"},
 	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
 	{trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
+	{trigger: "PP", replacement: "\\mathcal{P}", options: "mA"},
+	{trigger: "TT", replacement: "\\mathcal{T}", options: "mA"},
+	
 	{trigger: "CC", replacement: "\\mathbb{C}", options: "mA"},
 	{trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
@@ -250,12 +282,12 @@
 	{trigger: "Vm", replacement: "\\begin{Vmatrix}\n$0\n\\end{Vmatrix}", options: "MA"},
 	{trigger: "matrix", replacement: "\\begin{matrix}\n$0\n\\end{matrix}", options: "MA"},
 
-	{trigger: "pm", replacement: "\\begin{pmatrix}$0\\end{pmatrix}", options: "nA"},
-	{trigger: "bm", replacement: "\\begin{bmatrix}$0\\end{bmatrix}", options: "nA"},
-	{trigger: "Bm", replacement: "\\begin{Bmatrix}$0\\end{Bmatrix}", options: "nA"},
-	{trigger: "vm", replacement: "\\begin{vmatrix}$0\\end{vmatrix}", options: "nA"},
-	{trigger: "Vm", replacement: "\\begin{Vmatrix}$0\\end{Vmatrix}", options: "nA"},
-	{trigger: "matrix", replacement: "\\begin{matrix}$0\\end{matrix}", options: "nA"},
+	{trigger: "pm", replacement: "\\begin{pmatrix}\t$0\\end{pmatrix}", options: "nA"},
+	{trigger: "bm", replacement: "\\begin{bmatrix}\t$0\\end{bmatrix}", options: "nA"},
+	{trigger: "Bm", replacement: "\\begin{Bmatrix}\t$0\\end{Bmatrix}", options: "nA"},
+	{trigger: "vm", replacement: "\\begin{vmatrix}\t$0\\end{vmatrix}", options: "nA"},
+	{trigger: "Vm", replacement: "\\begin{Vmatrix}\t$0\\end{Vmatrix}", options: "nA"},
+	{trigger: "matrix", replacement: "\\begin{matrix}\t$0\\end{matrix}", options: "nA"},
 
 	{trigger: "cases", replacement: "\\begin{cases}\n$0\n\\end{cases}", options: "mA"},
 	{trigger: "align", replacement: "\\begin{align}\n$0\n\\end{align}", options: "mA"},
@@ -264,11 +296,11 @@
 
     // Brackets
 	{trigger: "ang", replacement: "\\langle $0 \\rangle $1", options: "mA"},
-	{trigger: "norm", replacement: "\\lvert $0 \\rvert $1", options: "mA", priority: 1},
+	{trigger: "norm", replacement: "\\lVert $0 \\rVert $1", options: "mA", priority: 1},
+	{trigger: "abs", replacement: "\\lvert $0 \\rvert $1", options: "mA", priority: 1},
 	{trigger: "Norm", replacement: "\\lVert $0 \\rVert $1", options: "mA", priority: 1},
 	{trigger: "ceil", replacement: "\\lceil $0 \\rceil $1", options: "mA"},
 	{trigger: "floor", replacement: "\\lfloor $0 \\rfloor $1", options: "mA"},
-	{trigger: "abs", replacement: "|$0|$1", options: "mA"},
 	{trigger: "(", replacement: "(${VISUAL})", options: "mA"},
 	{trigger: "[", replacement: "[${VISUAL}]", options: "mA"},
 	{trigger: "{", replacement: "{${VISUAL}}", options: "mA"},
