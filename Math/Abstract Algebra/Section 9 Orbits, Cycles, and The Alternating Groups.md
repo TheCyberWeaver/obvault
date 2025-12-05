@@ -30,7 +30,7 @@
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=96&selection=40,0,46,60&color=note|p.91]]
 > > No permutation in Sn can be expressed both as a product of an even number of transpositions and as a product of an odd number of transpositions.
 
-Think about a [[Determinant|determinant]]. Exchange any two rows of a square matrix changes the sign of the determinant.
+Think about a [[Determinant (legacy)|determinant]]. Exchange any two rows of a square matrix changes the sign of the determinant.
 
 A Permutation that can be expressed as a product of an even number of transpositions is called a **even permutation**.
 Similar to a **odd permutation**.
