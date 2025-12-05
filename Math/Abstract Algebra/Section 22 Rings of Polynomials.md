@@ -19,4 +19,4 @@ Define the map $\phi_a:F[x]\rightarrow E$ as $$\phi_\alpha(a_0+a_1x+\cdots+a_nx^
 $\phi$ is a homomorphism because:
 $$\phi_\alpha (f(x)+g(x))=\phi_\alpha (f(x))+\phi_\alpha (f(x))$$
 $$\phi_\alpha (f(x)g(x))=\phi_\alpha (f(x))\phi_\alpha (f(x))$$
-If $F$ is a field then $F[x]$ is an integral domain, meaning the polynomial is solvable under factorization.
+If $F$ is a [[Field|field]] then $F[x]$ is an [[Integral Domain|integral domain]], meaning the polynomial is solvable under factorization.

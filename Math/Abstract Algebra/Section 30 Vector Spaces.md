@@ -13,6 +13,9 @@ $\langle\Bbb R^{n},+,\cdot\rangle$
 
 If all vectors in the vector space can be expressed as a linear combination of a set of vectors in the vector space, this vector set span (or generate ) this vector space. If this is a minimal subset, it is a basis.
 
+### Basis
+$B$ is a basis if $B$ is linearly independent and $\mathbf{Span}(B)=V$
+
 ## 30.9 Definition: finite dimensional
 
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=282&selection=224,0,244,1&color=note|A First Course in Abstract Algebra, p.277]]

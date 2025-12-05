@@ -1,3 +1,4 @@
+#eth #exercise 
 # 1. Interpolation
 $P(x)=-\frac{1}{12}x^{3}+\frac{3}{4}x^{2}-\frac{2}{3}x+1$
 # 2. Strictly diagonally dominant matrices

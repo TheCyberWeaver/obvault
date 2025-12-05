@@ -66,3 +66,9 @@ $2^{20}\equiv _{15}(2^{4})^{5}\equiv _{15}1^{5}\equiv _{15}1$
 $ax\equiv _{m}1$
 The equation has a solution $x \in \mathbb{Z}_{m}$ if and only if $\text{gcd}(a,m)=1$. The solution is unique
 
+This unique solution $x \in \mathbb{Z}_{m}$ is called the multiplicative inverse of $a$ modulo $m$
+### Example
+$5^{-1}\equiv _{13}8$
+because $5\cdot8\equiv _{13}1$
+## CRT
+![[Chinese Remainder Theorem (CRT)]]

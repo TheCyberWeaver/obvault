@@ -9,6 +9,11 @@
 
 ![[Pasted image 20251010114026.png|490]]
 
+
+Note that $R'$ is just the Reduced row echelon form (or [[Gauss-Jordan Elimination#RREF|RREF]]) of $A$
+
 ## Usage
 This method can be used to save storage space for matrices.
 Instead of saving $n\times m$ entries, we only need $(n+m)r$ entries (works well when $r$ is small compare to $m,n$)
+
+

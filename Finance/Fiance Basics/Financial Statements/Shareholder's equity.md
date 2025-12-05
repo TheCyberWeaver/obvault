@@ -48,5 +48,5 @@ This equation shows that **retained earnings grow with net income** (profits) an
 
 # Examples
 ![[Exported image 20250519111213-3.png]] ![[Exported image 20250519111214-4.png]] ![[Exported image 20250519111218-5.png]] 
-- **[[Accumulated Other Comprehensive Income]]** (AOCI, 累积其他综合收益)
+- **Accumulated Other Comprehensive Income** (AOCI, 累积其他综合收益)
 

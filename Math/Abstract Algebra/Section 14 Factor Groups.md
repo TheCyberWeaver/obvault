@@ -128,7 +128,7 @@ Classify the group $(\mathbb Z_4 \times \mathbb Z_2)/(\{0\}\times\mathbb Z_2)$
 > [!NOTE]
 > Hence every conjugate subgroup is isomorphic to $H$.
 
-See how Automorphism is defined in Category Theory: [[Special Morphisms#Definition: Automorphism]]
+See how Automorphism is defined in Category Theory: [[Morphisms#Definition: Automorphism]]
 ## Ways to Prove $H$ is a Normal Subgroup - Summary
 
 1. $ghg^{−1} ∈ H$ for all $g ∈ G$ and $h ∈ H$ . 

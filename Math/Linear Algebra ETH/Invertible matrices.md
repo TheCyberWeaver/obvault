@@ -41,3 +41,14 @@ $$
 $$
 A=\begin{bmatrix}a & b \\ c & d\end{bmatrix}\implies A^{-1}=\frac{1}{ad-bc}\begin{bmatrix}d & -b \\ -c & a\end{bmatrix}
 $$
+
+### Lemma 5.2.4
+Let $A\in \mathbb{R}^{m\times n}$ then $A^{\top}A$ is invertible if and only if columns of $A$ are linear independent
+
+**Proof**:
+$N(A^{\top}A)=N(A)$
+$A^{\top}A\in \mathbb{R}^{n\times n}$
+$A^{\top}A$ invertible 
+$\Longleftrightarrow N(A^{\top}A)=\{ 0 \}$
+$\Longleftrightarrow N(A)=\{ 0 \}$
+$\implies$ columns of $A$ are linear independent

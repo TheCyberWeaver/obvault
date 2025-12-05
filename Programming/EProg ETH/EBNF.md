@@ -37,7 +37,7 @@ same to
 	- \<sign\> $\longleftarrow$ + | -
 	- \<number\> $\longleftarrow$ [\<sign\>] \<digit\>
 
-## repetition
+## Repetition
 
 any number of times
 - \<sequence\> $\longleftarrow$ \<digit\> {\<digit\>}

@@ -21,13 +21,13 @@
 	- $\sqrt{ x }$ rational ($\neg T$) $\overset{ \cdot }{ \implies }$ es existiert $m,n\in \mathbb{Z}$ mit $\sqrt{ x }=\frac{m}{n}$
 	- $\overset{ \cdot }{ \implies }x= \frac{m^{2}}{n^{2}}$ rational ($\neg S$)
 ## durch Transitivität
-- Definition: [[Prädikatenlogik#Beispiel#Allgemein]]
+- Definition: [[Predicate Logic#Beispiel#Allgemein]]
 - Beispiel: [[Linear Independence#Equivalent Statements to linear dependence]]
 - Begründung: $(F\to G)\wedge(G\to H)\models F\to H$
 - Variante: finde $R_{1},R_{2}$ mit $S\implies R_{1}$ und $S\implies R_{2}$ und $R_{1}\text{ und }R_{2}\implies T$
 # Beweise für allgemeine Aussagen S
 ## Modus Ponens
-![[Aussagenlogik#Modus Ponens]]
+![[Propositional Logic#Modus Ponens]]
 ## Fallunterscheidung 
 (Verallgemeinerung von Modus Ponens)
 - finde $R_{1},R_{2},\dots,R_{n}$, beweise, dass $R_{1}$ oder $R_{2}$,..., oder $R_{n}$ gilt, beweise, dass für alle $i$ gilt $R_{i}\implies S$
