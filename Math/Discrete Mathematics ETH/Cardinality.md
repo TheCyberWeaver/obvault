@@ -1,3 +1,7 @@
+---
+tags:
+  - linker-exclude
+---
 ## Definitions
 - $A\preccurlyeq B$, if [[Set#Injective|injective]] function $f:A\to B$ exists
 	- reflexive, transitive, **not** antisymmetric (so not a partial order relation)
