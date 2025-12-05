@@ -31,7 +31,7 @@ This subspace is isomorphic to $\mathbb{R}^{3}$
 > [!NOTE]
 > a polynomial should have finite terms
 
-- $U$ all matrices of trace $0$ ([[Matrices and linear combinations#Trace|What is trace of a matrix]])
+- $U$ all matrices of trace $0$ ([[Matrix#Trace|What is trace of a matrix]])
 
 ## Lemma 4.16
 Ever linear combination of $V$ is again in $V$
@@ -65,7 +65,29 @@ let $G\subseteq V$ be a finite subset with $\text{Span}(G)=V$. Then $V$ has a ba
 ![[Steinitz exchange lemma]]
 
 
-## Dimension
+## Definition: Dimension
 
 > [!definition]
 > $\text{dim}(V)$ is the size of an arbitrary basis $B$ of $V$
+
+## Linear transformations between vector spaces
+
+
+> [!NOTE]
+> If a linear transformation $T:V\to W$ is bijective. Then $V$ and $W$ are isomorphic ([[Section 13 Homomorphisms#How to show $ phi G rightarrow G'$ is an Isomorphism|Prove isomorphism]])
+
+Here, isomorphic means the bases and dimension are preserved
+See [[Linear Algebra ETH.pdf#page=145&selection=24,0,24,10&color=note|Lemma 4.27]]
+### Example
+$V=\mathbb{R}^{2\times 2}$, $W=\mathbb{R}^{4}$, $T:\begin{bmatrix}a & b \\ c & d\end{bmatrix}\to \begin{pmatrix}a \\ b \\ c \\ d\end{pmatrix}$
+or generally $V=\mathbb{R}^{m\times n}$, $W=\mathbb{R}^{mn}$
+This is bijective (invertible)
+
+$V=$ polynomials of degree 2, $W=\mathbb{R}^{3}$, $T: p_{0}+p_{1}x+p_{2}x^{2}\to \begin{pmatrix}p_{0} \\ p_{1} \\ p_{3}\end{pmatrix}$
+
+> [!NOTE]
+> All m-dimensional (real) vector spaces are isomorphic
+
+
+## How to compute the subspaces
+[[Computing the three fundamental subspaces]]
