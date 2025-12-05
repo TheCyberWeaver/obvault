@@ -14,8 +14,7 @@ This is my **digital garden**:
 - A centralized place for notes and references  
 - A networked repository where related concepts link and evolve 
 ---
-## ETH Notes
-![[ETH Content.base]]
+
 
 ---
 ## Ongoing Updates
