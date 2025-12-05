@@ -1,0 +1,62 @@
+formulas:
+  created datae: file.ctime.format("YYYY-MM-DD")
+  Untitled: file.path.split("/")[1].slice(0,file.path.split("/")[1].length-4)
+  Untitled 2: (file.size/1024).round(1)+"KB"
+  created ago: now()-file.ctime
+properties:
+  formula.created datae:
+    displayName: created date
+  formula.Untitled:
+    displayName: Vorlesung
+  formula.Untitled 2:
+    displayName: file size (KB)
+views:
+  - type: table
+    name: ETH Notes
+    filters:
+      and:
+        - '!file.tags.contains("exercise")'
+        - or:
+            - file.path.startsWith("Math/Linear Algebra ETH")
+            - file.path.startsWith("Math/Discrete Mathematics ETH")
+            - file.path.startsWith("Programming/Algorithms und Data Structures ETH")
+            - file.path.startsWith("Programming/EProg ETH")
+        - file.ext == "md"
+    order:
+      - file.name
+      - formula.Untitled
+      - formula.created datae
+      - formula.created ago
+      - formula.Untitled 2
+      - file.tags
+    sort:
+      - property: formula.Untitled
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 276
+      formula.created datae: 160
+      formula.created ago: 83
+  - type: table
+    name: ETH Exercises
+    filters:
+      or:
+        - file.folder.contains("Exercise")
+        - file.tags.contains("exercise")
+    order:
+      - file.name
+      - formula.created datae
+      - formula.Untitled
+      - file.tags
+    columnSize:
+      file.name: 199
+      formula.created datae: 90
+  - type: table
+    name: Books
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.name.contains("ETH")
