@@ -1,3 +1,4 @@
+#eth #exercise 
 # 5.1 Max-Heap operations
 ![[1cdcfdb15c9a62101c5eda1ddff2f69c.jpg|343]]
 # 5.2 Guessing an interval
