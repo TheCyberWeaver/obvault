@@ -46,7 +46,7 @@ Ever linear combination of $V$ is again in $V$
 | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | $\mathbb{R}^{m}$                                                 | $\{ e_{1},e_{2},\dots,e_{m} \}$                                                                                                          |
 | $\mathbf{C}(A)$                                                  | independent columns of $A$                                                                                                               |
-| $2\times 2$ symmetric matrices <br>(Subspace of $R^{2\times 2}$) | $\{ \begin{bmatrix}1 & 0 \\ 0 & 0\end{bmatrix},\begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix},\begin{bmatrix}0 & 0 \\ 0 & 1\end{bmatrix} \}$ |
+| $2\times 2$ symmetric matrices (Subspace of $R^{2\times 2}$) | $\{ \begin{bmatrix}1 & 0 \\ 0 & 0\end{bmatrix},\begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix},\begin{bmatrix}0 & 0 \\ 0 & 1\end{bmatrix} \}$ |
 | $\mathbb{R}[x]$ (polynomials)                                    | $\{ x^{i}:i=0,1,\dots \}$ (infinite set)                                                                                                 |
 | $\mathbf{0}$ (smallest vector space)                             | $\varnothing$ (emptyset)                                                                                                                 |
 
