@@ -1,11 +1,11 @@
-# Generally
+## Generally
 ![[Section 30 Vector Spaces]]
 
-# In Linear Algebra
-## The eight axioms
+## In Linear Algebra
+### The eight axioms
 ![[Pasted image 20251029102433.png|517]]
 
-## Some 'obvious' facts
+### Some 'obvious' facts
 
 - There is only one zero vector.
 **Proof**:
@@ -15,14 +15,14 @@ $=\mathbf{0}+\mathbf{0}'$ (1. axiom)
 $=\mathbf{0}$ (3. axiom)
 - Each $\mathbf{v}$ has only one negative vector
 
-## Subspaces
+### Subspaces
 Let $V$ be a vector space.
 A nonempty subset $U\subseteq V$ is called a subspace of $V$ if
 - $\mathbf{v}+\mathbf{w}\in U$
 - $\lambda \mathbf{v}\in U$
 and $U$ is also a vector space
 
-### Examples
+#### Examples
 $U$ is all quadratic polynomials
 	$\mathbf{p}=p_{0}+p_{1}x+p_{2}x^{2}$
 This subspace is isomorphic to $\mathbb{R}^{3}$
@@ -33,14 +33,14 @@ This subspace is isomorphic to $\mathbb{R}^{3}$
 
 - $U$ all matrices of trace $0$ ([[Matrix#Trace|What is trace of a matrix]])
 
-## Lemma 4.16
+### Lemma 4.16
 Ever linear combination of $V$ is again in $V$
 
 > [!Important] Title
 > It has to be finite linear combinations
 
 
-## Examples of Basis
+### Examples of Basis
 
 | Vector sapce $V$                                                 | basis $B$                                                                                                                                |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -50,14 +50,14 @@ Ever linear combination of $V$ is again in $V$
 | $\mathbb{R}[x]$ (polynomials)                                    | $\{ x^{i}:i=0,1,\dots \}$ (infinite set)                                                                                                 |
 | $\mathbf{0}$ (smallest vector space)                             | $\varnothing$ (emptyset)                                                                                                                 |
 
-## Definition: finitely generated vector space
+### Definition: finitely generated vector space
 A vector space $V$ is called finitely generated if there exists a finite subset $G\subseteq V$ with $\text{Span}(G)=V$
 
 $\mathbb{R}^{m}$ is finitely generated
 $\mathbb{R}[x]$ is **not** finitely generated
 
 
-## Theorem 4.22
+### Theorem 4.22
 let $G\subseteq V$ be a finite subset with $\text{Span}(G)=V$. Then $V$ has a basis $B\subseteq G$
 
 
@@ -65,12 +65,12 @@ let $G\subseteq V$ be a finite subset with $\text{Span}(G)=V$. Then $V$ has a ba
 ![[Steinitz exchange lemma]]
 
 
-## Definition: Dimension
+### Definition: Dimension
 
 > [!definition]
 > $\text{dim}(V)$ is the size of an arbitrary basis $B$ of $V$
 
-## Linear transformations between vector spaces
+### Linear transformations between vector spaces
 
 
 > [!NOTE]
@@ -78,7 +78,7 @@ let $G\subseteq V$ be a finite subset with $\text{Span}(G)=V$. Then $V$ has a ba
 
 Here, isomorphic means the bases and dimension are preserved
 See [[Linear Algebra ETH.pdf#page=145&selection=24,0,24,10&color=note|Lemma 4.27]]
-### Example
+#### Example
 $V=\mathbb{R}^{2\times 2}$, $W=\mathbb{R}^{4}$, $T:\begin{bmatrix}a & b \\ c & d\end{bmatrix}\to \begin{pmatrix}a \\ b \\ c \\ d\end{pmatrix}$
 or generally $V=\mathbb{R}^{m\times n}$, $W=\mathbb{R}^{mn}$
 This is bijective (invertible)
@@ -89,5 +89,5 @@ $V=$ polynomials of degree 2, $W=\mathbb{R}^{3}$, $T: p_{0}+p_{1}x+p_{2}x^{2}\to
 > All m-dimensional (real) vector spaces are isomorphic
 
 
-## How to compute the subspaces
+### How to compute the subspaces
 [[Computing the three fundamental subspaces]]
