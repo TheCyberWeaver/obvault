@@ -57,12 +57,12 @@ This concept is similar to factor group and factor rings
 - [[Section 14 Factor Groups]]
 - [[Section 26 Homomorphisms and Factor Rings]]
 
-| Context | Relation type                                                        | Quotient object        | Categorical role                   |
-| ------- | -------------------------------------------------------------------- | ---------------------- | ---------------------------------- |
-| Set     | Equivalence relation                                                 | Partition ( $S/\sim$ ) | [[Coequalizer]] in $\mathbf{Set}$  |
-| Group   | Normal subgroup ( $N$ )<br>$a\sim b\Longleftrightarrow a^{-1}b\in N$ | Factor group ( $G/N$ ) | [[Coequalizer]] in $\mathbf{Grp}$  |
-| Ring    | Ideal ( $I$ )<br>$a\sim b\Longleftrightarrow a-b\in I$               | Factor ring ( $R/I$ )  | [[Coequalizer]] in $\mathbf{Ring}$ |
-|         |                                                                      |                        |                                    |
+| Context | Relation type                                                     | Quotient object        | Categorical role                   |
+| ------- | ----------------------------------------------------------------- | ---------------------- | ---------------------------------- |
+| Set     | Equivalence relation                                              | Partition ( $S/\sim$ ) | [[Coequalizer]] in $\mathbf{Set}$  |
+| Group   | Normal subgroup ( $N$ ) $a\sim b\Longleftrightarrow a^{-1}b\in N$ | Factor group ( $G/N$ ) | [[Coequalizer]] in $\mathbf{Grp}$  |
+| Ring    | Ideal ( $I$ ) $a\sim b\Longleftrightarrow a-b\in I$               | Factor ring ( $R/I$ )  | [[Coequalizer]] in $\mathbf{Ring}$ |
+|         |                                                                   |                        |                                    |
 
 ### Example
 Consider $A=\mathbb{Z}\times (\mathbb{Z}\setminus \{ 0 \})$ and define $\sim$ as $(a,b)\sim(c,d)\overset{ def }{ \Longleftrightarrow }ad=bc$
