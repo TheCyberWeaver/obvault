@@ -1,4 +1,4 @@
-# Definition
+## Definition
 Let $S$ be a subspace of $\mathbb{R}^{m}$
 $$
 proj _{S}(b)=\underset{ p \in S }{ argmin }\lVert b-p \rVert 
