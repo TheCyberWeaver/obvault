@@ -1,7 +1,7 @@
 # 🌸 My Second Brain
 
 > “I’m not **hoarding** information —  
-> I’m **cultivating** it.” — _GPT_
+> I’m **cultivating** it.” — _Thomas Lu_
 
 👉 **Browse the brain here:** <[My Second Brain](https://my.flowershow.app/@TheCyberWeaver/obvault)>
 
