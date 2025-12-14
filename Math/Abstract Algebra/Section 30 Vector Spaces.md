@@ -39,4 +39,3 @@ If $V$ is a finite-dimensional vector space over a field $F$, the number of elem
 > > Let $E$ be an extension field of a field $F$, and let $α ∈ E$. 
 If $α$ is algebraic over $F$ and $deg(α, F) = n$, then the dimension of $F(α)$ as a vector space over $F$ is $n$.
 
-
