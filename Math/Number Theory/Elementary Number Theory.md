@@ -1,4 +1,4 @@
-# Problem 1
+## Problem 1
 **Problem**
 Find all $n\in \mathbb{N}\setminus \{ 0 \}$ such that $(n+1)|(n^{2}+1)$
 **Solution**

@@ -8,5 +8,7 @@ $\langle v,w \rangle=w^{*}v=\overline{v^{*}w}$
 
 ### Matrix
 For $A\in \mathbb{C}^{m\times n}$
+#### Hermitian conjugate
 Let $A^{*}=\bar{A}^{\top}$ with $\bar{A}=\begin{bmatrix}	\bar{A}_{i,j}\forall_{i,j}\end{bmatrix}\in \mathbb{C}^{m\times n}$
 
+$(AB)^{*}=B^{*}A^{*}$

@@ -183,7 +183,7 @@
 	{trigger: "fa", replacement: "\\forall{${0:a}}\\; ($1)", options: "mA"},
 	{trigger: "e\\xi sts", replacement: "\\exists{${0:a}}\\; ($1)", options: "mA", priority: 1},
 	{trigger: "EE", replacement: "\\exists{${0:a}}\\; ($1)", options: "mA", priority: 1},
-	{trigger: "mo\\nablas", replacement: "\\models", options: "mA", priority: 1},
+	{trigger: "\\pmod{els", replacement: "\\models", options: "mA", priority: 1},
 	{trigger: "\\Longleftarrow>", replacement: "\\longleftrightarrow", options: "mA", priority: 1},
 	{trigger: "\\leq>", replacement: "\\Longleftrightarrow", options: "mA", priority: 1},
 	{trigger: "\\xi nn", replacement: "x \\in", options: "mA", priority: 1},
@@ -197,6 +197,7 @@
 	
 	
 	{trigger: "AA", replacement: "\\mathcal{A}", options: "mA"},
+	{trigger: "BB", replacement: "\\mathcal{B}", options: "mA"},
 	{trigger: "SS", replacement: "\\mathcal{S}", options: "mA"},
 	{trigger: "DD", replacement: "\\mathcal{D}", options: "mA"},
 	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
@@ -318,10 +319,10 @@
 
     // Automatically convert standalone letters in text to math (except a, A, I).
     // (Un-comment to enable)
-    // {trigger: /([^'])\b([B-HJ-Zb-z])\b([\n\s.,?!:'])/, replacement: "[[0]]$[[1]]$[[2]]", options: "tA"},
+     {trigger: /([^'])\b([B-HJ-Zb-z])\b([\n\s.,?!:'])/, replacement: "[[0]]$[[1]]$[[2]]", options: "tA"},
 
     // Automatically convert Greek letters in text to math.
-    // {trigger: "(${GREEK})([\\n\\s.,?!:'])", replacement: "$\\[[0]]$[[1]]", options: "rtAw"},
+     {trigger: "(${GREEK})([\\n\\s.,?!:'])", replacement: "$\\[[0]]$[[1]]", options: "rtAw"},
 
     // Automatically convert text of the form "x=2" and "x=n+1" to math.
     // {trigger: /([A-Za-z]=\d+)([\n\s.,?!:'])/, replacement: "$[[0]]$[[1]]", options: "rtAw"},
@@ -347,5 +348,21 @@
 		let output = arr.map(el => el.join(" & ")).join(" \\\\\n");
 		output = `\\begin{pmatrix}\n${output}\n\\end{pmatrix}`;
 		return output;
-	}, options: "mA", description: "N x N identity matrix"},
+	}, options: "MA", description: "N x N identity matrix"},
+	{trigger: /iden(\d)/, replacement: (match) => {
+		const n = match[1];
+
+		let arr = [];
+		for (let j = 0; j < n; j++) {
+			arr[j] = [];
+			for (let i = 0; i < n; i++) {
+				arr[j][i] = (i === j) ? 1 : 0;
+			}
+		}
+
+		let output = arr.map(el => el.join(" & ")).join(" \\\\");
+		output = `\\begin{pmatrix}${output}\\end{pmatrix}`;
+		return output;
+	}, options: "nA", description: "N x N identity matrix"},
+
 ]

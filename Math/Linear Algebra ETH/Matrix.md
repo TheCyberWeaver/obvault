@@ -109,7 +109,7 @@ $\mathbf{R}(A):=\mathbf{C(A^{\top})}$
 Note that 
 - $\mathbf{R}(A)\subseteq \mathbb{R}^{n}$
 - $\mathbf{C(A)}\subseteq \mathbb{R}^{m}$
-# Nullraum
+# Null Space
 ![[Pasted image 20251001112601.png]]
 
 $\mathbf{0}\in N(A)$ 
@@ -130,3 +130,6 @@ The trace of a matrix is the sum of its diagonal elements.
 $$
 \text{tr}(A)=\sum_{i=1}^{n} a_{ii}
 $$
+Let $A$ be a square matrix and let $\lambda_{1},\lambda_{2},\dots,\lambda _{n}$ be its [[Eigenvalues|eigenvalues]], then:
+$\mathrm{Tr}(A)=\sum_{i=1}^{n}\lambda _{i}$
+$\det(A)=\prod_{i=1}^{n}\lambda _{i}$

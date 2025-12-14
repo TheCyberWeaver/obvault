@@ -10,4 +10,4 @@ Pick a prime $p$ and verify:
 3. **$p^{2}$ does _not_ divide the constant term**
      $p^2\nmid a_0$
 
-If you can find such a prime $p$, then Eisenstein’s Criterion tells you immediately that $f(x)$ is irreducible over $\Bbb Q$.wq
+If you can find such a prime $p$, then Eisenstein’s Criterion tells you immediately that $f(x)$ is irreducible over $\Bbb Q$.
