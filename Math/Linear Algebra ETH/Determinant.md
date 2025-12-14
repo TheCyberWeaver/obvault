@@ -63,4 +63,3 @@ $$
 - $\det(AB)=\det(A)\det(B)$
 - $\det(A^{-1})=\frac{1}{\det(A)}$
 - $A$ invertible $\Longleftrightarrow$ $\det(A)\neq0$
-
