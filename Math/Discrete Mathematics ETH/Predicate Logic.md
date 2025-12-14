@@ -13,6 +13,8 @@
 ![[Pasted image 20251203152220.png|541]]
 
 ![[Pasted image 20251203152928.png|555]]
+## basic Equivalences
+![[Pasted image 20251208145744.png|570]]
 ## Example
 Spezielle Interpretation
 $U=\mathbb N$
@@ -45,6 +47,8 @@ $$
 \exists_{1} x\: F\overset{ def }{ \Longleftrightarrow }\exists \tilde{x}\:\forall x(x=\tilde{x}\leftrightarrow F)
 $$
 
+## Prenex normal form (PNF)
 
-
+![[Pasted image 20251208154248.png|594]]
+For every formula there is an equivalent formula in prenex form
 
