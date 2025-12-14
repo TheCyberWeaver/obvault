@@ -62,3 +62,38 @@ If $(\lambda,v)$ is an eigenvalue-eigenvector pair, then $(\bar{\lambda},\bar{v}
 
 ![[Pasted image 20251205105147.png|479]]
 
+## Lemma 8.3.6
+Let $A\in \mathbb{R}^{n\times n}$ and $\lambda_{1},\dots,\lambda _{n}$ its eigenvalues. ($\lambda$ can be a complex number)
+- $\det(A)=\prod_{i=1}^{n}\lambda _{i}$
+- $Tr(A)=\sum_{i=1}^{n}\lambda _{i}$
+
+**Proof**
+$\det(A-\lambda I)=P(\lambda)=0$ (the characteristic polynomial)
+$\det(A-\lambda I)=\sum_{\sigma \in \prod _{n}}sgn(\sigma)\prod_{i=1}^{n}(A-\lambda I)_{i,\sigma(i)}$
+$=(a_{11}-\lambda)(a_{22}-\lambda)\dots(a_{nn}-\lambda)+\underbrace{ a_{14}(a_{22}-\lambda)(a_{33}-\lambda)a_{41} }_{ \text{exponent }\leq n-2 }\dots+\dots.$ (If we do not use the identity $\sigma$, then we must have at least two elements not on the diagonal)
+$P_{A}(\lambda)=c_{n}\lambda ^{n}+c_{n-1}\lambda ^{n-1}+\dots+c_{0}$
+$=(-1)^{n}\lambda ^{n}+(-1)^{n-1}\underbrace{ (a_{11}+a_{22}+\dots+a_{nn}) }_{ \mathrm{Tr}(A) }\lambda ^{n-1}+\dots+\underbrace{ c_{0} }_{ \det (A) }$  (\*)
+Note that $P_{A}(0)=c_{0}=\det(A-0I)=\det(A)$
+Now consider $P_{A}$ as product of roots
+$P_{A}=c_{n}(\lambda-\lambda_{1})(\lambda-\lambda_{2})\dots(\lambda-\lambda _{n})$ 
+$P_{A}=(-1)^{n}(\lambda-\lambda_{1})(\lambda-\lambda_{2})\dots(\lambda-\lambda _{n})$  (from \*))
+expands:
+$P_{A}=(-1)^{n}\lambda ^{n}+(-1)^{n}\lambda ^{n-1}(-\lambda_{1}-\lambda_{2}-\dots -\lambda)+\dots+(-1)^{n}(-1)^{n}(\lambda_{1}\lambda_{2}\dots\lambda _{n})$
+$P_{A}=(-1)^{n}\lambda ^{n}+(-1)^{n}\left( -\sum_{i=1}^{n}\lambda _{i} \right)\lambda ^{n-1}+\dots+\prod_{i=1}^{n}\lambda _{i}$
+$\implies c_{0}=\prod_{i=1}^{n}\lambda _{i}=\det(A)$
+$\implies  (-1)\cdot-\sum_{i=1}^{n}\lambda ^{n-1}=\mathrm{Tr}(A)\implies \sum_{i=1}^{n}\lambda _{i}=\mathrm{Tr}(A)$
+
+
+
+#math-tools
+> [!Important] Method to prove that two matrices are similar
+> We set the characteristic equation equal
+
+### Example 1
+Prove the eigenvalues of $A$ and $A^{\top}$ are the same
+$P_{A^{\top}}(\lambda)=\det(A^{\top}-\lambda I)=\det((A-\lambda I)^{\top})=\det(A-\lambda I)=P_{A}(\lambda)$
+
+### Example 2
+Prove $B$ similar to $A$, with $B=S^{-1}AS$
+$P_{B}(\lambda)=\det(B-\lambda I)=\det(S^{-1}AS-\lambda S^{-1}S)=\det(S^{-1}(A-\lambda I)S)$
+$=\det(S^{-1})\det(A-\lambda I)\det(S)=\det(A-\lambda I)=P_{A}(\lambda)$
