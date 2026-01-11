@@ -51,3 +51,5 @@ Use [[#20.6 Theorem]] we get a multiplication group of order $\phi(n)$ and the r
 By [[#20.6 Theorem]] a has a multiplication inverse (a is an unit).
 We can multiply both sides of the equation on the left by $a^{-1}$
 $x=a^{-1}b$, which is the only solution.
+
+
