@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "md"
+        - '!file.fullname.contains("excalidraw")'
+    order:
+      - file.name
+      - file.size
+    sort:
+      - property: file.size
+        direction: DESC
