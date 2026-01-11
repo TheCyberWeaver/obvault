@@ -194,6 +194,7 @@
 	{trigger: "trans", replacement: "^{\\top}", options: "mA"},
 	{trigger: "dag", replacement: "^{\\dagger}", options: "mA"},
 	{trigger: "mod", replacement: "\\pmod{$0}", options: "mA"},
+	{trigger: "\\pi nn", replacement: "p \\in", options: "mA", priority: 1},
 	
 	
 	{trigger: "AA", replacement: "\\mathcal{A}", options: "mA"},
@@ -305,9 +306,12 @@
 	{trigger: "(", replacement: "(${VISUAL})", options: "mA"},
 	{trigger: "[", replacement: "[${VISUAL}]", options: "mA"},
 	{trigger: "{", replacement: "{${VISUAL}}", options: "mA"},
-	{trigger: "(", replacement: "($0)$1", options: "mA"},
-	{trigger: "{", replacement: "{$0}$1", options: "mA"},
-	{trigger: "[", replacement: "[$0]$1", options: "mA"},
+	//{trigger: "(", replacement: "($0)$1", options: "mA"},
+	//{trigger: "{", replacement: "{$0}$1", options: "mA"},
+	//{trigger: "[", replacement: "[$0]$1", options: "mA"},
+	{trigger: "(", replacement: "($0)", options: "mA"},
+	{trigger: "{", replacement: "{$0}", options: "mA"},
+	{trigger: "[", replacement: "[$0]", options: "mA"},
 	{trigger: "lr(", replacement: "\\left( $0 \\right) $1", options: "mA"},
 	{trigger: "lr{", replacement: "\\left\\{ $0 \\right\\} $1", options: "mA"},
 	{trigger: "lr[", replacement: "\\left[ $0 \\right] $1", options: "mA"},
