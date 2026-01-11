@@ -1,106 +1,216 @@
-## Fundamental Analysis
+## 1) Fundamental Analysis（基本面分析）
 
-Fundamental analysis focuses on determining a company’s **intrinsic value** by examining its core business and financial performance. This approach assumes that, in the long run, a stock’s price will reflect its fundamental strength. Key components of fundamental analysis include:
+**目标：**通过公司经营与财务表现估算**内在价值（intrinsic value）**，长期看股价会回归基本面。
 
-- **Financial Performance:** Evaluate the company’s [[Accrual-Basis Accounting & Cash-Basis Accounting|financial statements]] – Income Statements, balance sheets, and cash flow statements – to assess revenue growth, profit margins, and cash generation. This involves reviewing net income trends and metrics like **[[EBITDA]]** (Earnings Before Interest, Taxes, Depreciation, and Amortization) as a proxy for core operating profitability. Consistent growth in revenue and earnings, alongside healthy **free cash flow**, indicates a strong financial footing.
+### 关键内容
+
+- **财务表现（Financial Performance）**
     
-- **Profitability & Efficiency:** Examine return ratios such as **Return on Equity (ROE)** and **Return on Assets (ROA)** to measure how effectively the company generates profit from shareholders’ equity and its assets. High and improving ROE/ROA suggest effective management and a sustainable business model. Additionally, analyze profit margins (gross, operating, net) for stability or expansion, as widening margins often reflect improved efficiency or competitive advantage.
+    - 看三大报表：利润表、资产负债表、现金流量表
+        
+    - 关注：营收增长、利润率、现金创造能力、净利润趋势
+        
+    - 常用指标：**EBITDA**（衡量核心经营盈利能力的近似）、**自由现金流（FCF）**
+        
+- **盈利能力与效率（Profitability & Efficiency）**
     
-- **Financial Position (Solvency & Liquidity):** Assess the company’s debt levels and ability to meet obligations. Key indicators include the debt-to-equity ratio (to evaluate leverage) and interest coverage ratio (EBITDA-to-interest expense) to ensure the company isn’t overextended. A strong balance sheet with manageable debt, ample cash reserves, and sufficient working capital provides financial stability and lowers risk for investors.
+    - 回报率：**ROE、ROA**
+        
+    - 利润率：毛利率、营业利润率、净利率（稳定/扩张通常是竞争力或效率提升信号）
+        
+- **财务状况：偿债与流动性（Solvency & Liquidity）**
     
-- **Valuation Metrics & Intrinsic Value:** Determine whether the stock is fairly valued by comparing market price to fundamental value benchmarks. Common relative valuation metrics are the **Price-to-Earnings (P/E)** ratio, **Price-to-Book (P/B)** ratio, and **EV/EBITDA** multiple, compared against peers or historical averages. For absolute valuation, perform a **[[Discounted Cash Flow (DCF)]]** analysis, projecting the company’s future cash flows and discounting them to present value. If the current stock price is significantly below the estimated intrinsic value (i.e. undervalued) and fundamentals are strong, it may signal a buying opportunity.
+    - 杠杆：负债权益比（Debt-to-Equity）
+        
+    - 偿息能力：利息保障倍数（如 EBITDA / Interest）
+        
+    - 资产负债表稳健（现金储备、营运资本充足）降低风险
+        
+- **估值与内在价值（Valuation & Intrinsic Value）**
     
-- **Qualitative Factors:** Consider non-quantitative aspects that influence long-term value. This includes the company’s business model and strategy, industry position, and competitive advantages (often referred to as an **economic moat**). Evaluate the quality of management and corporate governance, as effective leadership can drive better execution and adaptability. Also, assess the industry outlook and regulatory environment to understand external factors that could impact future growth. Strong qualitative fundamentals (e.g. a wide economic moat, capable management, favorable industry trends) complement solid financials in supporting a robust valuation.
+    - 相对估值：**P/E、P/B、EV/EBITDA**（对比同行或历史）
+        
+    - 绝对估值：**DCF**（预测未来现金流并折现）
+        
+    - 股价显著低于内在价值且基本面强 → 可能买入机会
+        
+- **定性因素（Qualitative Factors）**
+    
+    - 商业模式、战略、行业地位、**护城河（economic moat）**
+        
+    - 管理层质量与治理
+        
+    - 行业景气与监管环境
+        
+
+**适用：**偏长期投资，寻找被市场短期错定价的标的。
+
+---
+
+## 2) Technical Analysis（技术分析）
+
+**目标：**通过价格与成交数据判断**买卖时点（when to buy/sell）**，反映群体行为与市场心理。
+
+### 关键工具
+
+- **趋势与形态**
+    
+    - 上升/下降/横盘趋势；常见形态（头肩、双底、旗形等）
+        
+    - 支撑/阻力位用于入场与止损/止盈参考
+        
+- **移动平均线（MA）**
+    
+    - 常看 50 日/200 日均线
+        
+    - “金叉”偏多、“死叉”偏空（动量与趋势变化信号）
+        
+- **动量振荡器**
+    
+    - **RSI**：>70 常被视为超买，<30 超卖
+        
+    - **MACD**：观察均线收敛/发散与交叉，判断动量转向
+        
+- **波动率指标**
+    
+    - **布林带（Bollinger Bands）**：价格触及/突破上下轨可能提示极端状态与均值回归
+        
+    - **ATR**：衡量波动，用于止损距离与风险评估
+        
+- **成交量分析**
+    
+    - 放量突破/下跌更可信
+        
+    - **成交量分布（Volume Profile）**：识别成交密集区（可能形成关键支撑/阻力）
+        
+
+**适用：**短中期交易，也可辅助长期投资的进出场时机。
+
+---
+
+## 3) Quantitative Analysis（量化分析）
+
+**目标：**用数学/统计/计算模型从大量数据中识别规律、关系或异常，强调客观与可回测。
+
+### 关键方法
+
+- **因子模型（Factor Models）**
+    
+    - 常见因子：价值、成长、动量、市值、波动率等
+        
+    - 多因子组合并回测筛选超额收益特征
+        
+- **统计套利与模式识别**
+    
+    - 均值回归、相关性偏离（如配对交易）
+        
+    - 时间序列分析、机器学习用于预测或识别复杂模式
+        
+- **算法交易与自动化执行**
+    
+    - 实时扫描信号并自动下单，捕捉短暂机会
+        
+- **风险建模与模拟**
+    
+    - **VaR**：在置信水平下的潜在损失估计
+        
+    - **蒙特卡洛模拟**：对增长、利率等变量随机化，得到估值分布与情景概率
+        
+
+**注意：**模型依赖数据与假设，极端市场条件可能失效，需持续验证。
+
+---
+
+## 4) Sentiment Analysis（情绪分析）
+
+**目标：**判断市场情绪如何让价格偏离基本面（恐惧/贪婪/炒作），用于识别短期偏离与极端。
+
+### 关键来源
+
+- **新闻与媒体情绪**
+    
+    - 财报、产品、评级上调/下调等带来情绪变化
+        
+    - NLP 可量化新闻语气并聚合成情绪得分
+        
+- **社交媒体与论坛热度**
+    
+    - 关注提及量、情绪倾向、“meme stock”式炒作
+        
+    - 波动大，需区分真实趋势与短期噪声
+        
+- **市场情绪指标**
+    
+    - **VIX**（恐慌指数）、put/call ratio、成交量异常、市场广度、做空比例等
+        
+- **调查与资金流**
+    
+    - 投资者调查、基金/ETF 资金流入流出反映风险偏好
+        
+
+---
+
+## 5) Macroeconomic Analysis（宏观分析）
+
+**目标：**把公司放进经济环境中定价与压力测试；宏观顺风/逆风能显著改变估值与盈利。
+
+### 关键变量
+
+- **经济增长（GDP）**
+    
+    - 影响需求、消费与投资；结合商业周期判断公司所处环境
+        
+- **利率与货币政策**
+    
+    - 影响融资成本与 DCF 折现率；加息通常压估值、降息通常抬估值
+        
+- **通胀与成本**
+    
+    - 影响工资/原材料/定价能力与利润率；也会推升利率预期
+        
+- **汇率**
+    
+    - 影响跨国收入换算、出口竞争力与供应链成本
+        
+- **财政政策与外部冲击**
+    
+    - 税收、政府支出、监管；以及地缘政治、商品价格、疫情等事件风险
+        
+
+---
+
+## 6) Integrated Framework（综合估值框架）
+
+**核心思想：**五种分析互补，减少盲区。
+
+- 基本面：**买什么**
+    
+- 技术面：**何时买卖**
+    
+- 量化：**数据验证与风险/情景建模**
+    
+- 情绪：**价格偏离的心理驱动**
+    
+- 宏观：**外部环境对盈利与折现的影响**
     
 
-Fundamental analysis is generally favored by long-term investors. It provides confidence in an investment by ensuring the company’s price is grounded in reality, thus helping to identify mispriced stocks that the market may have overlooked in the short term.
+### 实操流程（典型顺序）
 
-## Technical Analysis
-
-Technical analysis involves studying price charts and market data to identify patterns or signals that could predict future price movements. Unlike fundamental analysis, which asks _“What to buy?”_ based on intrinsic value, technical analysis focuses on _“When to buy or sell?”_ by timing the market. Key tools and indicators used in technical analysis include:
-
-- **Price Trends and Chart Patterns:** Analysts examine trends (uptrends, downtrends, or sideways movements) and recognizable chart patterns (such as head-and-shoulders formations, double bottoms, flags, etc.) to gauge the stock’s momentum and potential reversal points. Identifying support and resistance levels – price ranges where buying or selling pressure has historically been strong – is crucial for timing entry and exit points.
+1. 先看宏观与行业（环境与方向）
     
-- **Moving Averages (MA):** Simple and exponential moving averages smooth out price data to help reveal the underlying trend. For example, the 50-day and 200-day moving averages are widely followed. A shorter-term MA crossing above a longer-term MA (a “golden cross”) can signal bullish momentum, whereas the opposite (a “death cross”) may signal bearish momentum.
+2. 做深度基本面估值（内在价值）
     
-- **Momentum Oscillators:** Indicators like the **[[Relative Strength Index (RSI)]]** and **Moving Average Convergence Divergence (MACD)** measure the speed and change of price movements. RSI oscillates between 0 and 100 and is used to identify overbought conditions (above 70) or oversold conditions (below 30), which can precede market reversals. MACD, which tracks the convergence/divergence of moving averages, helps traders spot changes in a stock’s momentum (e.g. bullish or bearish crossovers).
+3. 用量化做验证与情景/风险分布（可靠性与边界）
     
-- **Volatility Indicators:** **Bollinger Bands** are a popular volatility indicator that plots two standard deviation bands above and below a moving average. When prices touch or move outside these bands, it may indicate an asset is extremely overbought or oversold relative to recent history, potentially foreshadowing a reversion to the mean. Similarly, the Average True Range (ATR) quantifies market volatility, helping investors set stop-loss levels or gauge risk based on how much a stock’s price typically fluctuates.
+4. 看情绪是否极端（催化/陷阱/时点线索）
     
-- **Volume Analysis:** Trading volume is analyzed to confirm price movements – significant price moves on high volume are viewed as more credible. One advanced tool is the **Volume Profile**, which shows the distribution of trading volume over different price levels for a given period. By visualizing where trading activity was heaviest (e.g. identifying a price level of control), investors can infer key support/resistance zones and understand which price levels attract the most interest. High volume at certain prices may indicate strong institutional involvement or “volume clusters” that could anchor future price action.
+5. 用技术面选择入场/退出（执行层面）
     
 
-Technical analysis is especially useful for short- to medium-term trading and for timing entry or exit points even in long-term investments. It offers insight into market psychology and crowd behavior by reflecting what investors are actually doing (buying/selling) rather than what they _should_ do based on fundamentals. However, it’s often used in conjunction with other analyses; for example, a fundamental investor might wait for a favorable technical setup before buying a stock that looks undervalued.
+---
 
-## Quantitative Analysis
+## 7) Glossary（术语）
 
-Quantitative analysis applies mathematical and statistical methods to evaluate investments, often leveraging large datasets and computational models. This approach seeks to objectively identify patterns, relationships, or anomalies in financial data that may not be apparent through traditional analysis. In company valuation and stock selection, key quantitative techniques include:
-
-- **Factor Models:** Quantitative investors use factor analysis to explain and predict stock returns. Factors are measurable characteristics of stocks – such as value, growth, momentum, size, or volatility – that historically drive performance. A multi-factor model might combine several factors (e.g. low P/E _and_ high momentum) to select stocks expected to outperform. By backtesting these models on historical data, analysts can gauge how well certain factors or combinations would have worked and refine the model accordingly. This data-driven stock picking is often the basis of “quant” strategies and smart beta indexes.
+- **Economic Moat（经济护城河）**：长期竞争优势（品牌、专利、成本优势等），帮助维持超额利润
     
-- **Statistical Arbitrage & Pattern Recognition:** Using statistical techniques, quantitative analysis can uncover mean-reversion tendencies or correlation patterns. For example, a pair-trading strategy might identify two historically correlated stocks that have diverged in price, betting that they will revert to their mean relationship. Time-series analysis and machine learning algorithms may be employed to detect subtle patterns or to forecast future price movements based on past behavior and a multitude of input variables.
-    
-- **Algorithmic Trading & Automation:** Many quantitative analysts develop algorithms to automatically execute trades when certain criteria are met. These algorithms can process real-time market data at high speed, exploiting short-lived opportunities or mispricings. For instance, an algorithm might scan hundreds of stocks for a specific signal (like a sudden drop beyond a statistical threshold) and execute trades within milliseconds. While not “valuation” in the traditional sense, such quantitative trading can influence market prices and liquidity, and it is often guided by quantitative models that assess expected returns and risks.
-    
-- **Risk Modeling and Simulation:** Quantitative analysis also encompasses rigorous risk assessment. Techniques like **Value at Risk (VaR)** estimate the potential loss in a portfolio over a given time frame with a certain confidence level, based on historical volatility and correlations. Additionally, **[[Monte Carlo Simulation|Monte Carlo simulation]]s** can model a company’s valuation under thousands of random scenarios for key variables (for example, revenue growth rate or interest rate changes), producing a probability distribution of outcomes. This helps in understanding the range of possible valuations (e.g. best-case vs. worst-case scenarios) and the likelihood of different outcomes, thereby aiding in risk management and decision-making.
-    
-
-Quantitative analysis brings discipline and objectivity by relying on data and algorithms. It’s particularly powerful when dealing with large universes of stocks or complex securities, where human analysis alone might miss important signals. However, quant models are only as good as their assumptions and data – they require continuous validation and may break down during unusual market conditions. Combining quant insights with fundamental research and expert judgment often yields the best results.
-
-## Sentiment Analysis
-
-Sentiment analysis in finance involves gauging the mood and psychology of market participants to understand how sentiment might be affecting a company’s stock price. Markets are often driven not just by fundamentals, but by how investors _feel_ about those fundamentals – e.g. optimism, fear, or hype can cause prices to overshoot or undershoot intrinsic value. Key elements of sentiment analysis include:
-
-- **News and Media Sentiment:** Analyze news articles, analyst reports, and financial media coverage for tone and implications. Positive news – such as earnings beats, new product launches, or favorable analyst upgrades – can boost investor optimism and share prices. Conversely, negative press or downgrades can sour sentiment. Advanced approaches use natural language processing (NLP) to quantify news sentiment, scoring textual content as positive, negative, or neutral. By aggregating this information, analysts gauge the prevailing narrative around a company or industry.
-    
-- **Social Media and Forum Buzz:** Retail investor sentiment often manifests on platforms like Twitter, stock forums, or other social media. Monitoring these sources can provide insight into the **buzz** or speculative enthusiasm around a stock (for example, stocks that become “meme stocks” due to viral trends). A surge in online mentions or unusually positive/negative commentary could foreshadow short-term price moves. However, social sentiment is volatile and prone to exaggeration, so it’s important to distinguish genuine shifts in investor outlook from short-lived hype.
-    
-- **Market Sentiment Indicators:** Various market-derived metrics serve as proxies for overall sentiment. For instance, the **[[Volatility Index (VIX)]]** – often called the “fear index” – tends to spike when investors are fearful and markets are turbulent, and remains low during times of complacency or optimism. Another example is the put/call ratio, which compares bearish option activity to bullish option activity; an extremely high put/call ratio may indicate excessive pessimism (a potential contrarian buy signal), whereas an extremely low ratio may indicate euphoria. Additionally, measures like trading volume spikes, breadth of market moves, or high short interest can signal sentiment extremes in either direction.
-    
-- **Surveys and Fund Flows:** Broader sentiment can be measured through investor surveys (e.g. consumer confidence indices, AAII investor sentiment survey) and monitoring where money is flowing. Large inflows into equity funds or ETFs might signal bullish sentiment, whereas outflows to safe-haven assets might signal growing fear. These macro-level sentiment gauges help contextualize whether the market is in a risk-seeking or risk-averse mode, which can affect how individual stocks are valued (high overall bullishness often coincides with higher valuations, and vice versa).
-    
-
-By incorporating sentiment analysis, investors can avoid being caught off guard by the market’s emotional extremes. For example, a fundamentally strong stock might remain undervalued for some time if market sentiment is pessimistic, creating an opportunity for those who recognize the value. Conversely, a stock with weak fundamentals might trade at high valuations during a wave of enthusiasm until sentiment cools. Understanding sentiment thus helps in timing and in assessing when prices may diverge from intrinsic value due to psychological factors.
-
-## Macroeconomic Analysis
-
-Macroeconomic analysis examines broad economic factors and conditions that can impact a company’s performance and valuation. Even strong companies can struggle if macro conditions are unfavorable, while a favorable economic backdrop can lift many stocks. Investors therefore evaluate the macroeconomic environment to ensure that a company’s valuation is considered in the appropriate context. Key macro factors to analyze include:
-
-- **Economic Growth (GDP):** Overall economic growth rates in the markets or regions where the company operates influence demand for its products or services. Strong **GDP growth** typically signals higher consumer spending and business investment, which can boost corporate earnings. Conversely, during recessions or economic slowdowns, even well-run companies may see reduced sales. Analysts look at GDP trends, consumer confidence, and [[Business Cycle|business cycle]] indicators to gauge the stage of the economic cycle (expansion, peak, contraction, or recovery) and how the company might fare in each phase.
-    
-- **Interest Rates and Monetary Policy:** Interest rates, largely determined by central bank policies, have a direct effect on a company’s cost of capital and on investors’ valuation models. Lower interest rates reduce borrowing costs and tend to increase the present value of future earnings (boosting valuations) by lowering the discount rate in DCF models; they also often encourage higher economic activity which can benefit corporate performance. Rising interest rates have the opposite effect: they increase debt servicing costs and usually lead investors to use more conservative valuation assumptions. Thus, investors monitor central bank announcements, bond yield trends, and credit conditions to anticipate shifts that could affect equity valuations. For example, in an environment of rising rates, one might project slower growth or apply a higher discount rate, leading to a more cautious valuation.
-    
-- **Inflation and Input Costs:** Inflation represents the rate at which general price levels are rising. Moderate inflation is manageable, but high inflation can erode consumer purchasing power and raise a company’s costs (raw materials, wages, etc.). Inflation also tends to put upward pressure on interest rates. In valuation, it’s important to consider whether a company can pass increased costs onto customers (maintaining margins) or if inflation will squeeze profits. Analysts track inflation metrics like the Consumer Price Index (CPI) and Producer Price Index (PPI), and consider how inflation trends might impact revenue growth, profit margins, and the appropriate discount rate to use.
-    
-- **Currency Exchange Rates:** For companies with international operations or those exposed to global trade, exchange rate fluctuations can significantly impact earnings. A stronger home currency can make exports more expensive and reduce the value of overseas revenues when converted back, while a weaker home currency can boost export competitiveness and inflate foreign earnings in home-currency terms. Macroeconomic analysis involves monitoring currency trends and policies, especially if the company’s supply chain or sales are global. Sudden moves in exchange rates or trade tariffs can alter the competitive landscape and profitability for such companies.
-    
-- **Fiscal Policy and Other External Factors:** Government fiscal policies (tax rates, government spending programs) and regulatory decisions can shape the economic environment for businesses. For instance, a cut in corporate tax rates can directly increase net profit, boosting valuations, whereas increased regulation in an industry might raise compliance costs and reduce growth potential. Broader events like geopolitical tensions, commodity price swings, or pandemics also fall under macro analysis, as they can affect entire markets or industries. Evaluating these factors helps investors stress-test a company’s prospects under different macro scenarios (e.g. what if a recession hits, or if oil prices double, etc.).
-    
-
-By analyzing these macroeconomic elements, investors can adjust their valuation assumptions to be more realistic and comprehensive. For example, in a low-growth economic environment with rising interest rates, one might use more conservative revenue forecasts and lower valuation multiples for a cyclical company. On the other hand, in a booming economy with low interest rates, one might project higher growth and be comfortable with higher multiples. Macroeconomic analysis ensures that a company’s valuation isn’t viewed in isolation but rather in alignment with the economic tides that can lift or lower the fortunes of all businesses.
-
-## Integrated Framework for Company Valuation
-
-Bringing together **fundamental, technical, quantitative, sentiment, and macroeconomic analyses** provides a holistic framework for valuing a company and making investment decisions. Each perspective offers unique insights:
-
-- **Fundamentals** tell us _what_ to buy by identifying quality businesses that are undervalued relative to their intrinsic worth.
-    
-- **Technical analysis** suggests _when_ to buy or sell by highlighting favorable entry/exit points and prevailing market trends.
-    
-- **Quantitative models** provide data-driven confirmation and uncover patterns or risks that human analysis might miss, ensuring the valuation is statistically grounded.
-    
-- **Sentiment analysis** reveals _how_ the market’s current mood might be skewing the stock’s price away from fundamentals, alerting us when euphoria or fear is driving extremes.
-    
-- **Macroeconomic context** explains _why_ external conditions (economic cycles, policy changes) could drive or hinder the company’s performance, aligning our valuation with the broader environment.
-    
-
-In practice, an integrated approach might proceed as follows: **(1)** Start with macro and industry analysis to understand the big-picture environment and the tailwinds or headwinds for the company. **(2)** Perform a deep fundamental analysis to estimate the company’s intrinsic value and determine if it has strong long-term prospects. **(3)** Use quantitative analysis to validate the fundamental findings (for instance, checking if quantitative screens also flag the stock as attractive) and to model different scenarios or risk factors around that valuation. **(4)** Check sentiment indicators to gauge if the market is overly pessimistic (which could mean a good contrarian opportunity if fundamentals are sound) or overly optimistic (which might warrant caution or a more conservative stance). **(5)** Finally, consult technical analysis to time the trade – for example, waiting for a trend reversal or a pullback to a support level before buying into a fundamentally undervalued stock. By following these steps, an investor benefits from multiple lenses on the investment.
-
-This integrated framework helps reconcile situations where one type of analysis diverges from another. For instance, fundamental analysis might reveal a company is very undervalued, but sentiment analysis could show extreme pessimism and technicals might still be bearish; the integrated view would encourage patience and perhaps a gradual investment, expecting that sentiment and technicals will eventually turn to reflect fundamentals. Conversely, if technicals and sentiment are extremely bullish for a stock that fundamentals can’t justify (a sign of a potential bubble), the integrated approach would urge caution or a re-examination of assumptions before simply following the crowd.
-
-In conclusion, using an integrated analytical framework for company valuation leads to more informed and balanced decision-making. It mitigates blind spots that might occur when relying on a single approach. By considering everything from balance sheets to Bollinger Bands, and from economic indicators to investor emotions, analysts and investors can develop a well-rounded view of a company’s value. This comprehensive perspective increases the likelihood of investment success, as decisions are supported by multiple forms of evidence and aligned with both the micro and macro realities of the market.
-
-## Glossary
-- **Economic Moat**：_经济护城河_。指企业相对于竞争对手所拥有的持久竞争优势（如品牌、专利、成本优势等），这种优势能够帮助企业长期维持超额利润和市场地位。
-    
-- **Bollinger Bands**：_布林带_。技术分析中的波动率指标，由移动平均线及上下两个标准差轨道组成，用于判断价格的相对高低及潜在的超买超卖状态。
+- **Bollinger Bands（布林带）**：移动平均线 ± 标准差通道，用于判断相对高低与潜在超买超卖
