@@ -1,5 +1,5 @@
 #eth #exercise 
-# 9.3 Pitfalls of [[RSA]]
+# 9.3 Pitfalls of RSA
 #### 1) Small Moduli
 ##### a)
 We first factorize $n=133$ into $p=7$ and $q=19$
