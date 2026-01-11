@@ -67,7 +67,8 @@ and let it be $f:A\to \{ 0,1 \}^{*}$ showing $A\sim \{ 0,1 \}^{*}$
 ### Example  4
 $\{ 0,1 \}^{\infty}$ (the set of semi-infinite binary sequences) is uncountable
 $\{ 0,1 \}^{\infty}\sim \mathbb{R}$
-
+or denoted as $\{ 0,1 \}^{\mathbb{N}}$ (see [[Function#Notation of the set of all functions]])
+The set of all functions from $\mathbb{N}$ to $\{ 0,1 \}$ is uncountable
 ## Bemerkung 1
 
 The set of all programs $\sim \mathbb{N}$, 
