@@ -28,7 +28,7 @@ We see the partition of the group again forms a group. This group is called as [
 ## The Theorem of Lagrange
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=105&selection=241,0,254,1&color=note|p.100]]
 >
-> > Every coset (left or right) of a subgroup H of a group G has the same number of elements as H .
+> > Every coset (left or right) of a subgroup $H$ of a group $G$ has the same number of elements as $H$. This means the order of $H$ divides the order of $G$
 
 **Proof:**
 
@@ -47,12 +47,12 @@ The proof relies on the concept of **cosets**. A left coset of $H$ in $G$ i
 > [!NOTE]
 > Every group of prime order is cyclic
 
-a non-identity element g: $H=\\langle g\\rangle\\in G$
+a non-identity element g: $H=\langle g\rangle\in G$
 $$
-⟨g⟩={ gk∣k∈Z },
+⟨g⟩={ gk∣k∈\mathbb{Z}},
 $$
 which has size $ord⁡(g)$.
-Lagrange says $ord⁡(g)$ divides $\\lvert G\\rvert=p$.
+Lagrange says $ord⁡(g)$ divides $\lvert G\rvert=p$.
 Since$$ g≠e, ord⁡(g)>1$$The only divisors of the prime p are 1 and p.  
 Therefore $$ord⁡(g)=p$$
 
