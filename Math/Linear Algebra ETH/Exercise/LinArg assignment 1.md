@@ -27,7 +27,7 @@ $\mathbf{v=}\begin{pmatrix}v_{1} \\ v_{2}\end{pmatrix}=\lambda \begin{pmatrix}- 
 $L=\{\lambda \begin{pmatrix}- \frac{d_{2}}{d_{1}} \\ 1\end{pmatrix}:\lambda \in \mathbb{R}\}$
 and this is a line
 
-# 2. Orthogonality and [[Linear Independence|Linear independence]]
+# 2. Orthogonality and Linear independence
 ![[Pasted image 20250924130914.png|648]]
 a)
 $\mathbf{v}\cdot \mathbf{w}=0$
@@ -75,7 +75,7 @@ $$
 $$
 \sqrt{ \frac{m^{2}+m}{2} }\leq m \Longleftrightarrow \frac{m^{2}+m}{2}\leq m^{2} \Longleftrightarrow m\leq m^{2} \text{ for } m\geq 1
 $$
-# 4. [[Linear Independence]]
+# 4. Linear Independence
 ![[Pasted image 20250925081800.png]]
 a)
 $$
