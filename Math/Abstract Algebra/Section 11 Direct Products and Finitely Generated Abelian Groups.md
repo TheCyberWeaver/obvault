@@ -59,6 +59,10 @@ $$lcm(3,12,15)=60$$
 > [!NOTE]
 > $\mathbb Z_n\times \mathbb Z_m$ is isomorphic to $\mathbb Z_{nm}$ if and only if $gcd(n,m)=1$
 
+> [!NOTE]
+> In general we have
+> $$\mathbb{Z}_{n}\times \mathbb{Z}_{m}\simeq \mathbb{Z}_{gcd(n,m)}\times \mathbb{Z}_{lcm(a,b)}$$
+
 ## 11.13 Example
 
 > [!Example]
