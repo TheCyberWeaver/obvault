@@ -1,4 +1,4 @@
-# 1. Subspaces of function spaces and $\mathbb{R}^{m\times m}$
+## 1. Subspaces of function spaces and $\mathbb{R}^{m\times m}$
 ##### a)
 - Non-empty: all constant function $f\in U$
 - closed under addition: $f,g\in U$, arbitrary $x \in[0,1]$
@@ -13,13 +13,13 @@ $\text{dim} (\mathcal{D}_{m})=m$
 For $i\in[m]$ let $E_{ii}$ be the $m\times m$ matrix with 1 at $(i,i)$ and 0 elsewhere
 We try to prove that $\{ E_{ii}|i\in[m] \}$ is the basis of $\mathcal{D}_{m}$
 - Spanning: Any diagonal matrix can be expressed as $\sum_{i=1}^{n}c_{i}E_{ii}$ for $c_{i}\in \mathbb{R}$
-- [[Linear Independence|Linear independence]]: Consider the equation $\sum_{i=1}^{n}d_{i}E_{ii}=\mathbf{0}=\begin{bmatrix}d_{1} & 0 & \dots & 0 \\ 0 & d_{2} & \dots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \dots & d_{n}\end{bmatrix}$. 
+- Linear independence: Consider the equation $\sum_{i=1}^{n}d_{i}E_{ii}=\mathbf{0}=\begin{bmatrix}d_{1} & 0 & \dots & 0 \\ 0 & d_{2} & \dots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \dots & d_{n}\end{bmatrix}$. 
 	- $d_{i}$ must be zero, which shows the linear independence of 
 $\implies$ $\{ E_{ii}|i\in[m] \}$ is the basis of $\mathcal{D}_{m}$
-Since the dimension is the [[Cardinality|cardinality]] of a basis. $\text{dim} (\mathcal{D}_{m})=|\{ E_{ii}|i\in[m] \}|=m$
+Since the dimension is the cardinality of a basis. $\text{dim} (\mathcal{D}_{m})=|\{ E_{ii}|i\in[m] \}|=m$
 
 #eth #exercise 
-# 2. Skew-symmetric matrices as a subspace
+## 2. Skew-symmetric matrices as a subspace
 ![[Pasted image 20251104223621.png]]
 
 ##### a)
