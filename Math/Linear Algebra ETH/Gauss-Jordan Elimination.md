@@ -1,6 +1,6 @@
 # RREF
 ## Definition
-![[Pasted image 20251031110615.png|594]]
+![[Pasted image 20251031110615.png|798]]
 ## Example
 $RREF(2,3,6,8)$
 ![[Pasted image 20251031110511.png|235]]
@@ -21,3 +21,4 @@ Output: $R\mathbf{x}=\mathbf{c}_{j},j\in[m]$
 [[CR decomposition]]
 
 - [ ] Proof
+
