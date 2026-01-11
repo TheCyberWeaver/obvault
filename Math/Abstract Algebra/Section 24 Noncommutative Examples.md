@@ -2,7 +2,7 @@
 ## Rings of Endomorphisms
 
 > [!NOTE]
-> Let $A$ be any abelian group. A homomorphism of A into itself is an **endomorphism of** A.
+> Let $A$ be any abelian group. A homomorphism of A into itself is an [[Morphisms#Definition Endomorphisms|endomorphism]] of A.
 
 Let the set of all endomorphisms of A be $End(A)$. 
 We have $\phi,\psi \in End(A)$ , and any $a\in A$ 
@@ -15,7 +15,7 @@ Thus $\langle End(A),+\rangle$ is an abelian group
 It can be also proven that $\langle End(A),+,\cdot\rangle$ is a ring under homomorphism addition and homomorphism multiplication (function composition). 
 
 Since function composition is not commutative, $\langle End(A),+,\cdot\rangle$ is also not commutative.
-An example is $\langle End(\langle\mathbb Z\times \mathbb Z,+\rangle,+,\cdot\rangle$ 
+An example is $\langle End(\langle\mathbb Z\times \mathbb Z,+\rangle),+,\cdot\rangle$ 
 
 
 ## 24.3 Weyl Algebra

@@ -8,7 +8,7 @@ For any topology space we have
 $\bar{A}=A\cup A'$ [[Topology by James Munkres.pdf#page=99&selection=350,0,350,12&color=note|Topology by James Munkres, p.99]]
 $\implies$ $A'\subseteq \bar{A}$
 > [!NOTE]
-> In any topological space, if a subset $A$ has no isolated points, then its set of limit points is exactly equal to its [[Topology#Definition basic concepts|closure]].
+> In any topological space, if a subset $A$ has no isolated points, then its set of limit points is exactly equal to its [[Topology#closure|closure]].
 
 ![[Pasted image 20251205235448.png|373]]
 In this case, $p$ and $b$ are limit points
@@ -36,4 +36,4 @@ we also say $x$ is a **limit point** of this sequence
 ![[Pasted image 20251206193941.png|273]]similar to definition of convergence in Euclidean space
 In $\mathbb{R}^{2}$, we take a ball of $x$ instead of an arbitrary neighborhood
 
-If $x_{i}\to x$ then $x \in \bar{A}$ (limits lies in [[Topology#Definition basic concepts|closure]])
+If $x_{i}\to x$ then $x \in \bar{A}$ (limits lies in [[Topology#closure|closure]])

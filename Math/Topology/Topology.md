@@ -32,6 +32,17 @@ A set $A$ is open (or in $\mathcal{T}$) if for every $x \in A$ there is an $\var
 > $B_{\varepsilon}(x)$ is the *ball set* $\{ y\;	 | \;	y\in M,d(x,y)<\varepsilon \}$
 
 Think of a open set in this topology as a shape without boundary 
+## Notation: Neighborhood
+> [!PDF|note] [[Topology by James Munkres.pdf#page=98&selection=274,0,279,15&color=note|Topology by James Munkres, p.98]]
+> > $U$ is an open set containing $x$
+> 
+> is the same as
+> > $U$ is a neighborhood of $x$
+
+
+
+> [!NOTE]
+> U is an open set containing x
 
 ## Definition: Closed Set
 
@@ -47,22 +58,26 @@ Closed set is dual to open set under complementation, **not** under logical nega
 | closure under finite intersections | closure under finite unions           | ([[Propositional Logic#Lemma 2.1\|de Morgan's law]]) |
 | closure under arbitrary unions     | closure under arbitrary intersections | same as above                                        |
 ## Definition:  basic concepts
+
+#### closure
 A **closure** of $A$ in $X$ is the set 
 $$
 \bar{A}\overset{ def }{ = }\bigcap \{ B\subseteq X|B\supseteq A,B\text{ closed} \}
 $$
 The closure $\bar{A}$ is the **smallest closed set** that contains $A$
-
+#### interor
 A **interior** of $A$ in $X$ is the set 
 $$
 \mathring{A}\overset{ def }{ = }\bigcup \{ C\subseteq X|C\subseteq A,C\text{ closed} \}
 $$
-The closure $\mathring{A}$ is the **biggest open set** that is contained in $A$
-
+The closure $\mathring{A}$ is the **biggest open set** that is contained in $A$. 
+Or $Int(A)$
+#### exterior
 The **exterior** of $A$ is $\text{Ext}(A)=X\setminus \bar{A}$, and it is **open**
-
+#### boundary
 The **boundary** of $A$ is $\partial A\overset{ def }{ = }X\setminus(\mathring{A}\cup \text{Ext}(A))$,  and it is **closed**
 
+### Relations
 Note that we have $\bar{A}=\mathring{A}\cup \partial A=A\cup \partial A$
 
 

@@ -44,6 +44,27 @@ $a_{ij}=\delta_{ij}$ with Kronecker-Delta $\delta_{ij}=1$ falls $i=j$ und $0$ so
 > [!NOTE]
 > Die Spalten von $A$ sind linear unabhängig $x=0$ ist der einzige Vektor mit $Ax=0$
 [[Linear Independence#Equivalent Statements to linear independence|Other equivalent statements]]
+## Different views of matrix multiplication
+
+1) Column-vector (transform) view: A acts on each column of B
+	- Write $B=[b_1\, b_2\,\dots\, b_p]$ with $b_j\in\mathbb{R}^n$
+	- Then $C=AB=[Ab_1\, Ab_2\,\dots\, Ab_p]$
+	- Interpretation: same linear map $A:\mathbb{R}^n\to\mathbb{R}^m$ applied to every column of $B$
+
+2) Column-combination view: each column of C is a linear combination of columns of A
+	- Write $A=[a_1\, a_2\,\dots\, a_n]$ with $a_k\in\mathbb{R}^m$
+	- For each column $j$: $c_j=Ab_j=\sum_{k=1}^n b_{kj}\, a_k$
+	- Interpretation: coefficients come from the entries of column $b_j$ of $B$
+
+3) Row-vector (transform) view: each row of C is a row of A acting on B
+	- Write $A=\begin{bmatrix} \alpha_1^T \\ \alpha_2^T \\ \vdots \\ \alpha_m^T \end{bmatrix}$ with $\alpha_i^T\in\mathbb{R}^{1\times n}$
+	- Then $C=\begin{bmatrix} \alpha_1^T B \\ \alpha_2^T B \\ \vdots \\ \alpha_m^T B \end{bmatrix}$
+	- Interpretation: “row times matrix” = precompose a measurement with $B$; also $(\alpha_i^T B)^T = B^T \alpha_i$
+
+4) Row-combination view: each row of C is a linear combination of rows of B
+	- Write $B=\begin{bmatrix} r_1 \\ r_2 \\ \vdots \\ r_n \end{bmatrix}$ with $r_k\in\mathbb{R}^{1\times p}$
+	- For each row $i$: $c_i^T=\alpha_i^T B=\sum_{k=1}^n a_{ik}\, r_k$
+	- Interpretation: coefficients come from the entries of row $\alpha_i^T$ (row $i$ of $A$)
 
 # Column space
 

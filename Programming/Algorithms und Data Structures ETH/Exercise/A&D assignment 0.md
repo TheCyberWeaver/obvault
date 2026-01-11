@@ -23,8 +23,8 @@ Steps: $k\to k+1$
 > [!NOTE]
 > f grows asymptotically faster than g if $\lim_{ n \to \infty }\frac{g(n)}{f(n)}=0$
 > Formal Definition:
-> $\forall\varepsilon>0,\exists N \in \mathbb{N}: \forall i\geq N$ $$
-> \frac{g(i)}{f(i)}<\varepsilon$$ 
+> $\forall\varepsilon>0,\exists N \in \mathbb{N}: \forall i\geq N$ 
+> $$\frac{g(i)}{f(i)}<\varepsilon$$ 
 
 # 0.2
 a) $\lim_{ n \to \infty }\frac{n}{n\log n}=\lim_{ n \to \infty }\frac{1}{\log n}$

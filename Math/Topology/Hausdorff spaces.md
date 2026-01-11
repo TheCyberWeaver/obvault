@@ -1,7 +1,7 @@
 ## Definition
 A topological space $X$ is called **Hausdorff** if any pair of distinct points have disjoint neighborhoods
 ![[Pasted image 20251211225557.png|297]]
-
+$i$.$e$. distinct points can be separated by open sets
 ### Example
 Every metric space is Hausdorff
 

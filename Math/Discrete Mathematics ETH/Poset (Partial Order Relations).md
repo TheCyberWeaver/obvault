@@ -46,4 +46,17 @@ For $(A;\preceq)$ and $(B;\sqsubseteq)$, $(A\times B;\leq _{lex})$ is also a pos
 > [!NOTE]
 > Think of the relations of two-digits numbers (A is the first digit, B is the second digit)
 
+## Definition: totally ordered
 
+> [!Quote] 
+> If any two elements of a poset $(A; \preceq)$ are comparable, then A is called **totally ordered** (or linearly ordered) by $\preceq$.
+
+The hasse diagram would look like a line. (reason why it is also called as linearly ordered)
+## Definition: well-ordered
+
+
+> [!Quote] 
+> A poset $(A; \preceq)$ is **well-ordered** if it is totally ordered and if every non-empty subset of A has a least element.
+
+> [!NOTE] 
+> every totally ordered finite poset is well-ordered

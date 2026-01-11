@@ -115,8 +115,14 @@ This proves that:
 | Check            | Criterion                                             |
 | ---------------- | ----------------------------------------------------- |
 | **Injective?**   | $Ker \; \phi = {e_G}$                                 |
-| **Surjective?**  | $Im\; \phi = H$                                       |
+| **Surjective?**  | $Im\; \phi = G'$                                      |
 | **Isomorphism?** | Both conditions above hold (homomorphism + bijective) |
+
+> [!Warning]
+> A bijective homomorphism is an isomorphism **in categories where bijective homomorphisms automatically have homomorphic inverses** (e.g., groups, modules, [[Vector Spaces|vector spaces]]), but **not** in general (e.g., topology)
+### An Counterexample
+![[Pasted image 20251222205853.png]]
+
 
 > [!IMPORTANT]
 > Every fiber of a homomorphism is exactly one coset of the kernel

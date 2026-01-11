@@ -1,6 +1,12 @@
+
+
+> [!Quote] GPT5.2
+> > Certain “nice” linear operators can be understood by decomposing the space into **spectral components** (generalized eigenspaces), so the operator acts like **multiplication by a scalar** on those components. 
+> 
+
 ## Theorem
 > [!NOTE]
-> Any symmetric matrix $A\in \mathbb{R}^{n\times n}$ has $n$ real [[Eigenvalues|eigenvalues]] and an orthonormal basis of $\mathbb{R}^{n}$ consisting of its eigenvectors.
+> Any [[Symmetric Matrix|symmetric matrix]] $A\in \mathbb{R}^{n\times n}$ has $n$ real [[Eigenvalues|eigenvalues]] and an orthonormal basis of $\mathbb{R}^{n}$ consisting of its eigenvectors.
 
 **Proof** (Induction)
 There are $k$ orthonormal eigenvectors von $A$
@@ -40,15 +46,35 @@ Finally we normalize $v_{k+1}$ such that $\lVert v_{k+1} \rVert=1$
 Now we proved that there is always $k+1$ real orthonormal eigenvectors
 
 ## Corollary 9.2.2
-For any symmetric matrix $A$, there exists an orthogonal matrix $V\in \mathbb{R}^{n\times n}$ such that $A=V\Lambda V^{\top}$
+For any [[Symmetric Matrix|symmetric matrix]] $A$, there exists an orthogonal matrix $V\in \mathbb{R}^{n\times n}$ such that $A=V\Lambda V^{\top}$
+
+## Corollary 9.2.4
+The rank of a real symmetric matrix A is the number of non-zero [[Eigenvalues|eigenvalues]] (counting repetitions)
+
+![[Pasted image 20260105205331.png]]
+
 
 ## Proposition 9.2.10 (Rayleigh Quotient)
 Given a symmetric matrix $A\in \mathbb{R}^{n\times n}$
 the Rayleigh Quotient defined for $x \in \mathbb{R}^{n}\setminus \{ 0 \}$ is
 $$
-R(x)=\frac{x^{\top}Ax}{A^{\top}x}
+R(x)=\frac{x^{\top}Ax}{x^{\top}x}
 $$
-There is $\lambda _{min}\leq R(x)\leq\lambda _{max}$
+
+> [!NOTE]
+> The Rayleigh Quotient gives the corresponding eigenvalue of a eigenvector
+
+
+#### How do we get this quotient
+we have $Av=\lambda v$. $v$ is given, and we want to find $\lambda$. However, we cannot divide $v$ on both sides, because vector division is not defined.
+We multiply both side by $v^{\top}$ first
+$v^{\top}Av=v^{\top}\lambda v$
+$v^{\top}Av=\lambda v^{\top}v$
+$\lambda=\frac{v^{\top}Av}{v^{\top}v}$
+
+> [!Warning] 
+> Even if $v$ is not an eigenvector, the quotient is still defined, but does not generally give an eigenvalue.
+> > In fact there is $\lambda _{min}\leq R(x)\leq\lambda _{max}$ for all non-zero $x$ 
 
 ## Lemma 9.2.7
 Let $A\in \mathbb{R}^{n\times n}$ be a symmetric matrix and $\lambda_{1}\neq\lambda_{2}\in \mathbb{R}$ be two distinct eigenvalues of $A$ with corresponding eigenvectors $v_{1},v_{2}$. Then $v_{1}$ and $v_{2}$ are orthogonal.

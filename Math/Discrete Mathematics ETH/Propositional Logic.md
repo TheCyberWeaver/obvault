@@ -19,7 +19,7 @@
 
 
 
-Tautologie: immer 1
+**Tautologie**: immer 1 (or **valid**)
 
 > [!Definition ]
 > Logische Konsequenz: $F\models G$ 
@@ -57,3 +57,21 @@ It’s crucial **not** to confuse the direction of implication. **Proving S�
 
 ## Semantics
 ![[Pasted image 20251211181817.png]]
+
+## Definition: Literal
+A **literal** is an atomic formula or the negation of an atomic formula.
+For example: $L$ or $\neg L$
+## Definition: Clause
+A **clause** is a set of **literals**.
+
+## Resolution Calculus
+![[Pasted image 20251221153518.png|539]]
+
+This calculus is rule is written as
+$\{ K_{1},K_{2} \}\vdash_{res}K$
+The resolution calculus contains only this one rule, $\mathrm{Re}s=\{ res \}$
+
+> [!Warning] 
+> It is important to point out that resolution steps must be carried out one by one
+
+

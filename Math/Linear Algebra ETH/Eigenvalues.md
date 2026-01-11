@@ -1,8 +1,9 @@
 ## Definition
-Suche $v\in \mathbb{R}^{n}\setminus \{ 0 \}$ with $Av=\lambda v$
+Find $v\in \mathbb{R}^{n}\setminus \{ 0 \}$ with $Av=\lambda v$
 $(\lambda,v)$ is an eigenvalue-eigenvector pair
 
-
+## Useful fact
+Eigenvalues of $\begin{pmatrix}	a & b \\ b & a\end{pmatrix}$ are $a\pm b$
 ## Example: Fibonacci numbers
 $g_{0}=\begin{pmatrix}	1 \\ 0\end{pmatrix}$
 $g_{n}=M^{n}g_{0}=\begin{pmatrix}	F_{n+1} \\ F_{n}\end{pmatrix}=\begin{bmatrix}	1 & 1 \\ 1 & 0\end{bmatrix}\begin{pmatrix}	F_{n} \\ F_{n-1}\end{pmatrix}$
