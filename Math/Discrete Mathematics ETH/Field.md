@@ -4,7 +4,10 @@
 > Commutative [[Ring|ring]] $F$ with $F^{*}=F\setminus \{ 0 \}$ is a field
 
 $\mathbb{Z}_{m}$ is a field $\Longleftrightarrow$ $m$ is prime
-$\mathbb{Z}_{m}$ is a field $\implies$ $\mathbb{Z}_{m}$ is a integral domain
+$\mathbb{Z}_{m}$ is a field $\implies$ $\mathbb{Z}_{m}$ is a [[Integral Domain|integral domain]]
+
+> [!Quote]
+> Any finite field of order $p^{n}$ has characteristic $p$
 
 ![[Section 33 Finite Fields]]
 
@@ -31,7 +34,7 @@ The monic polynomial (leading coefficient is 1) $g(x)$ of largest degree such th
 [[Discrete Mathematics ETH.pdf#page=129&selection=94,0,94,12&color=note|Theorem 5.25]]
 ![[Pasted image 20251117153850.png]]
 
-## Homomorphismus of rings
+## Homomorphism of rings
 ![[Section 22 Rings of Polynomials#22.4 The Evaluation Homomorphisms for Field Theory]]
 
 
@@ -103,3 +106,5 @@ $(x+1)^{2}\equiv _{m(x)}x$
 $(x+1)x\equiv _{m(x)}x^{2}+x\equiv _{m(x)}1$
 
 $\mathbb{C}\simeq \mathbb{R}[x]_{x^{2}+1}$ ($x^{2}+1=0\Longleftrightarrow x^{2}=-1$)
+
+
