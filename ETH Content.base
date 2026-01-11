@@ -53,7 +53,7 @@ views:
       - file.tags
     columnSize:
       file.name: 199
-      formula.created datae: 90
+      formula.created datae: 111
   - type: table
     name: Books
     filters:
