@@ -27,13 +27,13 @@ $\Longleftrightarrow a^{\top}\left( b-\frac{a^{\top}b}{a^{\top}a}a \right)=a^{\t
 $\lVert b-p \rVert^{2}=(b-p)^{\top}(b-p)=b^{\top}b-2b^{\top}p+p^{\top}p=b^{\top}b-2b^{\top}\lambda a+\lambda^{2}a^{\top}a=g(\lambda)$ (recall that $a^{\top}b=b^{\top}a$)
 $g'(\lambda)=-2a^{\top}b+2\lambda a^{\top}a=0 \Longleftrightarrow \lambda=\frac{a^{\top}b}{a^{\top}a}$
 
-## General case
 If $S=\{ a\cdot\lambda|\lambda \in \mathbb{R} \}$ and $a\in \mathbb{R}^{m}\setminus \{ 0 \}$, then $\text{proj}_{S}(b)=\frac{1}{\lVert a \rVert^{2}}a\cdot a^{\top}b$
+
+## General case
 
 Consider $S\subseteq \mathbb{R}^{m}$
 Let $a_{1},\dots,a_{n}\in \mathbb{R}^{m}$
-Let $S=\left\{  \sum_{i=1}^{n}a_{i}\lambda _{i}|\lambda_{1},\dots,\lambda _{n}\in \mathbb{R}  \right\}$
-$=\{ A\cdot \lambda \}|\lambda \in \mathbb{R}^{n}$
+Let $S=\left\{  \sum_{i=1}^{n}a_{i}\lambda _{i}|\lambda_{1},\dots,\lambda _{n}\in \mathbb{R}  \right\}=\{ A\cdot \lambda \}|\lambda \in \mathbb{R}^{n}$
 $A=[a_{1}|a_{2}|\dots|a_{n}]$
 
 ### Lemma 5.2.3
