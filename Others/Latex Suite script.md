@@ -163,6 +163,7 @@
 	{trigger: "-->", replacement: "\\Longrightarrow", options: "mA"},
 	{trigger: "<--", replacement: "\\Longleftarrow", options: "mA"},
 	{trigger: "!>", replacement: "\\mapsto", options: "mA"},
+	{trigger: "|->", replacement: "\\mapsto", options: "mA"},
     {trigger: "=>", replacement: "\\implies", options: "mA"},
 	{trigger: "=<", replacement: "\\impliedby", options: "mA"},
 	{trigger: "\\implies dd", replacement: "\\overset{ \\cdot }{ \\implies }", options: "mA"},
