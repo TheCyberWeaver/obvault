@@ -9,7 +9,7 @@ In a public-key cryptosystem, each participant has a pair of keys: a public key 
 
 **RSA Algorithm:**
 
-![[Pasted image 20251112141950.png|538]]
+![[Pasted image 20251112141950.png|756]]
 
 The RSA algorithm involves the following steps:
 
