@@ -15,7 +15,7 @@ Based on the code of the [[Longest Increasing Subsequence]] problem
    Answer: 
    $$Answer=\sum_{i=0}^{n}c[i], where\ f[i]=\max\limits_{0\le j<n} f[j]$$
 
-``` cpp fold:"Implementation"
+```cpp fold:"Implementation"
 for (int i = 0; i < n; i++) {
   f[i] = 1;
   c[i] = 1;

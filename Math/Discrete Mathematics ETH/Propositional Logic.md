@@ -64,6 +64,36 @@ For example: $L$ or $\neg L$
 ## Definition: Clause
 A **clause** is a set of **literals**.
 
+## CNF & DNF
+**CNF (Conjunctive Normal Form)**  
+A Boolean formula is in CNF if it is an **AND ($\wedge$)** of **clauses**, where each clause is an **OR ($\vee$)** of **literals** (a variable or its negation).
+
+- Shape:  where truth table has 0
+$$
+(\ell_{11}\vee \ell_{12}\vee \cdots)\ \wedge\ (\ell_{21}\vee \ell_{22}\vee \cdots)\ \wedge\ \cdots
+$$
+- Example: 
+$$
+(x \vee \neg y \vee z)\ \wedge\ (\neg x \vee y)\ \wedge\ (y \vee \neg z)
+$$
+- Typical use: SAT solvers (SAT is usually given as CNF).
+
+---
+
+**DNF (Disjunctive Normal Form)**  
+A Boolean formula is in DNF if it is an **OR ($\vee$)** of **terms**, where each term is an **AND ($\wedge$)** of **literals**.
+
+- Shape:  where truth table has 1
+$$
+(\ell_{11}\wedge \ell_{12}\wedge \cdots)\ \vee\ (\ell_{21}\wedge \ell_{22}\wedge \cdots)\ \vee\ \cdots
+$$
+
+- Example:  
+$$
+(x \wedge \neg y)\ \vee\ (\neg x \wedge z)\ \vee\ (y \wedge \neg z)
+$$
+
+- Typical use: Representing a function as “one of these cases holds” ([[Bool Operation#Normal Forms]]).
 ## Resolution Calculus
 ![[Pasted image 20251221153518.png|539]]
 
