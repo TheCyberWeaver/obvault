@@ -1,3 +1,7 @@
+---
+tags:
+  - linker-exclude
+---
 ## Definition
 
 > [!Quote] [[Discrete Mathematics ETH.pdf#page=125&selection=199,0,199,14&color=note|Definition 5.26]]
