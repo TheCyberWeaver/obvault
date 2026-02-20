@@ -1,0 +1,33 @@
+formulas:
+  cover_img: '"assets/PDF_Cover/"+file.name.slice(0,file.name.length-4)+".png"'
+views:
+  - type: cards
+    name: Math Books
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.path.startsWith("Math")
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    image: formula.cover_img
+    imageAspectRatio: 1.3
+    cardSize: 170
+  - type: cards
+    name: Programming Books
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.path.startsWith("Programming")
+    image: formula.cover_img
+    imageAspectRatio: 1.35
+  - type: cards
+    name: All Books
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.path.contains("_Books_")
+    imageAspectRatio: 1.35
+    image: formula.cover_img
