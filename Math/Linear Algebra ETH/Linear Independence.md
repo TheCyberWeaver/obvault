@@ -89,7 +89,7 @@ zusammen $\mathbf{w}=\sum^n_{j=1}\lambda_j\mathbf{v}_{j}\lambda \mathbf{v}+\lamb
 $=\underbrace{ \sum^n_{j=1}(\lambda_{j}+\lambda u_{j})v_{j} }_{ \text{Linearkombination von }\mathbf{v_{1},\dots ,\mathbf{v_{n}}} }$
 
 ## Lemma 1.28
-![[LinArg assignment 1#6. Challenge 1.6]]
+See [LinArg assignment 1#6. Challenge 1.6]
 
 ### Another Proof through [[Steinitz exchange lemma]]
 ![[Steinitz exchange lemma]]
