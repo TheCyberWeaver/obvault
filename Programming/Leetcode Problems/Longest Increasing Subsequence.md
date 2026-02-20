@@ -11,7 +11,7 @@ $$f[i]=\begin{cases}
 $$
 
 Answer: $$\max\limits_{1\le i\le n}(f[i])$$
-``` cpp fold:Implementation
+```cpp fold:Implementation
 int lengthOfLIS(vector<int> &nums) {
     vector<int> f(nums.size());
     int n = nums.size();
