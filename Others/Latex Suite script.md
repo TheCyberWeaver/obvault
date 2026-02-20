@@ -3,7 +3,9 @@
 	// {trigger: "mk", replacement: "$$0$", options: "tA"},
 	// {trigger: "dm", replacement: "$$\n$0\n$$", options: "tAw"},
 	{trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
-
+	// Text mode
+	{trigger: " iff", replacement: " if and only if", options: "tA"},
+	
     // Dashes
 	// {trigger: "--", replacement: "–", options: "tA"},
 	// {trigger: "–-", replacement: "—", options: "tA"},
@@ -46,7 +48,7 @@
     {trigger: "sm", replacement: "\\setminus", options: "mA"},
 
     // Spaces
-    {trigger: ";;", replacement: "\\;\t", options: "mA"},
+    {trigger: ";;", replacement: "\\;", options: "mA"},
     {trigger: "\\;;", replacement: "\\quad\t", options: "mA"},
 
     // Basic operations
@@ -57,6 +59,7 @@
 	//{trigger: "id", replacement: "_{$0}$1", options: "mA"},
 	{trigger: "jo", replacement: "_{$0}$1", options: "mA"},
 	{trigger: "sts", replacement: "_\\text{$0}$1", options: "mA"},
+	{trigger: "tt", replacement: "\\text{$0}$1", options: "mA"},
 	{trigger: "sq", replacement: "\\sqrt{ $0 }$1", options: "mA"},
 	{trigger: "//", replacement: "\\frac{$0}{$1}$2", options: "mA"},
     {trigger: "inv", replacement: "^{-1}", options: "mA"},
@@ -118,8 +121,9 @@
 
     // Symbols
     {trigger: "inf", replacement: "\\infty", options: "mA"},
-	//{trigger: "sum", replacement: "\\sum", options: "mA"},
-	//{trigger: "prod", replacement: "\\prod", options: "mA"},
+	{trigger: "Sum", replacement: "\\sum", options: "mA"},
+	{trigger: "Prod", replacement: "\\prod", options: "mA"},
+	{trigger: "coprod", replacement: "\\coprod", options: "mA",priority: 1},
 	{trigger: "sum", replacement: "\\sum_{${0:i}=${1:1}}^{${2:n}} $3", options: "mA"},
 	{trigger: "prod", replacement: "\\prod_{${0:i}=${1:1}}^{${2:n}} $3", options: "mA"},
     {trigger: "lim", replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
@@ -140,7 +144,8 @@
     {trigger: "\\circ-", replacement: "\\ominus", options: "mA"},
     {trigger: "para", replacement: "\\parallel", options: "mA"},
 
-	{trigger: "===", replacement: "\\equiv", options: "mA"},
+	// {trigger: "===", replacement: "\\equiv", options: "mA"},
+	{trigger: "==", replacement: "\\equiv", options: "mA"},
     {trigger: "!=", replacement: "\\neq", options: "mA"},
     {trigger: "=def", replacement: "\\overset{ def }{ = }", options: "mA"},
 	{trigger: ">=", replacement: "\\geq", options: "mA"},
@@ -149,7 +154,8 @@
 	{trigger: "<<", replacement: "\\ll", options: "mA"},
 	{trigger: "sim", replacement: "\\sim", options: "mA"},
 	{trigger: "\\sim=", replacement: "\\simeq", options: "mA"},
-	{trigger: "iso", replacement: "\\simeq", options: "mA"},
+	{trigger: "\\simeq=", replacement: "\\cong", options: "mA"},
+	{trigger: "iso", replacement: "\\cong", options: "mA"},
     {trigger: "prop", replacement: "\\propto", options: "mA"},
     
     {trigger: "<_", replacement: "\\preceq", options: "mA"},
@@ -160,6 +166,7 @@
     {trigger: "<->", replacement: "\\leftrightarrow ", options: "mA"},
     {trigger: "<-->", replacement: "\\longleftrightarrow ", options: "mA"},
 	{trigger: "->", replacement: "\\to", options: "mA"},
+	{trigger: "\\to hh", replacement: "\\hookrightarrow", options: "mA"},
 	{trigger: "-->", replacement: "\\Longrightarrow", options: "mA"},
 	{trigger: "<--", replacement: "\\Longleftarrow", options: "mA"},
 	{trigger: "!>", replacement: "\\mapsto", options: "mA"},
@@ -170,7 +177,11 @@
 	
 
 	{trigger: "and", replacement: "\\cap", options: "mA"},
+	{trigger: "\\cap[", replacement: "\\sqcap", options: "mA"},
+	{trigger: "And", replacement: "\\bigcap", options: "mA"},
 	{trigger: "orr", replacement: "\\cup", options: "mA"},
+	{trigger: "\\cup[", replacement: "\\sqcup", options: "mA"},
+	{trigger: "Orr", replacement: "\\bigcup", options: "mA"},
 	{trigger: "vv", replacement: "\\vee", options: "mA"},
 	{trigger: "ww", replacement: "\\wedge", options: "mA"},
 	{trigger: "inn", replacement: "\\in", options: "mA"},
@@ -184,7 +195,7 @@
 	{trigger: "fa", replacement: "\\forall{${0:a}}\\; ($1)", options: "mA"},
 	{trigger: "e\\xi sts", replacement: "\\exists{${0:a}}\\; ($1)", options: "mA", priority: 1},
 	{trigger: "EE", replacement: "\\exists{${0:a}}\\; ($1)", options: "mA", priority: 1},
-	{trigger: "\\pmod{els", replacement: "\\models", options: "mA", priority: 1},
+	{trigger: "\\pmod{els", replacement: "\\models{", options: "mA", priority: 1},
 	{trigger: "\\Longleftarrow>", replacement: "\\longleftrightarrow", options: "mA", priority: 1},
 	{trigger: "\\leq>", replacement: "\\Longleftrightarrow", options: "mA", priority: 1},
 	{trigger: "\\xi nn", replacement: "x \\in", options: "mA", priority: 1},
@@ -260,7 +271,13 @@
     {trigger: /\\(sinh|cosh|tanh|coth)([A-Za-z])/,
      replacement: "\\[[0]] [[1]]", options: "rmA",
      description: "Add space after hyperbolic trig funcs"},
+     
+	 // Other spaces
+	{trigger: /\\(;)([A-Za-z])/,
+     replacement: "\\[[0]] [[1]]", options: "rmA"},
 
+	{trigger: /\\(circ)([A-Za-wyz])/,
+     replacement: "\\[[0]] [[1]]", options: "rmA"},
 
     // Visual operations
 	{trigger: "U", replacement: "\\underbrace{ ${VISUAL} }_{ $0 }", options: "mA"},
@@ -338,7 +355,6 @@
 	{trigger: "tayl", replacement: "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3", options: "mA", description: "Taylor expansion"},
 
     // Snippet replacements can also be JavaScript functions.
-    // See the documentation for more information.
 	{trigger: /iden(\d)/, replacement: (match) => {
 		const n = match[1];
 
