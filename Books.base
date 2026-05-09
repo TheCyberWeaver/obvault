@@ -31,3 +31,4 @@ views:
         - file.path.contains("_Books_")
     imageAspectRatio: 1.35
     image: formula.cover_img
+    cardSize: 190
