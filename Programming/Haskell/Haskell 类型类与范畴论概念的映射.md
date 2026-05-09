@@ -1,4 +1,3 @@
-
 Haskell 提供了一系列类型类（如 Functor、Applicative、Monad、Category 等）直接对应或源自范畴论的重要概念。这些抽象不仅有助于代码复用和模块化，更体现了深刻的数学含义。下面我们逐一解释这些类型类与范畴论概念的对应关系，并结合简单的代码实例来加深理解。
 
 # Functor 类型类（函子）
@@ -17,8 +16,8 @@ class Functor f where
 
 ```haskell
 instance Functor Maybe where
-    fmap f (Just x) = Just (f x)
-    fmap _ Nothing  = Nothing
+ fmap f (Just x) = Just (f x)
+ fmap _ Nothing = Nothing
 ```
 
 在此实例中，`fmap` 接受一个函数 `f :: a -> b`，如果 `Maybe` 值是 `Just x`，则将其内部值应用 `f` 后包裹回 `Just`；如果是 `Nothing`，则仍返回 `Nothing`。这样，`fmap` 实现了从 `a->b` 到 `Maybe a->Maybe b` 的映射，恰好满足函子的定义要求。使用示例：`fmap (+1) (Just 2)` 结果为 `Just 3`，而 `fmap (+1) Nothing` 则仍为 `Nothing`。`Functor` 抽象使我们能够编写与具体容器无关的**可映射**操作，例如可以定义一个多态函数通过 `fmap` 对任意 Functor 作用，从而同时适用于列表、`Maybe`、树等各种函子结构。
@@ -32,8 +31,8 @@ instance Functor Maybe where
 
 ```haskell
 class Functor f => Applicative f where
-    pure  :: a -> f a
-    (<*>) :: f (a -> b) -> f a -> f b
+ pure :: a -> f a
+ (<*>) :: f (a -> b) -> f a -> f b
 ```
 
 `pure` 将一个普通值放入函子的上下文中（例如将值包装到 `Just`中或单元素列表中），`<*>` 则将函子内包含的函数作用于另一个函子内的值[thzt.github.io](https://thzt.github.io/2016/01/11/monad-in-hask-category/#:~:text=fmap%20%3A%3A%20%28a%20,f%20b)。Applicative 要求满足若干公理（如同态性、交换性等），确保其行为与直观的函数应用一致。
@@ -43,14 +42,14 @@ class Functor f => Applicative f where
 举例来说，列表 `[]` 构造器是一个 Applicative Functor：`pure x` 产生单元素列表 `[x]`，而 `<*>` 实现笛卡尔积式的组合，例如：
 
 ```haskell
-pure (+) <*> [1,2] <*> [10,20]    -- 结果为 [11,21,12,22]
+pure (+) <*> [1,2] <*> [10,20] -- 结果为 [11,21,12,22]
 ```
 
 这里 `[1,2]` 和 `[10,20]` 两个列表的组合产生了所有可能的和。同样地，`Maybe` 也是 Applicative：`pure x = Just x`，而 `<*>` 会在任一参数为 `Nothing` 时产出 `Nothing`，否则就应用内部函数。例如：
 
 ```haskell
-pure (+) <*> Just 3 <*> Just 4   -- 结果为 Just 7
-pure (+) <*> Nothing <*> Just 4  -- 结果为 Nothing
+pure (+) <*> Just 3 <*> Just 4 -- 结果为 Just 7
+pure (+) <*> Nothing <*> Just 4 -- 结果为 Nothing
 ```
 
 在这些操作中，可以看出 Applicative 允许我们对多个带有上下文的值进行运算，而无需显式地拆解上下文，从而提供了一种简洁的方式组合独立的效果或计算。
@@ -68,18 +67,18 @@ Haskell 中 Monad 类型类的定义为：
 
 ```haskell
 class Applicative m => Monad m where
-    return :: a -> m a
-    (>>=)  :: m a -> (a -> m b) -> m b
+ return :: a -> m a
+ (>>=) :: m a -> (a -> m b) -> m b
 ```
 
 其中 `return` （在 Haskell 2010 标准中使用，后来的版本中已将同义的 `pure` 视作更可取的名称）将普通值放入单子的上下文中，`>>=`（bind）则把一个**包含上下文的值**与一个**会产出该上下文的函数**组合，产生新的上下文值。如果我们定义 `join :: m (m a) -> m a` 来直接“消除”一层上下文，那么 `m >>= f` 实质上等价于 `join (fmap f m)`，即先用 `f` 映射再扁平化。因此，可以将 `return` 对应单子中的单位自然变换 η，将 `join` 对应结合自然变换 μ。Monad 需要遵循三条定律（左单位、右单位和结合律），对应范畴论中幺半群的单位元和结合律公理：
 
 - **左单位**：`return a >>= k ≡ k a` （将纯值引入单子再绑定，等同于直接应用函数）
-    
+ 
 - **右单位**：`m >>= return ≡ m` （将单子值绑定到 return，不改变原值）
-    
+ 
 - **结合律**：`(m >>= k) >>= h ≡ m >>= (\x -> k x >>= h)` （连续两次绑定的先后顺序不影响结果）
-    
+ 
 
 在范畴论语言中，上述定律正对应 `η` 和 `μ` 满足 monoid 的单位元和结合律性质。这样，Monad 可以被视为在**计算上下文**中**串联运算**的抽象模型。
 
@@ -92,9 +91,9 @@ safeDivide x y = Just (x / y)
 
 calc :: Double -> Double -> Double -> Maybe Double
 calc x y z = do
-    r1 <- safeDivide x y    -- x/y，可能失败
-    r2 <- safeDivide r1 z   -- (x/y)/z，可能失败
-    return r2               -- 将结果包装回 Maybe
+ r1 <- safeDivide x y -- x/y，可能失败
+ r2 <- safeDivide r1 z -- (x/y)/z，可能失败
+ return r2 -- 将结果包装回 Maybe
 ```
 在上述代码中，如果任意一步产生 `Nothing`（如除以零失败），整个计算就短路返回 `Nothing`；否则会依次将结果传递下去，最终得到 `Just` 包裹的结果。这正体现了 Monad 的作用：通过 `>>=` 隐藏了显式的判错或状态传递逻辑，以**可组合**的方式把计算步骤串联起来。用范畴论的话说，每个类型构造器 `m` 的 Monad 实例确立了一个 **Kleisli 范畴**：对象仍是类型，但态射不再是普通函数 `a->b`，而是形如 `a -> m b` 的**单子函数**；Kleisli 范畴中的态射组合就是通过 `>>=`（或 `>=>`）来实现。事实上，Haskell 提供了 `Control.Category` 中对 Kleisli 的 `Category` 实例，可以将 Monad 看作生成了一个**新范畴**，其中范畴的合成即 Monad bind。比如，对于任意 Monad `m`，Kleisli 范畴的恒等态射是 `return :: a -> m a`，两个 Kleisli 态射 `f :: a -> m b` 和 `g :: b -> m c` 的组合是 `\x -> f x >>= g`。这再次印证了“单子是自函子范畴上的幺半群”这一说法：`return` 提供单位（单位态射），`>>=` 提供了类似“乘法”的组合操作，它们满足与范畴恒等和复合相同的规则，从而在抽象上扮演了**可结合的计算序列**的角色。
 
@@ -105,8 +104,8 @@ Haskell 的 `Category` 类型类直接对应范畴论中“范畴”的抽象概
 
 ```haskell
 class Category cat where
-    id  :: cat a a
-    (.) :: cat b c -> cat a b -> cat a c
+ id :: cat a a
+ (.) :: cat b c -> cat a b -> cat a c
 
 ```
 
