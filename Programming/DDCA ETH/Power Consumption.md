@@ -8,7 +8,6 @@ Capacitance $C$ is impacted by the complexity of the circuits.
 $$
 P_{\text{static}}=V_{\text{supply}}I_{\text{leakage}}
 $$
-
 ## Energy Consumption
 
 $$
