@@ -1,16 +1,14 @@
-#eth 
-
 ## Bausteine
 - **Symbole** (A,B,C...) können Werte 0,1 annehmen
 - **Operatoren** ($\neg,\wedge,\vee,\to, \leftrightarrow$) (nicht, und, oder, Implikation, Äquivalenz)
 - **Formeln** Ausdrücke von Operation und Symbolen 
 
-| A   | B   | $A\wedge B$ | $A\vee B$ | $A\to B$ | $A\leftrightarrow B$ |
+| A | B | $A\wedge B$ | $A\vee B$ | $A\to B$ | $A\leftrightarrow B$ |
 | --- | --- | ----------- | --------- | -------- | -------------------- |
-| 0   | 0   | 0           | 0         | 1        | 1                    |
-| 0   | 1   | 0           | 1         | 1        | 0                    |
-| 1   | 0   | 0           | 1         | 0        | 0                    |
-| 1   | 1   | 1           | 1         | 1        | 1                    |
+| 0 | 0 | 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 1 | 1 | 1 |
 
 > [!NOTE]
 > $A\to B\equiv\neg A\vee B$
@@ -28,12 +26,12 @@
 Beobachtung: $(F\to G \quad allgemeingültig)\leftrightarrow (F\models G)$
 Beispiel
 
-| A   | B   | $A\rightarrow B$ | $A\wedge (A\to B)$ | $(A\wedge (A\to B))\to B$ |
+| A | B | $A\rightarrow B$ | $A\wedge (A\to B)$ | $(A\wedge (A\to B))\to B$ |
 | --- | --- | ---------------- | ------------------ | ------------------------- |
-| 0   | 0   | 1                | 0                  | 1                         |
-| 0   | 1   | 1                | 0                  | 1                         |
-| 1   | 0   | 0                | 0                  | 1                         |
-| 1   | 1   | 1                | 1                  | 1                         |
+| 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
 $\implies A\wedge(A\to B)\models B$
 
 ## Modus Ponens
@@ -47,7 +45,7 @@ Vorgehen:
 ### Falsches Beispiel
 Theorem $1<0$
 Beweise: $1>0\implies 2<1$ (+1 beide Seite)
-		$\implies 2>1$ (\*1, weil 1 negativ ist)
+ $\implies 2>1$ (\*1, weil 1 negativ ist)
 
 Man sollte anders um beweisen, vom Wahres anfangen
 It’s crucial **not** to confuse the direction of implication. **Proving S⟹R and R is true** does **not** imply that S is true.
@@ -65,10 +63,10 @@ For example: $L$ or $\neg L$
 A **clause** is a set of **literals**.
 
 ## CNF & DNF
-**CNF (Conjunctive Normal Form)**  
+**CNF (Conjunctive Normal Form)** 
 A Boolean formula is in CNF if it is an **AND ($\wedge$)** of **clauses**, where each clause is an **OR ($\vee$)** of **literals** (a variable or its negation).
 
-- Shape:  where truth table has 0
+- Shape: where truth table has 0
 $$
 (\ell_{11}\vee \ell_{12}\vee \cdots)\ \wedge\ (\ell_{21}\vee \ell_{22}\vee \cdots)\ \wedge\ \cdots
 $$
@@ -80,15 +78,15 @@ $$
 
 ---
 
-**DNF (Disjunctive Normal Form)**  
+**DNF (Disjunctive Normal Form)** 
 A Boolean formula is in DNF if it is an **OR ($\vee$)** of **terms**, where each term is an **AND ($\wedge$)** of **literals**.
 
-- Shape:  where truth table has 1
+- Shape: where truth table has 1
 $$
 (\ell_{11}\wedge \ell_{12}\wedge \cdots)\ \vee\ (\ell_{21}\wedge \ell_{22}\wedge \cdots)\ \vee\ \cdots
 $$
 
-- Example:  
+- Example: 
 $$
 (x \wedge \neg y)\ \vee\ (\neg x \wedge z)\ \vee\ (y \wedge \neg z)
 $$
