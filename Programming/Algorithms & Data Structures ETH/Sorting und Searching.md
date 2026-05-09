@@ -1,4 +1,4 @@
-#eth 
+ 
 Searching in unsorted array
 $\leq O(n)$
 Geht nicht besser. Jedes Element muss in einem Vergleich vorkommen
