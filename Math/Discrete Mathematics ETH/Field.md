@@ -75,8 +75,8 @@ Therefore, $x^{p}-x=\prod_{\alpha \in GF(p)}(x-\alpha)=(x-0)(x-1)(x-2)\dots(x-(p
 
 > [!NOTE]
 > Note that this Theorem does not apply to the example above.
-> There are only $p$ elements in $\mathrm{GF}(p)$.  
-> If you take $d=p$, then $d+1=p+1$, but you **cannot** find $p+1$ distinct points in $\mathrm{GF}(p)$ (there are only $p$ of them).  
+> There are only $p$ elements in $\mathrm{GF}(p)$. 
+> If you take $d=p$, then $d+1=p+1$, but you **cannot** find $p+1$ distinct points in $\mathrm{GF}(p)$ (there are only $p$ of them). 
 > So the theorem simply does **not apply** to degree $p$ polynomials over $\mathrm{GF}(p)$.
 
 **Proof**
