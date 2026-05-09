@@ -1,4 +1,4 @@
-#eth 
+ 
 # [[Kernel]]
 For a linear transformation $T$
 $\mathrm{Ker}(T):=\{\mathbf{x}\in \mathbb{R}^{n}:T(x)=\mathbf{0}\}\subseteq \mathbb{R}^{n}$
