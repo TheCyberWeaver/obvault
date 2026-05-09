@@ -1,5 +1,3 @@
-
-
 > [!Quote] GPT5.2
 > > Certain “nice” linear operators can be understood by decomposing the space into **spectral components** (generalized eigenspaces), so the operator acts like **multiplication by a scalar** on those components. 
 > 
@@ -14,7 +12,7 @@ There are $k$ orthonormal eigenvectors von $A$
 $k=1$:
 if $\lambda \in \mathbb{C}$ an eigenvalue of $A$, then $\lambda \in \mathbb{R}$ (we can normalize this $\lambda$):
 Let $v\in \mathbb{C}^{n}$ be an eigenvector of $\lambda$. We have $Av=\lambda v$. 
-![[Complex number#Hermitian conjugate]]
+![[Complex numbers#Hermitian conjugate]]
 Since $A$ is real symmetric we have $A^{*}=A$. Thus,
 $\bar{\lambda}\lVert v \rVert^{2}=\bar{\lambda}v^{*}v=(\lambda v)^{*}v=(Av)^{*}v=v^{*}A^{*}v=v^{*}Av=v^{*}\lambda v=\lambda \lVert v \rVert^{2}$
 Since $v\neq0$, then $\lambda=\bar{\lambda}$.
@@ -24,7 +22,7 @@ $\implies\lambda \in \mathbb{R}$
 $k\to k+1$
 $\exists{k}$ orthonormal eigenvectors $v_{1},\dots,v_{k}$ with real [[Eigenvalues|eigenvalues]] $\lambda_{1},\dots\lambda _{k}$
 Let $u_{k+1},\dots ,u_{n}$ a orthonormal basis of $span(v_{1},\dots,v_{k})^{\perp}$ 
-Define $V=\begin{bmatrix}	v_{1}  & \dots & v_{k} & u_{k+1} & \dots & u_{n}\end{bmatrix}$
+Define $V=\begin{bmatrix}	v_{1} & \dots & v_{k} & u_{k+1} & \dots & u_{n}\end{bmatrix}$
 $V$ is orthogonal $\implies V^{\top}V=I\Longleftrightarrow V^{\top}=V^{-1}$
 Let $B=V^{\top}AV\in \mathbb{R}^{n\times n}$ ($B$ is symmetric)
 ![[Pasted image 20251212111658.png|472]]
@@ -35,7 +33,7 @@ $C_{ij}=u_{i}^{\top}Au_{j}=u_{i}^{\top}A^{\top}u_{j}=(Au_{i})^{\top}u_{j}=u_{j}^
 $C$ is symmetric
 $\implies C$ has a real eigenvalue $\lambda _{k+1}$ with eigenvector $y\in \mathbb{R}^{n-k}$
 Let $w=\begin{pmatrix}	0 \\ y \end{pmatrix}\in \mathbb{R}^{n}$
-$Bw=\begin{bmatrix}	\Lambda _{k} & 0 \\ 0 & C \end{bmatrix}\begin{pmatrix}	0 \\ y  \end{pmatrix}=\begin{pmatrix}	0 \\ Cy\end{pmatrix}=\lambda _{k+1}\begin{pmatrix}	0 \\ y\end{pmatrix}=\lambda _{k+1}w$
+$Bw=\begin{bmatrix}	\Lambda _{k} & 0 \\ 0 & C \end{bmatrix}\begin{pmatrix}	0 \\ y \end{pmatrix}=\begin{pmatrix}	0 \\ Cy\end{pmatrix}=\lambda _{k+1}\begin{pmatrix}	0 \\ y\end{pmatrix}=\lambda _{k+1}w$
 $\implies$ $w$ is eigenvector of $\lambda _{k+1}$ (under matrix $B$)
 
 Define $v_{k+1}=Vw\Longleftrightarrow V^{\top}v_{k+1}=w$
