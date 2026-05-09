@@ -1,4 +1,3 @@
-
 ## 15.3 Examples:
 - $G/\{0\}\simeq G$
 - $G/G\simeq \{e\}$
@@ -25,7 +24,7 @@ Compute $(\mathbb Z_4 \times \mathbb Z_6)/ \langle (0,1)\rangle$, where $\langle
 - It is clear that $(\mathbb Z_4 \times \mathbb Z_6)/ \langle (0,1)\rangle\simeq\mathbb Z_4$
 
 Summary
-Let $G=H\times K$, then $G/\bar{H}\simeq K$,  where $\bar {H}=\{(h,e)|h\in H\}$  
+Let $G=H\times K$, then $G/\bar{H}\simeq K$, where $\bar {H}=\{(h,e)|h\in H\}$ 
 
 ## 15.9 Theorem
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=152&selection=162,1,163,43&color=note|p.147]]
@@ -69,7 +68,7 @@ E.g. A group of prime order can have no nontrivial proper subgroups of any sort 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=155&selection=7,0,19,10&color=note|p.150]]
 > > M is a maximal normal subgroup of G if and only if G/M is simple.
 
-## The  Center and Commutator Sub Groups
+## The Center and Commutator Sub Groups
 
 > [!warning] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=155&selection=169,0,169,35&color=note|p.150]]
 > > The Center and Commutator Subgroups
