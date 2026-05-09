@@ -1,20 +1,19 @@
-
 > [!NOTE]
-> | Operation    | Notes    | Example |
+> | Operation | Notes | Example |
 | --- | --- | --- |
-| external direct product |   $\prod_{i=1}^{n} G_i$ | $\mathbb{Z_2 \times Z_3}=(0,0),(0,1),(0,2),(1,0),(1,1),(1,2)$ |
+| external direct product | $\prod_{i=1}^{n} G_i$ | $\mathbb{Z_2 \times Z_3}=(0,0),(0,1),(0,2),(1,0),(1,1),(1,2)$ |
 | internal direct product | $G≅H×K$| $\mathbb{Z_6​≅Z_2​×Z_3​}$|
 
-| Aspect             | External Direct Product $H\times K$                                                 | Internal Direct Product in G                                                                                |
+| Aspect | External Direct Product $H\times K$ | Internal Direct Product in G |
 | ------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Starting data**  | Two _separate_ groups HH, KK.                                                       | One big group G with subgroups $H,K\subseteq G$.                                                            |
-| **Underlying set** | Ordered pairs $(h,k):h\in H,\,k\in K$.                                              | Just the elements of G.                                                                                     |
-| **Group law**      | Component-wise: $(G,*),(H,+)$ $(g_1​,h_1​)\times(g_2​,h_2​)=(g_1​∗g_2​,h_1​+h_2​)$. | The original multiplication in G.                                                                           |
-| **Construction**   | “External”: you build a brand-new group out of H and K.                             | “Internal”: you recognise that $G\cong H\times K$ because G splits as H K with $H\cap K=\{e\}$ and $hk=kh$. |
-| **Universality**   | Always exists for any two groups.                                                   | Only when within G those two subgroups satisfy the three internal-product axioms.                           |
-| **Isomorphism**    | $H\times K$ is the group.                                                           | You get an isomorphism $\varphi: H\times K \xrightarrow{\sim} G, \varphi(h,k)=hk$.                          |
+| **Starting data** | Two _separate_ groups HH, KK. | One big group G with subgroups $H,K\subseteq G$. |
+| **Underlying set** | Ordered pairs $(h,k):h\in H,\,k\in K$. | Just the elements of G. |
+| **Group law** | Component-wise: $(G,*),(H,+)$ $(g_1​,h_1​)\times(g_2​,h_2​)=(g_1​∗g_2​,h_1​+h_2​)$. | The original multiplication in G. |
+| **Construction** | “External”: you build a brand-new group out of H and K. | “Internal”: you recognise that $G\cong H\times K$ because G splits as H K with $H\cap K=\{e\}$ and $hk=kh$. |
+| **Universality** | Always exists for any two groups. | Only when within G those two subgroups satisfy the three internal-product axioms. |
+| **Isomorphism** | $H\times K$ is the group. | You get an isomorphism $\varphi: H\times K \xrightarrow{\sim} G, \varphi(h,k)=hk$. |
 
-##  11.3 Example
+## 11.3 Example
 
 > [!example]
 > $\mathbb{Z}_{2}\times\mathbb{Z}_{3}$ is cyclic with Generator $(1,1)$
@@ -48,7 +47,7 @@ $$lcm(3,12,15)=60$$
 
 
 > [!tip]
->  Similar to factorizing an integer into prime powers, but $2^3\neq 2^2\times 2$
+> Similar to factorizing an integer into prime powers, but $2^3\neq 2^2\times 2$
 
 > [!PDF|] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=114&selection=42,0,43,1|p.109]]
 > > The proof is omitted here. 
@@ -93,16 +92,16 @@ $$360=2^3 3^2 5$$
 **Examples**
 $\mathbb{Z}_2\times\mathbb{Z}_2 ≅ V_4$ **(indecomposable)**
 
-| Group G                              | cyclic | order     | decomposable                               | conclusion     |
+| Group G | cyclic | order | decomposable | conclusion |
 | ------------------------------------ | ------ | --------- | ------------------------------------------ | -------------- |
-| $\mathbb{Z}_{4}$                     | ✓      | $2^{2}$   | indecomposable                             | indecomposable |
-| $\mathbb{Z}_{2}\times\mathbb{Z}_{2}$ | ✗      | $2^{2}$   | Already decomposed                         | decomposable   |
-| $\mathbb{Z}_{6}$                     | ✓      | $2\cdot3$ | $\cong \mathbf{Z}_{2}\times\mathbf{Z}_{3}$ | decomposable   |
-| $\mathbb{Z}_{15}$                    | ✓      | $3\cdot5$ | $\cong \mathbf{Z}_{3}\times\mathbf{Z}_{5}$ | decomposable   |
+| $\mathbb{Z}_{4}$ | ✓ | $2^{2}$ | indecomposable | indecomposable |
+| $\mathbb{Z}_{2}\times\mathbb{Z}_{2}$ | ✗ | $2^{2}$ | Already decomposed | decomposable |
+| $\mathbb{Z}_{6}$ | ✓ | $2\cdot3$ | $\cong \mathbf{Z}_{2}\times\mathbf{Z}_{3}$ | decomposable |
+| $\mathbb{Z}_{15}$ | ✓ | $3\cdot5$ | $\cong \mathbf{Z}_{3}\times\mathbf{Z}_{5}$ | decomposable |
 
-Suppose $\mathbb Z_{p^{r}}$ could decompose as $\mathbb Z_{p^{i}}\times\mathbb Z_{p^{j}}$ with $i,j\ge1$ and $i+j=r$.  
-In that product, the order of any element is at most $lcm(p^i,p^j)=p^{\max(i,j)}<p^{r}$ ([[#11.3 Example]]).  
-But $\mathbb Z_{p^{r}}$ itself contains an element of order $p^{r}$.  
+Suppose $\mathbb Z_{p^{r}}$ could decompose as $\mathbb Z_{p^{i}}\times\mathbb Z_{p^{j}}$ with $i,j\ge1$ and $i+j=r$. 
+In that product, the order of any element is at most $lcm(p^i,p^j)=p^{\max(i,j)}<p^{r}$ ([[#11.3 Example]]). 
+But $\mathbb Z_{p^{r}}$ itself contains an element of order $p^{r}$. 
 They cannot be isomorphic, so $\mathbb Z_{p^{r}}$ is indecomposable.
 
 ## 11.16 Theorem
