@@ -13,7 +13,7 @@ If we do not want to introduce a name for the function, we can write
 $$
 \lambda(x:A).\Phi
 $$
-Thus we have: $\lambda(x:A).\Phi:A\to B$  (This anonymous function has type $A\to B$)
+Thus we have: $\lambda(x:A).\Phi:A\to B$ (This anonymous function has type $A\to B$)
 In this specific example (both type $A,B$ are $\mathbb{N}$) we have $(\lambda(x:\mathbb{N}).x+x):\mathbb{N}\to \mathbb{N}$
 
 Another notation is: $(x\mapsto\Phi):A\to B$
