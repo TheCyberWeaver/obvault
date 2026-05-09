@@ -13,11 +13,11 @@ $R$ is given by $Q^{\top}A\in \mathbb{R}^{n\times n}$
 **Proof**:
 $R_{ki}=0\;	\forall{k\in \{ 2\dots n \},i<k}\;$
 We know $q_{k}^{\top}q_{i}=0$ $\forall{i<k}$
-Since the subspace $S_{k-1}=span(q_{1}\dots q_{k-1})=span(a_{1},\dots,a_{k-1})$ we get $q_{k}^{\top}a_{i}=0$ for all $i=1,\dots,k-1$. Hence $R_{ki}=0\;	\forall{k\in \{ 2\dots n \},i<k}$  (note that $R=Q^{\top}A$)
+Since the subspace $S_{k-1}=span(q_{1}\dots q_{k-1})=span(a_{1},\dots,a_{k-1})$ we get $q_{k}^{\top}a_{i}=0$ for all $i=1,\dots,k-1$. Hence $R_{ki}=0\;	\forall{k\in \{ 2\dots n \},i<k}$ (note that $R=Q^{\top}A$)
 
 Moreover,
 $Q Q^{\top}$ is [[Projection|projection]] matrix onto $C(A)$
-The least squares solution $\hat{x}$ to $Ax = b$  can be calculated by:
+The least squares solution $\hat{x}$ to $Ax = b$ can be calculated by:
 $A^{\top}A\hat{x}=A^{\top}b$ (see [[Projection#Least Square (Data Fitting)]])
 $R^{\top}Q^{\top}QR\hat{x}=R^{\top}Q^{\top}b$
 $R^{\top}R\hat{x}=R^{\top}Q^{\top}b$ 
