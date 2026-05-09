@@ -1,4 +1,4 @@
-#eth #exercise 
+ #exercise 
 # 9.3 Pitfalls of RSA
 #### 1) Small Moduli
 ##### a)
@@ -16,12 +16,12 @@ $9^{13}\equiv_{7}2^{13}\equiv_{7} (2^{3})^{4}\cdot2\equiv_{7} 8^{4}\cdot2\equiv_
 We the calculate $R_{19}(9^{13})$
 $9^{13}\equiv _{19}(9^{2})^{6}\cdot9\equiv _{19}81^{6}\cdot9\equiv _{19} 5^{6}\cdot9\equiv _{19} 25^{3}\cdot9\equiv _{19}6^{3}\cdot9\equiv _{19} 216\cdot9\equiv _{19} 7\cdot9\equiv _{19} 6$
 We now solve the equation system (using CRT)
-$$
+$
 \begin{cases}
 x\equiv 2\pmod{7} \\
 x\equiv 6\pmod{19}
 \end{cases}
-$$
+$
 We get $x=44\pmod{133}$
 $m=R_{133}(9^{13})=44$
 #### 2) Modulus shared between multiple users
@@ -32,7 +32,7 @@ Eve can efficiently compute such $u,v$ using the extended Euclidean algorithm.
 We know:
 $c_{A}\equiv _{n}m^{e_{A}}$ , $c_{B}\equiv _{n} m^{e_{B}}$
 Therefore,
-$(c_{A})^{u}(c_{B})^{v}\equiv _{n}(m^{e_{A}})^{u}(m^{e_{B}})^{v}\equiv _{n}m^{ue_{A}+ve_{B}}\equiv _{n}m^{1}\equiv _{n}m$
+$(c_{A})^{u}(c_{B})^{v}\equiv _{n}(m^{e_{A}})^{u}(m^{e_{B}})^{v}\equiv _{n}m^{ue_{A}+ve_{B}}\equiv _{n}m^{1}\equiv _{n}m$ 
 
 There are two sub cases:
 - If $u,v\geq0$: just compute $m$ using $R_{n}((c_{A})^{u}(c_{B})^{v})$
