@@ -1,5 +1,5 @@
-#eth #exercise 
-# 1. Rank of a matrix
+ #exercise 
+# 1. Rank of a matrix 
 
 a)
 $A_{1}=\begin{bmatrix}2 & 3 \\ 3 & 4\end{bmatrix}$
@@ -15,7 +15,7 @@ $\begin{pmatrix}3 \\ 4 \\ 5\end{pmatrix}\neq \lambda\begin{pmatrix}2 \\ 3 \\ 4\e
 
 $rank(A_{4})=2$
 for $3\leq k\leq m$: 
-$\mathbf{v}_{k}-\mathbf{v_{1}}=\begin{pmatrix}1+k \\ \vdots  \\ m+k\end{pmatrix}-\begin{pmatrix}2 \\ \vdots  \\ m+1\end{pmatrix}=(k-1)\begin{pmatrix}1 \\ \vdots  \\ 1\end{pmatrix}=(k-1)(\mathbf{v}_{2}-\mathbf{v}_{1})$
+$\mathbf{v}_{k}-\mathbf{v_{1}}=\begin{pmatrix}1+k \\ \vdots \\ m+k\end{pmatrix}-\begin{pmatrix}2 \\ \vdots \\ m+1\end{pmatrix}=(k-1)\begin{pmatrix}1 \\ \vdots \\ 1\end{pmatrix}=(k-1)(\mathbf{v}_{2}-\mathbf{v}_{1})$
 $\mathbf{v}_{k}=(k-1)(\mathbf{v}_{2}-\mathbf{v}_{1})+\mathbf{v}_{1}=(2-k)\mathbf{v}_{1}+(k-1)\mathbf{v}_{2}$
 
 # 2. Nullspace as a hyperplane
@@ -23,7 +23,7 @@ a) $rank(A)=1$
 b)
 Let $\boldsymbol{\lambda}=\begin{pmatrix}\lambda_{1} \\ \lambda_{2} \\ \vdots \\ \lambda _{n}\end{pmatrix}$
 $A\mathbf{x}=0$
-$\begin{bmatrix}\lambda_{1}\mathbf{v} &  \lambda_{2}\mathbf{v} & \dots & \lambda _{n}\mathbf{v}\end{bmatrix}\mathbf{x}=\mathbf{0}$
+$\begin{bmatrix}\lambda_{1}\mathbf{v} & \lambda_{2}\mathbf{v} & \dots & \lambda _{n}\mathbf{v}\end{bmatrix}\mathbf{x}=\mathbf{0}$
 $\sum_{i=1}^{n}x_{i}\lambda _{i}\mathbf{v}=\mathbf{0}$
 Since $\mathbf{v}\neq \mathbf{0}$, $\sum_{i=1}^{n}x_{i}\lambda _{i}=0$
 This is the equation for the hyperplane. Hence the statement is proved.
