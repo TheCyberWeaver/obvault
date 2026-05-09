@@ -3,7 +3,7 @@ Generalization of [[Diagonalizing]]
 Let $A\in \mathbb{R}^{m\times n}$
 We try to find a basis $V=\begin{bmatrix}	v_{1} & v_{2} & \dots & v_{n}\end{bmatrix}\in \mathbb{R}^{n\times n}$ and $U=\begin{bmatrix}	u_{1} & u_{2} & \dots & u_{n}\end{bmatrix}\in \mathbb{R}^{m\times m}$
 $AA^{\top}=U\Lambda U^{\top}$
-$A^{\top}A=V\Lambda' V^{\top}$  (the eigenvalues are the same because of [[Symmetric Matrix#Proposition 9.12.15]])
+$A^{\top}A=V\Lambda' V^{\top}$ (the eigenvalues are the same because of [[Symmetric Matrix#Proposition 9.12.15]])
 
 ## Definition
 
