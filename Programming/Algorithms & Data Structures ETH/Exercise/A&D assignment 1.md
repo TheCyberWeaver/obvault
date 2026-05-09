@@ -1,4 +1,4 @@
-#eth #exercise
+ #exercise
 # 1.1
 ![[Pasted image 20250922213827.png|522]]
 Base: $S_{1}=1^3=\frac{1^{2}(1+1)^{2}}{4}=1$
@@ -13,7 +13,7 @@ Steps: $n\to n+1$
 - $=\frac{(n+1)^{2}(n+2)^{2}}{4}$
 # 1.2
 The proof re-derives the induction hypothesis, and does not prove for the $k+1$ case.
-In order to prove the hypothesis, one need to prove $\sqrt{ k }+\frac{1}{\sqrt{ k+1 }}\leq \sqrt{ k+1 }$ which is actually false.  
+In order to prove the hypothesis, one need to prove $\sqrt{ k }+\frac{1}{\sqrt{ k+1 }}\leq \sqrt{ k+1 }$ which is actually false. 
 # 1.3
 a) $\lim_{ m \to \infty } \frac{100m^{3}+10m^{2}+m}{0.001m^5}\leq\lim_{ m \to \infty } \frac{111m^{3}}{0.001m^5}=\lim_{ m \to \infty }\frac{111000}{m^2}=0$
 b) $\lim_{ m \to \infty } \frac{\log(m^{3})}{(\log m)^{3}}=\lim_{ m \to \infty }\frac{3\log m}{(\log m)^{3}}=\lim_{ m \to \infty }\frac{3}{(\log m)^{2}}=0$
@@ -22,7 +22,7 @@ d) $\lim_{ m \to \infty } \frac{\log(f(m))}{\log(g(m))}$
 	Counterexample:
 	$f(m)=e^{2m}$, $g(m)=2^{3m}$
 	$\lim_{ m \to \infty } \frac{2m}{\ln (2) \cdot 3m}=\frac{2}{3\ln(2)}$
-The statement is disapproved.
+The statement is disapproved. 
 
 e) $\lim_{ m \to \infty } \frac{\ln(\sqrt{ \ln(m) })}{\sqrt{ \ln(\sqrt{ m }) }}= \lim_{ m \to \infty }\frac{\frac{1}{2}\ln(\ln (m))}{\sqrt{ \frac{1}{2}\ln(m) }}$ 
 	let $x=\ln (m)$
