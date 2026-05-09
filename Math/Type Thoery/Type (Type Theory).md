@@ -91,7 +91,7 @@ $\forall x:A\times B, x=(\text{pr}_{1}(x),\text{pr}_{2}(x))$
 > Note that $A \times B$ could be constructed as an indexed one over the two-element type **2**
 
 
-## Example: Coproduct  type A+B
+## Example: Coproduct type A+B
 
 Formation rule:
 If $A:\mathcal{U}$ and $B:\mathcal{U}$, then
