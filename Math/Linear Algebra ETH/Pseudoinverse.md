@@ -43,7 +43,7 @@ Since $A$ is full row rank, $\forall{b\in \mathbb{R}^{m}}\;$ there exists $x \in
 For $A\in \mathbb{R}^{m\times n}$, $b\in C(A)$
 vector $\hat{x}\in C(A^{\top})$ with $A\hat{x}=b$ is the unique solution from $min\{ \lVert x \rVert|Ax=b, x \in \mathbb{R}^{n} \}$ 
 **Proof**: 
-$\{x \in \mathbb{R}^{n}|Ax=b\}=\hat{x}+N(A)$  where $\hat{x}\in C(A^{\top}),A\hat{x}=b$
+$\{x \in \mathbb{R}^{n}|Ax=b\}=\hat{x}+N(A)$ where $\hat{x}\in C(A^{\top}),A\hat{x}=b$
 Then $\forall{y\in N(A)}\;$: 
 $$
 \lVert \hat{x}+y \rVert^{2}=\lVert \hat{x}^{2} \rVert +2\hat{x}^{\top}y+\lVert y \rVert ^{2}>\lVert x \rVert ^{2} 
