@@ -1,10 +1,10 @@
-#eth 
+ 
 ### Operation notations
 $\odot_{3}$ is multiplication under modulo 3
 $\oplus$ is addition under modulo 3
 $\langle \mathbb{Z}_{2}\times \mathbb{Z}_{2}, \oplus_{2} \times \oplus_{2}\rangle\simeq V_{4}$ (isomorphism of groups)
 $\mathbb{Z}_{m}$ for $\langle \mathbb{Z}_{m},\oplus _{m},\ominus _{m},0\rangle$
-$\mathbb{Z}_{m}^{*}$ for $\langle \{ x \in \mathbb{Z}_{m}|gcd(x,m)=1 \},\odot _{m},mod. Inv.,  1\rangle$
+$\mathbb{Z}_{m}^{*}$ for $\langle \{ x \in \mathbb{Z}_{m}|gcd(x,m)=1 \},\odot _{m},mod. Inv., 1\rangle$
 - $\mathbb{Z}_{6}= \langle \{ 1,5 \},\odot_{6},mod. Inv.,1 \rangle$
 ## Uniqueness of the Neutral Element
 If $e$ is left neutral element and $e'$ is right neutral element, then $e=e'$
