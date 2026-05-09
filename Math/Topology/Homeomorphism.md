@@ -1,4 +1,7 @@
-
+---
+tags:
+  - linker-exclude
+---
 > [!Important] 
 > This concept is different from [[Section 13 Homomorphisms|Homomorphism]]
 ## Definition
@@ -58,7 +61,7 @@ A bijective local homeomorphism is a homeomorphism.
  Write $y=f(x)$ for $x \in U$. $x$ has a neighborhood $V_{x}$ (open) such that $f(V_{x})$ open and $f_{|V_{x}}$ is a homeomorphism. 
 $\implies U\cap V_{x}$ open (open sets are closed under finite intersections)
 and $y\in \underbrace{ f(U\cap V_{x}) }_{ open }\subseteq f(U)$
-$f(U\cap V_{x})$  is open, because $U\cap V_{x}\subseteq V_{x}$ is open and $f_{|V_{x}}$ is homeomorphism
+$f(U\cap V_{x})$ is open, because $U\cap V_{x}\subseteq V_{x}$ is open and $f_{|V_{x}}$ is homeomorphism
 $\implies$ any $y\in f(U)$ is contained in a open set.
 $\implies f(U)$ open 
 $\implies$ $f$ open
