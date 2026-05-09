@@ -1,5 +1,5 @@
-#eth #exercise 
-# 2.  Characterizing solvability via null spaces
+ #exercise 
+# 2. Characterizing solvability via null spaces
 ![[Pasted image 20251125192201.png]]
 
 > [!Quote] Theorem 6.2.4
