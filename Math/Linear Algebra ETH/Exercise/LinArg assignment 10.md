@@ -1,12 +1,12 @@
-#eth #exercise 
+ #exercise 
 # 10.2 Orthogonal 2 × 2 matrices and rotation matrices
 ##### a)
-$$
+$
 \begin{bmatrix}
 0 & 1 \\
 1 & 0
 \end{bmatrix}
-$$
+$
 ##### b)
 $A$ is orthogonal 
 $\implies$ $A^{\top}A =I$
@@ -19,7 +19,7 @@ $\implies (ad)^{2}+(bc)^{2}-2(ad)(bc)=1$
 $\implies (ad-bc)^{2}=1$
 $\implies ad-bc=\pm 1$
 $\implies \det(A)=\pm 1$
-$\implies$ $\lvert \det(A) \rvert=1$
+$\implies$ $\lvert \det(A) \rvert=1$ 
 
 ##### c)
 $A=\begin{bmatrix}	1 & 2 \\ 1 & 3\end{bmatrix}$
