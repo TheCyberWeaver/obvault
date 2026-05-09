@@ -1,4 +1,3 @@
-
 or order relation
 > [!PDF|note] [[Discrete Mathematics ETH.pdf#page=70&selection=213,0,213,56&color=note|Discrete Mathematics ETH, p.60]]
 > > A partial order on a set $A$ is a relation that is **reflexive**, **antisymmetric**, and **transitive**
