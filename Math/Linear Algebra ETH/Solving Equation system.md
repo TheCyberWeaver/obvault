@@ -1,4 +1,4 @@
-#eth 
+ 
 ## Notations
 $A=\begin{bmatrix}\mathbf{v}_{1} & \mathbf{v}_{2} & \dots & \mathbf{v}_{n}\end{bmatrix}$
 $$
@@ -37,7 +37,7 @@ $$
 To solve $\mathbf{Sol}(A,\mathbf{b})$, we just compute one solution using [[Gauss-Jordan Elimination]] and a basis $B=\{ \mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{n-r} \}$ from $\mathbf{N}(A)$. 
 Then 
 $$
-\mathbf{Sol}(A,\mathbf{b})=\left\{  s+\sum_{i=1}^{n-r}\lambda _{i}\mathbf{v}_{i}:\; \lambda _{i}\in \mathbb{R} \text{ for } i\in[n-r]  \right\}
+\mathbf{Sol}(A,\mathbf{b})=\left\{ s+\sum_{i=1}^{n-r}\lambda _{i}\mathbf{v}_{i}:\; \lambda _{i}\in \mathbb{R} \text{ for } i\in[n-r] \right\}
 $$
 Generally, a shifted copy of a subspace in a vector space is called an **affine subspace**
 ## Theorem 6.2.2
@@ -109,9 +109,9 @@ $(x-y\in C(A^{\top}))\wedge (x-y\in C(A^{\top})^{\perp})\implies x-y=0\implies x
 
 ## Certificate
 $A\in \mathbb{R}^{m\times n},b\in \mathbb{R}^{m},A=\begin{bmatrix}a_{1}^{\top} \\ a_{2}^{\top} \\ \vdots \\ a^{\top}_{m}\end{bmatrix}$
-$a_{i}^{\top}\in \mathbb{R}^{n}$, consider $P=\{ x \in \mathbb{R}^{n}|a_{i}^{\top}x\leq b_{i}, \;i \in[m]\}=\{  x \in \mathbb{R}^{n}|Ax\leq b\}$
+$a_{i}^{\top}\in \mathbb{R}^{n}$, consider $P=\{ x \in \mathbb{R}^{n}|a_{i}^{\top}x\leq b_{i}, \;i \in[m]\}=\{ x \in \mathbb{R}^{n}|Ax\leq b\}$
 ### Theorem: Farkas
-$P=\{  x \in \mathbb{R}^{n}|Ax\leq b\}=\varnothing\Longleftrightarrow \{ z\in \mathbb{R}^{m}|A^{\top}z=0,b^{\top}z=-1,z\geq0 \}$
+$P=\{ x \in \mathbb{R}^{n}|Ax\leq b\}=\varnothing\Longleftrightarrow \{ z\in \mathbb{R}^{m}|A^{\top}z=0,b^{\top}z=-1,z\geq0 \}$
 
 
 OR formally
