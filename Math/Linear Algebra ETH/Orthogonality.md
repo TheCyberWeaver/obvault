@@ -48,7 +48,7 @@ $V,W$ orthogonal subspaces
 $\{ v,w \}$ are linear independent
 $\implies v,w$ are basis of $\mathbb{R}^{2}$
 and we can decompose $\mathbb{R}^{2}$ as 
-$\mathbb{R}^{2}=\{  \lambda v|\lambda \in \mathbb{R} \}+\{ \mu w|\mu \in \mathbb{R} \}$ (MinKonski sum)
+$\mathbb{R}^{2}=\{ \lambda v|\lambda \in \mathbb{R} \}+\{ \mu w|\mu \in \mathbb{R} \}$ (MinKonski sum)
 ## Lemma 5.1.3
 ![[Pasted image 20251107103221.png]]
 # Orthogonal Complement
@@ -70,7 +70,7 @@ $$
 Show $\mathbf{N}(A)\subseteq \mathbf{C}(A^{\top})^{\perp}$
 Let $x \in \mathbf{N}(A)$ (meaning $Ax=0$)
 By definition if $x \in \mathbf{C}(A^{\top})^{\perp}$ then $x^{\top}b=0\; \forall b\in \mathbf{C}(A^{\top})$
-Lets write $\forall b\in \mathbf{C}(A^{\top})$ as  $b=A^{\top}y$ for all $y\in \mathbb{R}^{m}$ (recall the definition of column space [[Matrix#Column space]])
+Lets write $\forall b\in \mathbf{C}(A^{\top})$ as $b=A^{\top}y$ for all $y\in \mathbb{R}^{m}$ (recall the definition of column space [[Matrix#Column space]])
 $b^{\top}x=(A^{\top}y)^{\top}x=y^{\top}Ax=y^{\top} 0=0$ (recall the rules of transpose [[Matrix#Transpose (Transposition)]])
 
 
@@ -93,7 +93,7 @@ Just find $C(A^{\top})$ or $R(A)$
 Let $V\subseteq \mathbb{R}^{n}$ a subspace
 dimension: $n-1$
 Theres is $\alpha_{1},\dots,\alpha _{n}\in \mathbb{R}$ with
-$V=\left\{  x \in \mathbb{R}^{n}|\; \sum_{i=1}^{n}\alpha _{i}x_{i}=0  \right\}$ 
+$V=\left\{ x \in \mathbb{R}^{n}|\; \sum_{i=1}^{n}\alpha _{i}x_{i}=0 \right\}$ 
 Therefore, $V=\alpha ^{\perp}$
 
 If we let $A=[\alpha_{1},\alpha_{2},\dots,\alpha _{n}]$ be a $1\times n$ matrix, then
