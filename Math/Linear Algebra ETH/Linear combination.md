@@ -3,7 +3,7 @@ email: anguhl@ethz.ch
 tags:
   - linker-exclude
 ---
-#eth 
+ 
 ## Linear combination
 
 Let $\mathbf{v},\mathbf{w}\in \mathbb{R}^{m}$
