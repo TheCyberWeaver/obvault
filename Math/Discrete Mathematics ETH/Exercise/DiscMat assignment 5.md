@@ -1,4 +1,4 @@
-#eth #exercise 
+ #exercise 
 
 
 > [!Important] Title
@@ -6,7 +6,7 @@
 
 # 5.1 Computing Representations of Relations
 $\rho^{3}=\{ (1,1),(2,2),(4,4),(1,3) \}$
-$M^{\rho}=\begin{bmatrix}1 & 1 & 1 & 1 \\ 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 0 \\  1 & 1 & 1 & 1\end{bmatrix}$
+$M^{\rho}=\begin{bmatrix}1 & 1 & 1 & 1 \\ 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 0 \\ 1 & 1 & 1 & 1\end{bmatrix}$
 
 # 5.2 Operations on Relations
 ##### 1. 
