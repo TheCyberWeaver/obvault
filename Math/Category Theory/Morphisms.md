@@ -48,14 +48,14 @@ The set of automorphisms of A is denoted $Aut_C(A)$
 See how Automorphism is defined in Group Theory: [[Section 14 Factor Groups#14.15 Definition: Automorphism]]
 ## Difference between Automorphism and endomorphism
 
-| Property                | Endomorphism                               | Automorphism                                                |
+| Property | Endomorphism | Automorphism |
 | ----------------------- | ------------------------------------------ | ----------------------------------------------------------- |
-| **Definition**          | A morphism $f: A \to A$ in a category.     | An invertible endomorphism $f: A \to A$.                    |
-| **Hom-set**             | $f \in \mathrm{Hom}(A,A)$.                 | $f \in \mathrm{Hom}(A,A)$ **and** $f^{-1}$ exists.          |
-| **Invertibility**       | Not required.                              | Required: there exists gg with $g f = 1_A$ and $f g = 1_A$. |
-| **Algebraic structure** | Monoids under composition.                 | Groups under composition.                                   |
-| **Role**                | “Self-map” preserving structure.           | “Symmetry” or “automagic move” of A.                        |
-| **Examples**            | Any linear map $V\to V$ (e.g. projection). | Any invertible linear map (e.g. rotation).                  |
+| **Definition** | A morphism $f: A \to A$ in a category. | An invertible endomorphism $f: A \to A$. |
+| **Hom-set** | $f \in \mathrm{Hom}(A,A)$. | $f \in \mathrm{Hom}(A,A)$ **and** $f^{-1}$ exists. |
+| **Invertibility** | Not required. | Required: there exists gg with $g f = 1_A$ and $f g = 1_A$. |
+| **Algebraic structure** | Monoids under composition. | Groups under composition. |
+| **Role** | “Self-map” preserving structure. | “Symmetry” or “automagic move” of A. |
+| **Examples** | Any linear map $V\to V$ (e.g. projection). | Any invertible linear map (e.g. rotation). |
 Note that $Aut_C(A)\subseteq End_C(A)$
 Automorphism is a stricter morphism.
 
