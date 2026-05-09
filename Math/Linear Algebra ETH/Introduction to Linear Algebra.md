@@ -1,8 +1,8 @@
 ---
 email: anguhl@ethz.ch
 ---
-#eth 
-## Linear combination
+ 
+## Linear combination 
 
 Let $\mathbf{v},\mathbf{w}\in \mathbb{R}^{m}$
 $\lambda \mathbf{v} + \mu \mathbf{w}\in \mathbb{R}^m$
