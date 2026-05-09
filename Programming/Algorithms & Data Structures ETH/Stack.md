@@ -2,7 +2,6 @@
 tags:
   - linker-exclude
 ---
-
 - 栈可以$O(n)$ 解决 一个列表里每个元素下一个更大/更下 这样的问题
 ``` cpp 
 vector<int> nextsmaller(n, n);
