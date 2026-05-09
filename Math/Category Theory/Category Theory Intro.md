@@ -3,7 +3,7 @@
 A category $\mathcal C$ consists of *four* things:
 - **Objects**: a class $Obj(\mathcal C)$ called the class of objects of $\mathcal C$
 - **Morphisms**: For all $A,B\in Obj(\mathcal C)$, a set $Hom_C(A,B)$ of morphisms (called the homset of morphisms from A to B)
-- **Composition**: The morphisms composition function $\circ:Hom_C(A,B)\times Hom_C(B,C)\rightarrow   Hom_C(A,C)$ 
+- **Composition**: The morphisms composition function $\circ:Hom_C(A,B)\times Hom_C(B,C)\rightarrow Hom_C(A,C)$ 
 - **Identity**: For all $A\in Obj(\mathcal C)$, a morphism $1_A\in\mathcal C(A,A)$ called the identity on A.
 They follow the following properties:
 	- This composition is associative: if $f\in Hom_C(A,B)$, $g\in Hom_C(B,C)$, $h\in Hom_C(C,D)$ $$(hg)f=h(gf)$$
@@ -22,19 +22,19 @@ However, we can have a class of all sets, which is called a proper class (a clas
 
 ## Difference between Morphism and Function
 
-| Aspect                    | Function                                                              | Morphism                                                                                    |
+| Aspect | Function | Morphism |
 | ------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Definition**            | A mapping $f: A \to B$ between two **sets**                           | An arrow $f: A \to B$ in an **arbitrary category**                                          |
-| **Domain & Codomain**     | Both **must be sets**                                                 | Can be **any objects** (sets, groups, spaces, etc.)                                         |
-| **Structure Requirement** | No extra requirements beyond “each input has a unique output”         | Must **preserve the structure** of its category (e.g. group law, topology)                  |
-| **Identity**              | Identity function $\mathrm{id}_A$ on set A                            | Identity morphism $1_A$ on object AA                                                        |
-| **Examples**              | Any rule mapping elements of one set to another (e.g. $x\mapsto x^2$) | In **Set**: functions; in **Grp**: group homomorphisms; in **Top**: continuous maps |
+| **Definition** | A mapping $f: A \to B$ between two **sets** | An arrow $f: A \to B$ in an **arbitrary category** |
+| **Domain & Codomain** | Both **must be sets** | Can be **any objects** (sets, groups, spaces, etc.) |
+| **Structure Requirement** | No extra requirements beyond “each input has a unique output” | Must **preserve the structure** of its category (e.g. group law, topology) |
+| **Identity** | Identity function $\mathrm{id}_A$ on set A | Identity morphism $1_A$ on object AA |
+| **Examples** | Any rule mapping elements of one set to another (e.g. $x\mapsto x^2$) | In **Set**: functions; in **Grp**: group homomorphisms; in **Top**: continuous maps |
 See [[Morphisms]]
 ## Examples 1
 
-| Category       | Objects  | Morphisms $A\to B$                          | Composition                                                                                                                                                           | Identity on A                     |
+| Category | Objects | Morphisms $A\to B$ | Composition | Identity on A |
 | -------------- | -------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| $\mathbf{Set}$ | all sets | all functions $A\to B$                      | usual composition of functions                                                                                                                                        | identity function $\mathrm{id}_A$ |
+| $\mathbf{Set}$ | all sets | all functions $A\to B$ | usual composition of functions | identity function $\mathrm{id}_A$ |
 | $\mathbf{Rel}$ | all sets | all binary relations $R\subseteq A\times B$ | relational composition: two Relations $R\subseteq A\times B,S\subseteq B\times C$: $S\circ R=\{(a,c) \in A\times C \mid \ \exists b\in B$ so that $(aRb\wedge bSc)\}$ | the equality relation $\{(a,a)\}$ |
 Similar Morphisms can also be multivalued map or partial functions...
 
