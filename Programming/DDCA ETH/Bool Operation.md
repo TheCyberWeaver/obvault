@@ -11,4 +11,3 @@ The reason for this deep connection is that $\{ 0,1 \}$ forms a semiring under t
 - Sum of Products Form $\simeq$ DNF ([[Propositional Logic#CNF & DNF|Disjunctive Normal Form]])
 	- $e$.$g$. $F(A,B)=\sum(m_{1},m_{3})$
 
-
