@@ -1,5 +1,5 @@
-#eth 
-[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+ 
+[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
 
 gegeben: $a_{1},a_{2},\dots ,a_{n}\in \mathbb{Z}$
 gesucht: $S_{i,j}=a_{i}+\dots+a_{j},\quad i,j\in\{1\dots n\}, i<j$
@@ -10,7 +10,7 @@ anders formuliert
 ## The Naive Approach
 for $i=1\dots n$
 	for $j=i\dots n$
-		$S_{i,j}=\sum_{k=1}^{j}a_{k}$
+ $S_{i,j}=\sum_{k=1}^{j}a_{k}$
 
 Anzahl Addition: $A(n)\leq \sum_{i=1}^{n} \frac{(n-i+1)^{2}}{2}=\frac{1}{2}(n^{2}+(n-1)^{2}+\dots+1^{2})=\frac{n(n+1)\left( n+\frac{1}{2} \right)}{6}\leq O(n^{3})$
 ## Reduce Duplicate Work
@@ -35,22 +35,22 @@ $=O(n\log n)$
 ```cpp
 class Solution {
 public:
-  int maxSubArray(vector<int> &nums) {
-    int n = nums.size();
-    int currentsum = 0;
-    int maxs = INT_MIN;
-    int maxsum = INT_MIN;
-    for (int i = 0; i < n; i++) {
-      currentsum += nums[i];
-      maxs = max(maxs, currentsum);
-      if (currentsum < 0) {
-        maxsum = max(maxsum, maxs);
-        currentsum = 0;
-        maxs = INT_MIN;
-      }
-    }
-    maxsum = max(maxsum, maxs);
-    return maxsum;
-  }
+ int maxSubArray(vector<int> &nums) {
+ int n = nums.size();
+ int currentsum = 0;
+ int maxs = INT_MIN;
+ int maxsum = INT_MIN;
+ for (int i = 0; i < n; i++) {
+ currentsum += nums[i];
+ maxs = max(maxs, currentsum);
+ if (currentsum < 0) {
+ maxsum = max(maxsum, maxs);
+ currentsum = 0;
+ maxs = INT_MIN;
+ }
+ }
+ maxsum = max(maxsum, maxs);
+ return maxsum;
+ }
 };
 ```
