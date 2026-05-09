@@ -2,14 +2,12 @@
 tags:
   - linker-exclude
 ---
-#eth 
-
 > [!NOTE]
 > A relation is a special [[Set|set]]
 
 ## Inverse of Relation
 > [!PDF|note] [[Discrete Mathematics ETH.pdf#page=63&selection=188,0,218,9&color=note|Discrete Mathematics ETH, p.53]]
-> >  The inverse of a relation $ρ$ from $A$ to $B$ is the relation $\rho$ from $B$ to $A$ defined by
+> > The inverse of a relation $ρ$ from $A$ to $B$ is the relation $\rho$ from $B$ to $A$ defined by
 $$
 \hat{\rho}\overset{ def }{ = }\{ (b,a)|(a,b)\in \rho \}
 $$
@@ -29,7 +27,7 @@ $$
 
 # Equivalence Relations
 > [!Note] [[Discrete Mathematics ETH.pdf#page=67&selection=254,0,263,26&color=note|Discrete Mathematics ETH, p.57]]
-> > An equivalence relation is a relation on a set A that is **reflexive**, **symmetric**, and **transitive**.
+> > An equivalence relation is a relation on a set $A$ that is **reflexive**, **symmetric**, and **transitive**.
 
 ### Example
 $\equiv _{m}$ is an equivalence relation on $\mathbb{Z}$
@@ -57,12 +55,12 @@ This concept is similar to factor group and factor rings
 - [[Section 14 Factor Groups]]
 - [[Section 26 Homomorphisms and Factor Rings]]
 
-| Context | Relation type                                                     | Quotient object        | Categorical role                   |
+| Context | Relation type | Quotient object | Categorical role |
 | ------- | ----------------------------------------------------------------- | ---------------------- | ---------------------------------- |
-| Set     | Equivalence relation                                              | Partition ( $S/\sim$ ) | [[Coequalizer]] in $\mathbf{Set}$  |
-| Group   | Normal subgroup ( $N$ ) $a\sim b\Longleftrightarrow a^{-1}b\in N$ | Factor group ( $G/N$ ) | [[Coequalizer]] in $\mathbf{Grp}$  |
-| Ring    | Ideal ( $I$ ) $a\sim b\Longleftrightarrow a-b\in I$               | Factor ring ( $R/I$ )  | [[Coequalizer]] in $\mathbf{Ring}$ |
-|         |                                                                   |                        |                                    |
+| Set | Equivalence relation | Partition ( $S/\sim$ ) | [[Coequalizer]] in $\mathbf{Set}$ |
+| Group | Normal subgroup ( $N$ ) $a\sim b\Longleftrightarrow a^{-1}b\in N$ | Factor group ( $G/N$ ) | [[Coequalizer]] in $\mathbf{Grp}$ |
+| Ring | Ideal ( $I$ ) $a\sim b\Longleftrightarrow a-b\in I$ | Factor ring ( $R/I$ ) | [[Coequalizer]] in $\mathbf{Ring}$ |
+| | | | |
 
 ### Example
 Consider $A=\mathbb{Z}\times (\mathbb{Z}\setminus \{ 0 \})$ and define $\sim$ as $(a,b)\sim(c,d)\overset{ def }{ \Longleftrightarrow }ad=bc$
@@ -71,9 +69,9 @@ $\sim$ is an equivalence relation
 - symmetric: $(a,b)\sim(c,d)\Longleftrightarrow ad=bc\Longleftrightarrow bc=ad\Longleftrightarrow cb=da\Longleftrightarrow(c,d)\sim(a,b)$
 - transitive: $(a,b)\sim(c,d),(c,d)\sim(e,f)\implies ad=bc\text{ and } cf=de$
 	- If $c=0$
-		- then $a=0$ and $e=0$ $\implies af=be\Longleftrightarrow(a,b)\sim(e,f)$ 
+ - then $a=0$ and $e=0$ $\implies af=be\Longleftrightarrow(a,b)\sim(e,f)$ 
 	- If $c\neq 0$
-		- then $adcf=bcde\implies adf=dbe\implies af=be\Longleftrightarrow(a,b)\sim(e,f)$
+ - then $adcf=bcde\implies adf=dbe\implies af=be\Longleftrightarrow(a,b)\sim(e,f)$
 
 And now we can define the set of rational numbers
 ### Definition of the rational numbers
