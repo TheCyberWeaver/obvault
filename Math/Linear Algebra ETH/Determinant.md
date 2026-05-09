@@ -7,7 +7,7 @@ with following properties
 4. $\det([a_{1}|\dots|a_{k-1}|a_{k}|\lambda a+\mu b|\dots|a_{k-1}])=\lambda\det([\dots|a_{k-1}|a|\dots])+\mu \det([\dots|a_{k-1}|b|\dots])$
 
 ### Simple Example
-$\det \begin{bmatrix}	1 & 1 \\ 1 & 1\end{bmatrix}=\det \begin{bmatrix}	\begin{pmatrix}	0 \\ 1  \end{pmatrix}+\begin{pmatrix}	1 \\ 0\end{pmatrix} & \begin{pmatrix}	1 \\ 1\end{pmatrix}\end{bmatrix}=\det \begin{bmatrix}	0 & 1 \\ 1 & 1 \end{bmatrix}+\det \begin{bmatrix}	1 & 1 \\ 0 & 1\end{bmatrix}=0$
+$\det \begin{bmatrix}	1 & 1 \\ 1 & 1\end{bmatrix}=\det \begin{bmatrix}	\begin{pmatrix}	0 \\ 1 \end{pmatrix}+\begin{pmatrix}	1 \\ 0\end{pmatrix} & \begin{pmatrix}	1 \\ 1\end{pmatrix}\end{bmatrix}=\det \begin{bmatrix}	0 & 1 \\ 1 & 1 \end{bmatrix}+\det \begin{bmatrix}	1 & 1 \\ 0 & 1\end{bmatrix}=0$
 $0=\det \begin{bmatrix}	1 & 0 \\ 0 & 1\end{bmatrix}+\det \begin{bmatrix}	0 & 0 \\ 1 & 1\end{bmatrix}+\det \begin{bmatrix}	1 & 1 \\ 0 & 0\end{bmatrix}+\det \begin{bmatrix}	0 & 1 \\ 1 & 0\end{bmatrix}$
 $0=1+0+0+\det \begin{bmatrix}	0 & 1 \\ 1 & 0\end{bmatrix}$
 $\det \begin{bmatrix}	0 & 1 \\ 1 & 0\end{bmatrix}=-1$
@@ -34,7 +34,7 @@ Given a permutation $\pi:\{ 1\dots n \}\to \{ 1\dots n \}$ of n elements
 $$
 sgn(\pi)=\begin{cases}
 1\text{ if } \lvert \{(i,j) |i<j\text{ and }\pi(i)>\pi(j)\} \rvert \text{ is even} \\
--1 \text{ if }  \lvert \{(i,j) |i<j\text{ and }\pi(i)>\pi(j)\} \rvert \text{ is odd}
+-1 \text{ if } \lvert \{(i,j) |i<j\text{ and }\pi(i)>\pi(j)\} \rvert \text{ is odd}
 \end{cases}
 $$
 #### Example
