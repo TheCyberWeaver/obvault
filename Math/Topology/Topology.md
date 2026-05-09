@@ -5,7 +5,7 @@ tags:
 ## Definition: Topology
 [[Topology by James Munkres.pdf#page=78&selection=11,0,11,9&color=note|Topology by James Munkres, p.78]]
 A **topology** on a set $X$ (**topology space**) is a collection $\mathcal{T}$ of subsets of $X$ having the following properties
-1. $\varnothing$ and $X$ are in $\mathcal{T}$ 
+1. $\varnothing$ and $X$ are in $\mathcal{T}$ (are open)
 2. closure under finite intersections $\bigcap$
 3. closure under arbitrary unions $\bigcup$
 
@@ -29,7 +29,7 @@ Consider a metric space $(M,d)$ ($d$ is the distance function)
 Let $\mathcal{T}$ be the collection of open sets in the usual metric space sense:
 A set $A$ is open (or in $\mathcal{T}$) if for every $x \in A$ there is an $\varepsilon>0$ such that $B_{\varepsilon}(x)\subseteq A$
 > [!NOTE] 
-> $B_{\varepsilon}(x)$ is the *ball set* $\{ y\;	 | \;	y\in M,d(x,y)<\varepsilon \}$
+> $B_{\varepsilon}(x)$ is the *ball set* $\{ y\; | \;	y\in M,d(x,y)<\varepsilon \}$
 
 Think of a open set in this topology as a shape without boundary 
 ## Notation: Neighborhood
@@ -52,12 +52,12 @@ Closed set is dual to open set under complementation, **not** under logical nega
 > Note that a subset of $X$ can be open and closed at the same time or neither open nor closed
 
 
-| Open sets                          | Closed sets                           | Notes                                                |
+| Open sets | Closed sets | Notes |
 | ---------------------------------- | ------------------------------------- | ---------------------------------------------------- |
-| $X,\varnothing$ are open           | $X,\varnothing$ are open              |                                                      |
-| closure under finite intersections | closure under finite unions           | ([[Propositional Logic#Lemma 2.1\|de Morgan's law]]) |
-| closure under arbitrary unions     | closure under arbitrary intersections | same as above                                        |
-## Definition:  basic concepts
+| $X,\varnothing$ are open | $X,\varnothing$ are open | |
+| closure under finite intersections | closure under finite unions | ([[Propositional Logic#Lemma 2.1\|de Morgan's law]]) |
+| closure under arbitrary unions | closure under arbitrary intersections | same as above |
+## Definition: basic concepts
 
 #### closure
 A **closure** of $A$ in $X$ is the set 
@@ -65,17 +65,17 @@ $$
 \bar{A}\overset{ def }{ = }\bigcap \{ B\subseteq X|B\supseteq A,B\text{ closed} \}
 $$
 The closure $\bar{A}$ is the **smallest closed set** that contains $A$
-#### interor
+#### interior
 A **interior** of $A$ in $X$ is the set 
 $$
-\mathring{A}\overset{ def }{ = }\bigcup \{ C\subseteq X|C\subseteq A,C\text{ closed} \}
+\mathring{A}\overset{ def }{ = }\bigcup \{ C\subseteq X|C\subseteq A,C\text{ open} \}
 $$
 The closure $\mathring{A}$ is the **biggest open set** that is contained in $A$. 
 Or $Int(A)$
 #### exterior
 The **exterior** of $A$ is $\text{Ext}(A)=X\setminus \bar{A}$, and it is **open**
 #### boundary
-The **boundary** of $A$ is $\partial A\overset{ def }{ = }X\setminus(\mathring{A}\cup \text{Ext}(A))$,  and it is **closed**
+The **boundary** of $A$ is $\partial A\overset{ def }{ = }X\setminus(\mathring{A}\cup \text{Ext}(A))$, and it is **closed**
 
 ### Relations
 Note that we have $\bar{A}=\mathring{A}\cup \partial A=A\cup \partial A$
