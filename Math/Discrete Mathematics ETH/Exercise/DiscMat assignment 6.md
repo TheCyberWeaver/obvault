@@ -1,6 +1,6 @@
-#eth #exercise 
+ #exercise 
 > [!Important] Title
-> Wenn Sie Zeit haben, bitte hilfen Sie mir, auch die Aufgabe 6.7 zu korrigieren.
+> Wenn Sie Zeit haben, bitte hilfen Sie mir, auch die Aufgabe 6.7 zu korrigieren. 
 
 # 6.5 Equinumerous sets
 ![[Pasted image 20251030205425.png]]
