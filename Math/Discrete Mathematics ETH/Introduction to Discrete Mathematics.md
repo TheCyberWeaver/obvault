@@ -1,7 +1,6 @@
 ---
 email: dm25-team@lists.inf.ethz.ch
 ---
-#eth 
 # Aussagen Implikation
 Aussagen:
 S="101 ist eine Primzahl"
