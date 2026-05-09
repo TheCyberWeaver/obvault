@@ -49,7 +49,7 @@ $\implies f^{-1}(U)$ is open (by definition of coproduct)
 ## Properties
 - $C\subseteq \coprod _{\alpha \in A}X_{\alpha}$ is closed $\Longleftrightarrow$ $C\cap X_{\alpha}$ is closed for all $\alpha \in A$
 - Each injection $\iota _{\alpha}:X_{\alpha}\to \coprod X_{\alpha}$ is an embedding
-	- a topological embedding means a map is [[Homeomorphism|homeomorphism]] onto its image
+	- a topological embedding means a map is a [[Homeomorphism|homeomorphism]] onto its image
 	- $X_{\alpha}$ is homeomorphic to $\iota _{\alpha}(X_{\alpha})$
 	- This is straightforward, because $x\mapsto(x,\alpha)$
 - Taking disjoint unions preserves:
