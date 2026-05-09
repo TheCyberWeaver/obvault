@@ -1,4 +1,4 @@
-#eth 
+ 
 # The Paper
 ![[Pasted image 20251017104252.png]]
 
