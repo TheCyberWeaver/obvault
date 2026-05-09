@@ -1,4 +1,4 @@
-#eth #exercise 
+ #exercise  
 # 4.1 Applying the [[Master Theorem|master theorem]]
 a)
 $a=4, b=1$
@@ -24,26 +24,26 @@ b)
 # 4.3 One-Looped Sort
 a)
 
-| Iteration | i after iteration | A                        |
+| Iteration | i after iteration | A |
 | --------: | ----------------: | ------------------------ |
-|         1 |                 1 | [10, 20, 30, 40, 50, 25] |
-|         2 |                 2 | [10, 20, 30, 40, 50, 25] |
-|         3 |                 3 | [10, 20, 30, 40, 50, 25] |
-|         4 |                 4 | [10, 20, 30, 40, 50, 25] |
-|         5 |                 5 | [10, 20, 30, 40, 50, 25] |
-|         6 |                 4 | [10, 20, 30, 40, 25, 50] |
-|         7 |                 3 | [10, 20, 30, 25, 40, 50] |
-|         8 |                 2 | [10, 20, 25, 30, 40, 50] |
-|         9 |                 3 | [10, 20, 25, 30, 40, 50] |
-|        10 |                 4 | [10, 20, 25, 30, 40, 50] |
-|        11 |                 5 | [10, 20, 25, 30, 40, 50] |
-|        12 |                 6 | [10, 20, 25, 30, 40, 50] |
+| 1 | 1 | [10, 20, 30, 40, 50, 25] |
+| 2 | 2 | [10, 20, 30, 40, 50, 25] |
+| 3 | 3 | [10, 20, 30, 40, 50, 25] |
+| 4 | 4 | [10, 20, 30, 40, 50, 25] |
+| 5 | 5 | [10, 20, 30, 40, 50, 25] |
+| 6 | 4 | [10, 20, 30, 40, 25, 50] |
+| 7 | 3 | [10, 20, 30, 25, 40, 50] |
+| 8 | 2 | [10, 20, 25, 30, 40, 50] |
+| 9 | 3 | [10, 20, 25, 30, 40, 50] |
+| 10 | 4 | [10, 20, 25, 30, 40, 50] |
+| 11 | 5 | [10, 20, 25, 30, 40, 50] |
+| 12 | 6 | [10, 20, 25, 30, 40, 50] |
 b)
 **Invariant**: At the moment when the variable $i$ gets incremented to a new value $i = k$ for the first time, the first k elements of the array are sorted in increasing order.
-**Base**: $k=1$,  The first one element (or $A[0]$) is always sorted
+**Base**: $k=1$, The first one element (or $A[0]$) is always sorted
 **IS**: $k\to k+1$
 - If $A[k]\geq A[k-1]$, then the first $k$ elements $A[0\dots k-1]$ are already sorted. Then $i$ is incremented to $k+1$, so that the next new position will be inspected.
-- If  $A[k]< A[k-1]$, then the algorithm swaps $A[k]$ and $A[k+1]$  and $i$ is set to $i-1$. This step repeatedly moves the current unsorted element to the left, until it gets to the right position. After the element gets to the right position, the first $k$ elements $A[0\dots k-1]$ are sorted. $i$ will then be continuously incremented until it meets a new value $i=k+1$, so that the next new position will be inspected.
+- If $A[k]< A[k-1]$, then the algorithm swaps $A[k]$ and $A[k+1]$ and $i$ is set to $i-1$. This step repeatedly moves the current unsorted element to the left, until it gets to the right position. After the element gets to the right position, the first $k$ elements $A[0\dots k-1]$ are sorted. $i$ will then be continuously incremented until it meets a new value $i=k+1$, so that the next new position will be inspected.
 By induction, every time $i$ is increased to k, $A[0\dots k-1]$ is sorted.
 
 c)
@@ -57,7 +57,7 @@ $B[0]\leftarrow-\infty$
 $B[1\dots n]\leftarrow A[1\dots n]$
 $B[n+1]\leftarrow -\infty$
 while $l\leq r$ do:
-$\quad m\leftarrow \left\lfloor  \frac{l+r}{2}  \right\rfloor$
+$\quad m\leftarrow \left\lfloor \frac{l+r}{2} \right\rfloor$
 $\quad$if $B[m]>B[m+1] \text{ and } B[m]>B[m-1]$ then
 $\qquad$return $m$
 $\quad$else if $B[m-1]<B[m]<B[m+1]$
