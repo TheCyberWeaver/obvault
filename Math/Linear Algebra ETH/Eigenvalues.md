@@ -13,10 +13,10 @@ $\begin{bmatrix}	M-\lambda I \end{bmatrix}$ has a not trivial null space
 $\implies [M-\lambda I]$ not invertible
 $\implies \det(M-\lambda I)=0$
 $\det \begin{bmatrix}	1-\lambda & 1 \\ 1 & -\lambda\end{bmatrix}=\lambda^{2}-\lambda-1=0$
-$\lambda_{1}=\frac{1+\sqrt{ 5 }}{2},\lambda_{2}=\frac{1-\sqrt{ 5 }}{2}$  (Golden ratio)
+$\lambda_{1}=\frac{1+\sqrt{ 5 }}{2},\lambda_{2}=\frac{1-\sqrt{ 5 }}{2}$ (Golden ratio)
 For $\lambda_{1}$:
 $\begin{pmatrix}	0 \\ 0\end{pmatrix}=\begin{bmatrix}	1-\lambda_{1} & 1 \\ 1 & -\lambda_{1}\end{bmatrix}\begin{pmatrix}	(v_{1})_{1} \\ (v_{1})_{2}\end{pmatrix}$
-$v_{1}=\begin{pmatrix}	\frac{1+\sqrt{ 5 }}{2}  \\ 1\end{pmatrix}$
+$v_{1}=\begin{pmatrix}	\frac{1+\sqrt{ 5 }}{2} \\ 1\end{pmatrix}$
 $v_{2}=\begin{pmatrix}	\frac{1-\sqrt{ 5 }}{2} \\ 1\end{pmatrix}$
 $\implies span(v_{1},v_{2})=\mathbb{R}^{2}$
 $g_{0}=\begin{pmatrix}	1 \\ 0\end{pmatrix}=\alpha_{1}v_{1}+\alpha_{2}v_{1}$
@@ -52,7 +52,7 @@ v_{2}
 $$
 $v_{1}=a+ib, \; v_{2}=x+iy$
 $\implies -x-iy=-b+ia\implies x=b,y=-a$
-$\implies v=\begin{pmatrix}	a+ib  \\ b-ia\end{pmatrix}=(a+ib)\begin{pmatrix}	1 \\ -i\end{pmatrix}$
+$\implies v=\begin{pmatrix}	a+ib \\ b-ia\end{pmatrix}=(a+ib)\begin{pmatrix}	1 \\ -i\end{pmatrix}$
 
 $\implies \begin{pmatrix}	1 \\ -i\end{pmatrix}$ is an eigenvector of $\lambda_{1}=i$
 ## Proposition 8.3.1
@@ -73,16 +73,16 @@ $\det(A-\lambda I)=P(\lambda)=0$ (the characteristic polynomial)
 $\det(A-\lambda I)=\sum_{\sigma \in \prod _{n}}sgn(\sigma)\prod_{i=1}^{n}(A-\lambda I)_{i,\sigma(i)}$
 $=(a_{11}-\lambda)(a_{22}-\lambda)\dots(a_{nn}-\lambda)+\underbrace{ a_{14}(a_{22}-\lambda)(a_{33}-\lambda)a_{41} }_{ \text{exponent }\leq n-2 }\dots+\dots.$ (If we do not use the identity $\sigma$, then we must have at least two elements not on the diagonal)
 $P_{A}(\lambda)=c_{n}\lambda ^{n}+c_{n-1}\lambda ^{n-1}+\dots+c_{0}$
-$=(-1)^{n}\lambda ^{n}+(-1)^{n-1}\underbrace{ (a_{11}+a_{22}+\dots+a_{nn}) }_{ \mathrm{Tr}(A) }\lambda ^{n-1}+\dots+\underbrace{ c_{0} }_{ \det (A) }$  (\*)
+$=(-1)^{n}\lambda ^{n}+(-1)^{n-1}\underbrace{ (a_{11}+a_{22}+\dots+a_{nn}) }_{ \mathrm{Tr}(A) }\lambda ^{n-1}+\dots+\underbrace{ c_{0} }_{ \det (A) }$ (\*)
 Note that $P_{A}(0)=c_{0}=\det(A-0I)=\det(A)$
 Now consider $P_{A}$ as product of roots
 $P_{A}=c_{n}(\lambda-\lambda_{1})(\lambda-\lambda_{2})\dots(\lambda-\lambda _{n})$ 
-$P_{A}=(-1)^{n}(\lambda-\lambda_{1})(\lambda-\lambda_{2})\dots(\lambda-\lambda _{n})$  (from \*))
+$P_{A}=(-1)^{n}(\lambda-\lambda_{1})(\lambda-\lambda_{2})\dots(\lambda-\lambda _{n})$ (from \*))
 expands:
 $P_{A}=(-1)^{n}\lambda ^{n}+(-1)^{n}\lambda ^{n-1}(-\lambda_{1}-\lambda_{2}-\dots -\lambda)+\dots+(-1)^{n}(-1)^{n}(\lambda_{1}\lambda_{2}\dots\lambda _{n})$
 $P_{A}=(-1)^{n}\lambda ^{n}+(-1)^{n}\left( -\sum_{i=1}^{n}\lambda _{i} \right)\lambda ^{n-1}+\dots+\prod_{i=1}^{n}\lambda _{i}$
 $\implies c_{0}=\prod_{i=1}^{n}\lambda _{i}=\det(A)$
-$\implies  (-1)\cdot-\sum_{i=1}^{n}\lambda ^{n-1}=\mathrm{Tr}(A)\implies \sum_{i=1}^{n}\lambda _{i}=\mathrm{Tr}(A)$
+$\implies (-1)\cdot-\sum_{i=1}^{n}\lambda ^{n-1}=\mathrm{Tr}(A)\implies \sum_{i=1}^{n}\lambda _{i}=\mathrm{Tr}(A)$
 
 
 
