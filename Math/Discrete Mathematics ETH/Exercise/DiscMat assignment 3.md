@@ -1,7 +1,7 @@
-#eth #exercise 
+ #exercise 
 # 3.1 Expressing Relationship of Humans in Predicate Logic
 1. $\text{great-grandpar}(x,y)\overset{ def }{ \Longleftrightarrow } \exists i,j\quad par(x,i)\wedge par(i,j)\wedge par(j,y)$
-2. $\text{cousins}(x,y)\overset{ def }{ \Longleftrightarrow }\exists i,j\;(i\neq j) par(i,x)\wedge par(j,y)\wedge(\exists k\; par(k,i)\wedge par(k,j))$
+2. $\text{cousins}(x,y)\overset{ def }{ \Longleftrightarrow }\exists i,j\;(i\neq j) par(i,x)\wedge par(j,y)\wedge(\exists k\; par(k,i)\wedge par(k,j))$ 
 
 # 3.2 From Natural Language to a Formula
 
@@ -103,7 +103,7 @@ This contradicts the Fermat's Last Theorem, so the original statement holds.
 # 3.7 New Proof Patterns
 
 1.
-The pattern claims $\neg S \to(T_{1}\vee T_{2})\wedge(\neg T_{1}\vee \neg T_{2})) \models  S$
+The pattern claims $\neg S \to(T_{1}\vee T_{2})\wedge(\neg T_{1}\vee \neg T_{2})) \models S$
 Assume $S:=p$ , $T_{1}:=p$ , $T_{2}:=\neg p$
 $((p\vee \neg p)\wedge(\neg p\vee \neg \neg p))\implies (\top\wedge \top)\implies \top$
 $\implies\neg p\to \top \models p$ 
