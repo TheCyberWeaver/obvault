@@ -1,4 +1,4 @@
-#eth #exercise 
+ #exercise 
 # 1.1 The Punctured Chessboard
 ## 1
 ![[Pasted image 20250921220451.png]]
@@ -7,7 +7,7 @@
 ## 2
 ![[Pasted image 20250921220641.png|310]]
 ![[Pasted image 20250921230423.png|482]]
-Note that 3\*4 and 2\*3 rectangles can always be filled will L shapes
+Note that 3\*4 and 2\*3 rectangles can always be filled will L shapes 
 
 # 1.2 A False Proof
 ![[Pasted image 20250921234543.png|317]]
@@ -31,16 +31,16 @@ The initial assumption is false. The proof proves only "if a largest natural num
 
 ## 1.
 
-| A   | B   | C   | $(B\to C)\to(\neg(A\to C)\wedge\neg(A\vee B))$ |
+| A | B | C | $(B\to C)\to(\neg(A\to C)\wedge\neg(A\vee B))$ |
 | --- | --- | --- | ---------------------------------------------- |
-| 0   | 0   | 0   | 0                                              |
-| 0   | 0   | 1   | 0                                              |
-| 0   | 1   | 0   | 1                                              |
-| 0   | 1   | 1   | 0                                              |
-| 1   | 0   | 0   | 0                                              |
-| 1   | 0   | 1   | 0                                              |
-| 1   | 1   | 0   | 1                                              |
-| 1   | 1   | 1   | 0                                              |
+| 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 0 |
 ## 2.
 $$
 \neg C \wedge B
@@ -56,16 +56,16 @@ $\implies$ ♡ is **not** commutative, ♢ is commutative
 ## 2.
 ![[Pasted image 20250921234111.png|519]]
 
-| A   | B   | C   | (¬A♡B)♢(B♡C) | ¬(A♢B)♡¬(A♢C) |
+| A | B | C | (¬A♡B)♢(B♡C) | ¬(A♢B)♡¬(A♢C) |
 | --- | --- | --- | ------------ | ------------- |
-| 0   | 0   | 0   | 1            | 1             |
-| 0   | 0   | 1   | 1            | 0             |
-| 0   | 1   | 0   | 1            | 1             |
-| 0   | 1   | 1   | 0            | 1             |
-| 1   | 0   | 0   | 0            | 1             |
-| 1   | 0   | 1   | 0            | 1             |
-| 1   | 1   | 0   | 1            | 0             |
-| 1   | 1   | 1   | 0            | 1             |
+| 0 | 0 | 0 | 1 | 1 |
+| 0 | 0 | 1 | 1 | 0 |
+| 0 | 1 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 0 | 1 |
+| 1 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 1 | 0 |
+| 1 | 1 | 1 | 0 | 1 |
 Table (¬A♡B)♢(B♡C) and table ¬(A♢B)♡¬(A♢C) are different. The hypothesis is false
 
 ## 3.
@@ -81,5 +81,5 @@ $$
 - $F=(\neg A \wedge(\neg B\wedge \neg A)) \vee (\neg A\wedge C)$ : first distributive law
 - $F=((\neg B\wedge \neg A)\wedge \neg A) \vee (\neg A\wedge C)$ : commutativity 
 - $F=(\neg B\wedge (\neg A\wedge \neg A)) \vee (\neg A\wedge C)$ : associativity 
-- $F=(\neg B\wedge \neg A) \vee (\neg A\wedge C)$ :  idempotence
-- $F=\neg A \wedge (\neg B\vee C)$ :  idempotence
+- $F=(\neg B\wedge \neg A) \vee (\neg A\wedge C)$ : idempotence
+- $F=\neg A \wedge (\neg B\vee C)$ : idempotence

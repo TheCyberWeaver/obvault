@@ -1,7 +1,7 @@
-#eth #exercise 
+ #exercise 
 # 4.5 Symmetric difference
 1)
-$(A\cup B)\setminus  (A\cap B)$ 
+$(A\cup B)\setminus (A\cap B)$ 
 
 2)
 $A\Delta B\overset{ def }{ = }\{ x|(x \in A\vee x \in B)\wedge \neg(x \in A\wedge x \in B) \}$

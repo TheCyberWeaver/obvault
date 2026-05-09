@@ -1,4 +1,3 @@
-
 ## 30.1 Definition: Vector Space
 $\langle V,+,\cdot \rangle$ is a **vector space over $F$** if:
 for all $a, b \in F$ and $\alpha,\beta \in V$
@@ -31,7 +30,7 @@ If $n=deg(\alpha,F)$, then every vector can be uniquely expressed by $\{1,\alpha
 
 ## 30.21 Definition: Dimension
 
-If $V$ is a finite-dimensional vector space over a field $F$, the number of elements in a basis  is the **dimension** of $V$ over $F$. 
+If $V$ is a finite-dimensional vector space over a field $F$, the number of elements in a basis is the **dimension** of $V$ over $F$. 
 
 ## 30.22 Example
 

@@ -1,5 +1,3 @@
-#eth 
-
 **Example**
 ![[Pasted image 20251031103918.png|365]]
 First, compute the RREF of $A$ ([[Gauss-Jordan Elimination#RREF|RREF]])
@@ -77,11 +75,11 @@ $$
 
 $\implies \mathbf{N}(R')$ is isomorphic to $\mathbb{R}^{n-r}$ and the dimension is therefore $n-r$
 
-to get  $\mathbf{N}(A)$  we first write the solution in the form of the elements corresponding to the dependent columns
+to get $\mathbf{N}(A)$ we first write the solution in the form of the elements corresponding to the dependent columns
 $\begin{pmatrix}x_{1} \\ x_{2} \\ x_{3} \\ x_{4}\end{pmatrix}=\begin{pmatrix}-2x_{2}-3x_{4} \\ x_{2} \\ 2x_{4} \\ x_{4}\end{pmatrix},x_{2},x_{4}\in \mathbb{R}$
 
 To get the basis of $\mathbf{N}(A)$ we give $x_{2},x_{4}$ the values $\begin{pmatrix}0 \\ 1 \end{pmatrix}$ and $\begin{pmatrix} 1 \\ 0\end{pmatrix}$
-So in this example, we get $\{  \begin{pmatrix}-3 \\ 0 \\ 2 \\ 1\end{pmatrix},\begin{pmatrix}-2 \\ 1 \\ 0 \\ 0\end{pmatrix}\}$
+So in this example, we get $\{ \begin{pmatrix}-3 \\ 0 \\ 2 \\ 1\end{pmatrix},\begin{pmatrix}-2 \\ 1 \\ 0 \\ 0\end{pmatrix}\}$
 
 ## Null space isomorphism
 (still using the previous example)

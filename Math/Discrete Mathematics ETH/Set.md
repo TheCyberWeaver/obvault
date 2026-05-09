@@ -2,7 +2,7 @@
 tags:
   - linker-exclude
 ---
-#eth 
+ 
 ### Naive Verständnis
 - The empty set: $\varnothing$ or $\{\}$
 - $A=\{ 1,1 \}=\{ 1 \}$
@@ -33,7 +33,7 @@ Neuanfang mit Universum:
 
 
 > [!PDF|note] Lemma 3.1 [[Discrete Mathematics ETH.pdf#page=54&selection=161,0,188,1&color=note|Discrete Mathematics ETH, p.44]]
-> > For any (sets) a and b, $\{a\} = \{b\}\implies  a = b$.
+> > For any (sets) a and b, $\{a\} = \{b\}\implies a = b$.
 
 **Proof**:
 $\neg(a=b)\implies \neg(\{ a \}\neq \{ b \})$

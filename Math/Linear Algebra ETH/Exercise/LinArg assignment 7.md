@@ -1,5 +1,5 @@
-#eth #exercise 
-# 2. Nullspace and column space
+ #exercise 
+# 2. Nullspace and column space 
 
 ##### a)
 $A^{2}=(\mathbf{v}\mathbf{v}^{\top})(\mathbf{v}\mathbf{v}^{\top})=\mathbf{v}(\mathbf{v}^{\top}\mathbf{v})\mathbf{v}^{\top}=\mathbf{v}\lVert \mathbf{v} \rVert^{2}\mathbf{v}^{\top}=\mathbf{v}\mathbf{v}^{\top}=A$

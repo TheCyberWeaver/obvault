@@ -6,7 +6,7 @@
 
 > [!Example]
 > The nth dihedral group is defined as $D_n$ or the symmetries of a regular n-gon.
-> $S_3 \simeq D_3$  
+> $S_3 \simeq D_3$ 
 
 ## 8.14 Definition Image
 

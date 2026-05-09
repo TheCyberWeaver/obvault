@@ -18,7 +18,7 @@ If $gcd(n,m)=1$ then $m\frac n 1=mn=m0=0$
 
 This means we can factorize a polynomial and solve an equation as we do normally. 
 There is no other other solutions than $x=r_1$ and $x=r_2$ 
-$(x-r_1) (x-r_2)=0$  
+$(x-r_1) (x-r_2)=0$ 
 
 > [!NOTE]
 > $\mathbb Z_n$ is an integral domain if and only if $n$ is prime
@@ -36,7 +36,7 @@ $(x-r_1) (x-r_2)=0$
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=186&selection=7,0,7,38&color=note|p.181]]
 > > Every finite integral domain is a field.
 
--  If p is a prime, $\mathbb Z_p$ is a field
+- If p is a prime, $\mathbb Z_p$ is a field
 
 ## 19.13 Definition The Characteristic of the ring $R$
 
@@ -49,14 +49,14 @@ $\mathbb Z_n$ is of characteristic n
 ## 19.15 Theorem
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=187&selection=25,1,81,1&color=note|p.182]]
 > > Let R be a ring with unity.
-> > - If $n\cdot 1\neq 0$  for all $n\in \mathbb Z^+$, then R has characteristic of 0.
-> > - If $n\cdot 1=0$  for some $n\in \mathbb Z^+$, then the smallest such integer n is the characteristic of R.
+> > - If $n\cdot 1\neq 0$ for all $n\in \mathbb Z^+$, then R has characteristic of 0.
+> > - If $n\cdot 1=0$ for some $n\in \mathbb Z^+$, then the smallest such integer n is the characteristic of R.
 You can think of the characteristic of a ring $R$ very simply as “how many times you must add $1$ to itself before you get $0$”:
 
 - **Keep adding $1$:**
-    1,  1+1,  1+1+1,  …
-    -  If you never hit $0$, the ring has characteristic $0$ (like $\Bbb Z$).  
-    -  If the first time you reach $0$ is after $n$ summands, and no smaller positive sum vanishes, then $\operatorname{char}R = n$ (like $\Bbb Z/n\Bbb Z$).
+ 1,  1+1,  1+1+1,  …
+ - If you never hit $0$, the ring has characteristic $0$ (like $\Bbb Z$). 
+ - If the first time you reach $0$ is after $n$ summands, and no smaller positive sum vanishes, then $\operatorname{char}R = n$ (like $\Bbb Z/n\Bbb Z$).
 Proof of the second point:
 If $n\cdot 1=0$:
 $$n · a = a + a + · · · + a = a(1 + 1 + · · · + 1) = a(n · 1) = a0 = 0.$$

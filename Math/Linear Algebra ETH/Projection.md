@@ -37,7 +37,7 @@ If $S=\{ a\cdot\lambda|\lambda \in \mathbb{R} \}$ and $a\in \mathbb{R}^{m}\setmi
 
 Consider $S\subseteq \mathbb{R}^{m}$
 Let $a_{1},\dots,a_{n}\in \mathbb{R}^{m}$
-Let $S=\left\{  \sum_{i=1}^{n}a_{i}\lambda _{i}|\lambda_{1},\dots,\lambda _{n}\in \mathbb{R}  \right\}=\{ A\cdot \lambda \}|\lambda \in \mathbb{R}^{n}$
+Let $S=\left\{ \sum_{i=1}^{n}a_{i}\lambda _{i}|\lambda_{1},\dots,\lambda _{n}\in \mathbb{R} \right\}=\{ A\cdot \lambda \}|\lambda \in \mathbb{R}^{n}$
 $A=[a_{1}|a_{2}|\dots|a_{n}]$
 
 ### Lemma 5.2.3
@@ -65,7 +65,7 @@ $\hat{x}=(A^{\top}A)^{-1}A^{\top}b$
 
 Data: $(t_{k},b_{k})$ where $k=1,\dots,m$
 
-We want to find $min\left\{  \sum_{k=1}^{m}(b_{k}-\alpha_{0}-\alpha_{1}t_{k})^{2}|\alpha_{0},\alpha_{1}=\mathbb{R}  \right\}$
+We want to find $min\left\{ \sum_{k=1}^{m}(b_{k}-\alpha_{0}-\alpha_{1}t_{k})^{2}|\alpha_{0},\alpha_{1}=\mathbb{R} \right\}$
 $\underset{ x }{ min }\lVert Ax-b \rVert^{2}$
 Solution:
 $$

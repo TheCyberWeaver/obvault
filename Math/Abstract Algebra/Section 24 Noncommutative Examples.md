@@ -1,4 +1,3 @@
-
 ## Rings of Endomorphisms
 
 > [!NOTE]
@@ -21,7 +20,7 @@ An example is $\langle End(\langle\mathbb Z\times \mathbb Z,+\rangle),+,\cdot\ra
 ## 24.3 Weyl Algebra
 
 
-Define two Endomorphism $X,Y\in End(\langle F[x],+\rangle)$  (F is a field of characteristic zero, see [[Section 19 Integral Domains#19.13 Definition The Characteristic of the ring $R$|characteristic of ring]])
+Define two Endomorphism $X,Y\in End(\langle F[x],+\rangle)$ (F is a field of characteristic zero, see [[Section 19 Integral Domains#19.13 Definition The Characteristic of the ring $R$|characteristic of ring]])
 - X: multiply the polynomial by x
 - Y: the derivative of the polynomial 
 $$YX-XY=1$$
@@ -77,10 +76,10 @@ We define
 Quaternions are isomorphic to a subring of $M_2(\mathbb C)$
 The map $\phi:\mathbb H\rightarrow M_2(\mathbb C)$ is defined by
 $$\phi(a+bi+cj+dk)=
-a\begin{bmatrix} 1 & 0  \\ 0 & 1 \end{bmatrix}
-+b\begin{bmatrix} 0 & 1  \\ -1 & 0 \end{bmatrix}
-+c\begin{bmatrix} 0 & i  \\ i & 0 \end{bmatrix}
-+a\begin{bmatrix} i & 0  \\ 0 & -i \end{bmatrix}$$
+a\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}
++b\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}
++c\begin{bmatrix} 0 & i \\ i & 0 \end{bmatrix}
++a\begin{bmatrix} i & 0 \\ 0 & -i \end{bmatrix}$$
 
 Note that $a+bi+cj+dk$ can be rewritten as $a+bi+(c+di)j$ or $z_1+z_2j$ 
 see [[Section 13 Homomorphisms#How to show $ phi G rightarrow G'$ is an Isomorphism|How to prove isomorphism]] 

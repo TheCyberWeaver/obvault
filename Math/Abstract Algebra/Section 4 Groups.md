@@ -1,5 +1,5 @@
-
-Group is a algebra structure: ![[Algebra Structure.excalidraw]] ^9eb5ff
+Group is a algebra structure:
+![[Algebra Structure.excalidraw]]
 ## Definition: Group - normal definition
 
 A group $\langle G,*\rangle$ is a set $G$, with a operation $*$, such that the following axioms are satisfied:

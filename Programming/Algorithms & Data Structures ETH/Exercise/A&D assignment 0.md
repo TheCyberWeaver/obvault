@@ -1,5 +1,5 @@
-#eth #exercise 
-# 0.1
+ #exercise 
+# 0.1 
 
 ## a
 Hypothesis: $\sum_{i=0}^n i=\frac{n(n+1)}{2}$

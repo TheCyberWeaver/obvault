@@ -1,10 +1,10 @@
 A sequence $a=a_{0}a_{1}\dots a_{k}$ is should be sent.
 **Method**:
-$c=c_{0}c_{1}\dots c_{n}=E(a)$  Encode function: $(E:A^{k}\to A^{n})$
+$c=c_{0}c_{1}\dots c_{n}=E(a)$ Encode function: $(E:A^{k}\to A^{n})$
 there should also be a decode function$(D:A^{n}\to A^{k})$ so that $D(E(a)+e)=a$
 
 ## Example: trivial method
-$E:A^{k}\to A^{m\cdot k}$ with $E(a)=\underbrace{ a_{0}\dots a_{0} }a_{1}\dots a_{1}\dots \underbrace{ a_{k}\dots a_{k} }_{ m }$ can correct $\left\lfloor  \frac{m-1}{2}  \right\rfloor$ errors (worst case)
+$E:A^{k}\to A^{m\cdot k}$ with $E(a)=\underbrace{ a_{0}\dots a_{0} }a_{1}\dots a_{1}\dots \underbrace{ a_{k}\dots a_{k} }_{ m }$ can correct $\left\lfloor \frac{m-1}{2} \right\rfloor$ errors (worst case)
 Define $(n,k)$-code over alphabet $\mathcal{A}$ is a subset of $\mathcal{A}^{n}$ of cardinality $\lvert A \rvert^{k}$
 This example is a $(m(k+1),k+1)$-error-correcting code
 
@@ -34,4 +34,4 @@ Minimal distance is $n-(k-1)=n-k+1$
 because every two $E(a),E(a')$ with $a\neq a'$ have at most $k-1$ same components.
 
 > [!NOTE]
-> This code can correct $\left\lfloor  \frac{n-k}{2}  \right\rfloor$ errors 
+> This code can correct $\left\lfloor \frac{n-k}{2} \right\rfloor$ errors 

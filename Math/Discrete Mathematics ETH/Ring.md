@@ -56,7 +56,7 @@ $\implies|R|=1$
 The **characteristic** of a ring is the **order of $1$** in the additive group if it is finite, and otherwise the characteristic is defined to be $0$
 Formally:
 $$
-min\{ i \in \mathbb{N}|i>0\wedge \underset{ i \;	Mal }{ 1+1+\dots+1 }=0 \}\;	\vee\;	 0
+min\{ i \in \mathbb{N}|i>0\wedge \underset{ i \;	Mal }{ 1+1+\dots+1 }=0 \}\;	\vee\; 0
 $$
 [[Section 19 Integral Domains#19.13 Definition The Characteristic of the ring $R$]]
 ## Definition: Unit

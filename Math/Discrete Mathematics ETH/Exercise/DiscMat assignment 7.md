@@ -1,4 +1,4 @@
-#eth #exercise 
+ #exercise 
 # 7.2 Properties of GCD and LCM
 ![[Pasted image 20251106210409.png]]
 ##### 1)
@@ -6,7 +6,7 @@ Let $d_{1}=gcd(a,c)$ and $d_{2}=gcd(b,c)$.
 We first show that $gcd(d_{1},d_{2})=1$
 - Assume there is a common divisor $x$ of $d_{1}$ and $d_{2}$ with $x>1$ , then $x|gcd(a,c)$ and $x|gcd(b,c)$
 - By definition of $gcd$, we get $x|a$ and $x|c$ and $x|b$
-- This contradicts to the statement that $gcd(a,b)=1$, so $gcd(d_{1},d_{2})=1$ must hold.
+- This contradicts to the statement that $gcd(a,b)=1$, so $gcd(d_{1},d_{2})=1$ must hold. 
 
 We then show that $d_{1}d_{2}|gcd(ab,c)$
 - Since $d_{1}|a$ and $d_{2}|b$, we can conclude that $d_{1}d_{2}|ab$
@@ -15,13 +15,13 @@ We then show that $d_{1}d_{2}|gcd(ab,c)$
 	- so $d_{2}|c$ gives $d_{2}|kd_{1}$
 	- Because $gcd(d_{1},d_{2})=1$, Euclid’s lemma implies $d_{2}|k$. Let's then write $k=d_{2}t$ where $k$ is also a positive integer
 	- Therefore $c=d_{1}k=d_{1}d_{2}t$
-	- Hence,  $d_{1}d_{2}|c$ 
+	- Hence, $d_{1}d_{2}|c$ 
 - According to the definition of $gcd(ab,c)$, we have $\forall x ((x|ab\wedge x|c)\to x|gcd(ab,c))$
 - Let $x=d_{1}d_{2}$ (since $d_{1}d_{2}$ satisfies $d_{1}d_{2}|ab$ and $d_{1}d_{2}|c$). Then we must have $d_{1}d_{2}|gcd(ab,c)$
 
 We then show that $gcd(ab,c)|d_{1}d_{2}$
 - Let $d=gcd(ab,c)$ with $d|ab$ and $d|c$
-- we write $d$ as $d=\prod_{i}p_{i}^{e_{i}}$. Because $gcd(a,b)=1$, each prime of $d$ divides exactly $a$ or $b$. we then split $d$ into $d=d_{a}d_{b}$ with $d_{a}|a$ (containing primes that divides $a$)  and $d_{b}|b$ (containing primes that divides $b$) 
+- we write $d$ as $d=\prod_{i}p_{i}^{e_{i}}$. Because $gcd(a,b)=1$, each prime of $d$ divides exactly $a$ or $b$. we then split $d$ into $d=d_{a}d_{b}$ with $d_{a}|a$ (containing primes that divides $a$) and $d_{b}|b$ (containing primes that divides $b$) 
 - Since $d|c$, we get $d_{a}|c$ and $d_{b}|c$. Thus $d_{a}|d_{1}$ and $d_{b}|d_{2}$
 - Therefore, we get $d=d_{a}d_{b}|d_{1}d_{2}$, meaning $gcd(ab,c)|d_{1}d_{2}$
 **Conclusion**

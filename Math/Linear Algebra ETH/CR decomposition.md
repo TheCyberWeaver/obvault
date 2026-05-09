@@ -1,5 +1,3 @@
-#eth 
-
 ## Definition
 > [!PDF|note] [[Linear Algebra ETH.pdf#page=84&selection=0,0,1,1&color=note|Linear Algebra ETH, p.83]]
 > > Theorem 2.46

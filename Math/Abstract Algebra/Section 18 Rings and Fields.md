@@ -1,4 +1,3 @@
-
 ## 18.1 Definition Rings
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=172&selection=70,0,210,1&color=note|p.167]]
 > > A **ring** $\langle \mathbb{R},+,\cdot \rangle$ is a set R together with two binary operations + and ·, which we call addition and multiplication, defined on R such that the following axioms are satisfied: 

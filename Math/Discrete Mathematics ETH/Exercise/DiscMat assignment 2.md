@@ -1,42 +1,42 @@
-#eth #exercise 
+ #exercise 
 # 2.1 Logical Consequence
 
 ![[Pasted image 20250929124749.png|376]]
 
-| A   | B   | $A\rightarrow B$ | $A\wedge (A\to B)$ |
+| A | B | $A\rightarrow B$ | $A\wedge (A\to B)$ |
 | --- | --- | ---------------- | ------------------ |
-| 0   | 0   | 1                | 0                  |
-| 0   | 1   | 1                | 0                  |
-| 1   | 0   | 0                | 0                  |
-| 1   | 1   | 1                | 1                  |
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 |
+| 1 | 1 | 1 | 1 |
 Statement 1 is proved
 
-| A   | B   | $A\rightarrow B$ | $\neg A \to \neg B$ |
+| A | B | $A\rightarrow B$ | $\neg A \to \neg B$ |
 | --- | --- | ---------------- | ------------------- |
-| 0   | 0   | 1                | 1                   |
-| 0   | 1   | 1                | 0                   |
-| 1   | 0   | 0                | 1                   |
-| 1   | 1   | 1                | 1                   |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 |
 Statement 2 is disproved
 
-| A   | B   | $A\rightarrow B$ | $(A\to B)\vee(B \to A)$ |
+| A | B | $A\rightarrow B$ | $(A\to B)\vee(B \to A)$ |
 | --- | --- | ---------------- | ----------------------- |
-| 0   | 0   | 1                | 1                       |
-| 0   | 1   | 1                | 1                       |
-| 1   | 0   | 0                | 1                       |
-| 1   | 1   | 1                | 1                       |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 |
 Statement 3 is proved
 
 | $A$ | $B$ | $C$ | $A→B$ | $B→C$ | $(A→B)∧(B→C)$ | $A→C$ |
 | --- | --- | --- | ----- | ----- | ------------- | ----- |
-| 0   | 0   | 0   | 1     | 1     | 1             | 1     |
-| 0   | 0   | 1   | 1     | 1     | 1             | 1     |
-| 0   | 1   | 0   | 1     | 0     | 0             | 1     |
-| 0   | 1   | 1   | 1     | 1     | 1             | 1     |
-| 1   | 0   | 0   | 0     | 1     | 0             | 0     |
-| 1   | 0   | 1   | 0     | 1     | 0             | 1     |
-| 1   | 1   | 0   | 1     | 0     | 0             | 0     |
-| 1   | 1   | 1   | 1     | 1     | 1             | 1     |
+| 0 | 0 | 0 | 1 | 1 | 1 | 1 |
+| 0 | 0 | 1 | 1 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 1 | 0 | 0 | 1 |
+| 0 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 1 | 0 | 0 |
+| 1 | 0 | 1 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 Statement 4 is proved
 
 # 2.2 Satisfiability and Tautologies
@@ -65,12 +65,12 @@ $F\equiv G$ is proved
 
 > Does the left road lead to the village if and only if you are a knight?
 
-| A   | $B$ | $A\leftrightarrow B$ | Answer |
+| A | $B$ | $A\leftrightarrow B$ | Answer |
 | --- | --- | -------------------- | ------ |
-| 0   | 0   | 1                    | 0      |
-| 0   | 1   | 0                    | 0      |
-| 1   | 0   | 0                    | 1      |
-| 1   | 1   | 1                    | 1      |
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 0 |
+| 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 |
 
 $F=A\leftrightarrow B$
 # 2.5 Quantifiers and Predicates

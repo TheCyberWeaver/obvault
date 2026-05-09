@@ -1,3 +1,7 @@
+---
+tags:
+  - linker-exclude
+---
 ## Definition
 Let $X$ be a topological space with topology $\mathcal{T}$
 Let $S\subseteq X$
@@ -34,7 +38,7 @@ Let $U\subseteq S\subseteq X$
 - If $S$ is open (closed) in $X$ and $U$ open (closed) in $S$, then $U$ is open (closed) in $X$.
 	- so if $S$ itself is open in $X$, then the converse of the first proposition holds.
 	- Proof: $U\subseteq S$ is open $\implies$ $U=S\cap V$ for some $V\subseteq X$ open in $X$. (by definition)
-	- Note that both $S$  and $V$ are open in $X$.
+	- Note that both $S$ and $V$ are open in $X$.
 	- $\implies U$ is also open in $X$.
 ## Characteristic Property
 

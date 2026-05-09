@@ -1,7 +1,7 @@
 ---
 level: "1"
 ---
-#eth #exercise 
+ #exercise 
 
 # 1. Linear combinations of vectors
 ## a

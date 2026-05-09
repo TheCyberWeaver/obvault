@@ -1,5 +1,5 @@
-#eth #exercise 
-# Shortest paths with cheating
+ #exercise 
+# Shortest paths with cheating 
 
 ##### a)
 This algorithm runs the Dijkstra's algorithm for every possible $\gamma$ weight functions
@@ -9,7 +9,7 @@ This algorithm runs the Dijkstra's algorithm for every possible $\gamma$ weight 
 	- For each cheat edge, we have $\lvert E \rvert$ choices. By the principle of combination, we have in total $\lvert E \rvert^{k}$ choices. This gives $\lvert E \rvert^{k}$ $\gamma$ weight functions.
 2) We apply Dijkstra's algorithm in $O(\lvert V \rvert^{2})$ on each graph from $s$
 3) We find the shortest s-to-t-distance among the results of Dijkstra's algorithm from all the graphs. This takes $O(\lvert E^{k} \rvert)$, since there are $\lvert E \rvert^{k}$ graphs.
-4) For each iteration we runs Dijkstra's algorithm in $O(\lvert V \rvert^{2})$ and we have $\lvert E \rvert^{k}$ iterations. Plus the time in step 3  we have $O(\lvert E \rvert^{k}\cdot \lvert V \rvert^{2}+\lvert E^{k} \rvert)=O(\lvert E \rvert^{k}\cdot \lvert V \rvert^{2})$
+4) For each iteration we runs Dijkstra's algorithm in $O(\lvert V \rvert^{2})$ and we have $\lvert E \rvert^{k}$ iterations. Plus the time in step 3 we have $O(\lvert E \rvert^{k}\cdot \lvert V \rvert^{2}+\lvert E^{k} \rvert)=O(\lvert E \rvert^{k}\cdot \lvert V \rvert^{2})$
 
 ##### b)
 
@@ -29,7 +29,7 @@ This algorithm runs the Dijkstra's algorithm for every possible $\gamma$ weight 
 
 He does not need to reconsider.
 
-We first model this problem. The kingdom can be treated as a connected graph $G=(V,E)$ with $V$ is the vertex set representing the cities, and $E$ representing the Roman roads. In the first year, the cost of an asphalt edge $e$ is just its length $l_{e}$. and the optimal asphalt network is the minimal spanning tree. Let $S$ be the set of the asphalt edge. This MST has the cost $C_{1}(S)=\sum_{e\in S}l_{e}$.  In the second year the cost of each asphalt node becomes $l_{e}+k$ where $k$ is a constant. The question is if $S$ is still a MST. 
+We first model this problem. The kingdom can be treated as a connected graph $G=(V,E)$ with $V$ is the vertex set representing the cities, and $E$ representing the Roman roads. In the first year, the cost of an asphalt edge $e$ is just its length $l_{e}$. and the optimal asphalt network is the minimal spanning tree. Let $S$ be the set of the asphalt edge. This MST has the cost $C_{1}(S)=\sum_{e\in S}l_{e}$. In the second year the cost of each asphalt node becomes $l_{e}+k$ where $k$ is a constant. The question is if $S$ is still a MST. 
 The cost of $S$ is now $C_{2}(S)=\sum_{e\in S}(l_{e}+k)=\sum_{e\in S}l_{e}+k\lvert S \rvert=C_{1}(S)+k\lvert S \rvert$. The number of edges of a spanning tree is always $\lvert S \rvert=\lvert V \rvert-1$. Since the number of cities does no change in year 2, $k\lvert S \rvert$ must be a constant. 
 We know that $C_{1}(S)$ is already optimized, so there cannot exist a new $S'$ such that $C_{1}(S')<C_{1}(S)$. Therefore $C_{2}(S)=C_{1}(S)+constant$ must also be optimized. Hence, $S$ is still a MST in year 2.
 We now proved that $S$ (the set of asphalt road) does not need to be changed in year 2.

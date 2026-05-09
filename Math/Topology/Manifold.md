@@ -1,5 +1,3 @@
-
-
 ## Definition: locally Euclidean
 > [!definition] locally Euclidean
 > > A space $M$ is locally Euclidean of dimension $n$ if every point $x\in M$ has a neighborhood homeomorphic (to any open subset $U\subseteq \mathbb{R}^{n}$) or (to an open ball $\mathbb{B}^{n}\subseteq \mathbb{R}^{n}$) or (to $\mathbb{R}^{n}$)

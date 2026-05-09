@@ -1,14 +1,14 @@
-## —— 基础工具箱  ——
+## —— 基础工具箱 ——
 ### 1. 数组 / 基础技巧
 - [x] ★ 1 Two Sum ✅ 2025-05-17
 - [x] 53 Maximum Subarray ✅ 2025-06-01
 - [x] ★ 238 Product of Array Except Self ✅ 2025-06-01
-	- [ ]  O(1) Space
+	- [ ] O(1) Space
 - [x] 485 Max Consecutive Ones ✅ 2025-06-01
 - [x] 560 Subarray Sum Equals K ✅ 2025-06-01
 - [x] 896 Monotonic Array ✅ 2025-06-01
 - [ ] 169 Majority Element ✅ 2025-06-01
-	- [ ]  O(1) Space
+	- [ ] O(1) Space
 - [x] 15 [[Three Sum| 3Sum]] ✅ 2025-06-01
 - [x] 42 Trapping Rain Water ✅ 2025-05-29
 
@@ -110,7 +110,7 @@
 
 ---
 
-## —— 进阶工具箱  ——
+## —— 进阶工具箱 ——
 
 ### 14. 线段树 / 区间懒标记
 - [ ] ★ 715 Range Module

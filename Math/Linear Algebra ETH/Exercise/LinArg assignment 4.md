@@ -1,8 +1,8 @@
-#eth #exercise 
-# 1. Matrix multiplication
+ #exercise 
+# 1. Matrix multiplication 
 
 a) $\mathbf{v}^{\top}\mathbf{w}=n^{2}+n$
-b) $\mathbf{v}\mathbf{w}^{\top}=\begin{bmatrix}2 & 2 & 2 & 2 \\ 4 & 4 & 4 & 4  \\ 6 & 6 & 6 & 6  \\ 8 & 8 & 8 & 8\end{bmatrix}$
+b) $\mathbf{v}\mathbf{w}^{\top}=\begin{bmatrix}2 & 2 & 2 & 2 \\ 4 & 4 & 4 & 4 \\ 6 & 6 & 6 & 6 \\ 8 & 8 & 8 & 8\end{bmatrix}$
 c) $\mathbf{w}^{\top}(\mathbf{v}\mathbf{w}^{\top})\mathbf{v}=(\mathbf{w}^{\top}\mathbf{v})^{2}=(\mathbf{v}^{\top}\mathbf{w})^{2}=(n^{2}+n)^{2}=n^{4}+2n^{3}+n^{2}$
 
 # 2. Exercise 2.47
@@ -46,7 +46,7 @@ b)
 $D^{-1}=\begin{bmatrix} \frac{1}{2} & 0 & 0 \\ 0 & \frac{1}{3} & 0 \\ 0 & 0 & \frac{3}{2}\end{bmatrix}$
 
 c)
-$B^{-1}=\begin{bmatrix}0 & \frac{1}{3} & 0 \\ 0 & 0 & \frac{3}{2}  \\ \frac{1}{2} & 0 & 0\end{bmatrix}$
+$B^{-1}=\begin{bmatrix}0 & \frac{1}{3} & 0 \\ 0 & 0 & \frac{3}{2} \\ \frac{1}{2} & 0 & 0\end{bmatrix}$
 
 # 5. Inverses of matrix powers
 a) $(A^{k})^{-1}=(A^{-1})^{k}$

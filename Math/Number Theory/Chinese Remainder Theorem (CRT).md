@@ -23,8 +23,6 @@
 
 $$\begin{cases} x \equiv 2 \pmod{3},\\ x \equiv 3 \pmod{5}, \end{cases}$$
 $$M=3*5=15$$ $M_i=M/n:$ $$M_1=15/3=5,\ M_{2}=15/5=3$$ Find the modular inverse: $M_{i}N_{i}\equiv _{m_{i}}1$
-$$N_1: 5N_1 \equiv 1\pmod{3} \implies N_1=2$$  $$N_2: 3N_2 \equiv 1\ \pmod{5} \implies N_2=2$$ 
+$$N_1: 5N_1 \equiv 1\pmod{3} \implies N_1=2$$ $$N_2: 3N_2 \equiv 1\ \pmod{5} \implies N_2=2$$ 
  Switch the parts together: ($r=2$ the number of equations)
  $$x \equiv_{15} \sum_{i=1}^{r} a_{i}M_{i}N_{i}\equiv _{15} a_1M_1N_1 + a_2M_2N_2 \equiv_{15} 2*5*2+3*3*2 =38 \equiv_{15} 8\ (mod 15)$$ $$x=8+15k,\ k\in \mathbb{N}$$
-
-

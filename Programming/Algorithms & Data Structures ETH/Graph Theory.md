@@ -1,47 +1,52 @@
-#eth 
-A graph, denoted by $G$, is formally defined as a pair $G=(V,E)$, where:
+A graph, denoted by $G$, is formally defined as a pair $G=(V,E)$, where:
 
-- $V$: A finite, non-empty set of _vertices_ (also called nodes). Vertices represent the individual entities within the network.
-- $E$: A set of _edges_. Each edge represents a connection between two vertices.
+- $V$: a finite, non-empty set of **vertices** (nodes)
+- $E$: a set of **edges** connecting vertices
 
 # Degree of a Vertex
 
-- **Undirected Graph:** The degree of a vertex v, denoted as deg(v), is the number of edges incident to v.
-- **Directed Graph:** We distinguish between _in-degree_ (number of edges coming into v) and _out-degree_ (number of edges going out of v).
+- **Undirected graph**: the degree of a vertex $v$, denoted $deg(v)$, is the number of incident edges.
+- **Directed graph**: we distinguish
+  - in-degree: number of incoming edges
+  - out-degree: number of outgoing edges
 
 ## Handshaking Lemma
 $$
-\sum_{u\in V} deg(u)=2\cdot \lvert E \rvert  
+\sum_{u\in V} deg(u)=2\cdot |E|
 $$
 
 # Types of Paths
 
-- **Walk:** Most general, allows repetition of vertices and edges.
-- **Path:** No vertex repetition allowed, each vertex visited exactly once.
-- **Closed Walk/Cycle:** Starts and ends at the same vertex, allowing repetition of vertices but not edges (except for the first and last edge, which are the same).
-### Hamiltonian Path
-A **Hamiltonian path** is a path in a graph that visits each _vertex_ exactly once.
+- **Walk**: vertices/edges may repeat.
+- **Path**: no repeated vertices.
+- **Closed walk / cycle**: starts and ends at the same vertex.
 
-### Eulerian Paths
-An **Eulerian path** is a path in a graph that visits every **edge** of the graph exactly once. It can start and end at different vertices.
+## Hamiltonian Path
+A **Hamiltonian path** visits each **vertex** exactly once.
 
-### Eulerian Cycle
-An **Eulerian cycle**, also known as an Eulerian circuit, is a closed Eulerian path. This means it’s a trail that traverses every edge of a graph exactly once and **returns to the starting vertex**.
-# The Reaching relation
-## Undirected graph
-The _reaching relation_ in a graph 
-describes the ability to get from one vertex to another.
+## Eulerian Path
+An **Eulerian path** visits each **edge** exactly once.
 
-Symmetric, Reflexive, Transitive
-$\implies$ This is an equivalence relation (see [[Relation#Equivalence Relations]])
-The equivalence classes are called connected components or (Zusammenhangskomponenten, ZHK)
+## Eulerian Cycle
+An **Eulerian cycle** is an Eulerian path that returns to the start.
+
+# Reaching Relation
+
+## Undirected Graph
+The reaching relation describes whether one vertex can be reached from another.
+
+It is:
+- reflexive
+- symmetric
+- transitive
+
+So it is an equivalence relation (see [[Relation#Equivalence Relations]]).
+Its equivalence classes are the connected components.
 
 > [!NOTE] Connected Graph
-> A graph is **connected** if the graph has exactly one connected component
+> A graph is **connected** if it has exactly one connected component.
 
-## Algorithms
-- Single source shortest path
-	- [[Dijkstra]]
-- Minimum Spanning Tree
-	- Kruskal (Greedy Algorithm)
-		- [[Disjoint Set Union]]
+# Basic Graph Algorithms
+- [[Shortest Path]] problems
+- [[Minimum Spanning Tree (MST)]]
+- [[Disjoint Set Union]] (used by Kruskal)

@@ -1,5 +1,5 @@
-#eth #exercise 
-# Fitting a parabola
+ #exercise 
+# Fitting a parabola 
 
 ##### a)
 To show that $A$ has full column rank, we can prove that the columns of $A$ are linear independent.

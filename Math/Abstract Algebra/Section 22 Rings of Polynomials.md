@@ -1,4 +1,3 @@
-
 ## Intro
 The Ring $R[x]$ contains the polynomials with coefficients in the ring $R$. We will call x an **indeterminate** (不定元) rather than a variable.
 

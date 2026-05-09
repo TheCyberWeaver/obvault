@@ -1,4 +1,3 @@
-
 > [!Warning]
 > In general, there is no guarantee that the reading thread will see a value written by another thread on a timely basis, or even at all. In order to ensure visibility of memory writes across threads, you must use synchronization.
 
@@ -10,24 +9,24 @@
 ```java title:"consequence of reordering"
 public class NoVisibility {
 
-    private static boolean ready;
-    private static int number;
+ private static boolean ready;
+ private static int number;
 
-    private static class ReaderThread extends Thread {
+ private static class ReaderThread extends Thread {
 
-        public void run() {
-            while (!ready)
-                Thread.yield();
+ public void run() {
+ while (!ready)
+ Thread.yield();
 
-            System.out.println(number);
-        }
-    }
+ System.out.println(number);
+ }
+ }
 
-    public static void main(String[] args) {
-        new ReaderThread().start();
-        number = 42;
-        ready = true;
-    }
+ public static void main(String[] args) {
+ new ReaderThread().start();
+ number = 42;
+ ready = true;
+ }
 }
 
 ```
@@ -68,18 +67,18 @@ A properly constructed object can be safely published by:
 Otherwise, this code can throw `AssertionError`
 ```java title:"Pure Craziness"
 public class Holder {
-    private int n;
-    public Holder(int n) {this.n = n;}
-    public void assertSanity() {
-        if (n != n)
-            throw new AssertionError("This statement is false.");
-    }
+ private int n;
+ public Holder(int n) {this.n = n;}
+ public void assertSanity() {
+ if (n != n)
+ throw new AssertionError("This statement is false.");
+ }
 }
 // Unsafe publication
 ...
 public Holder holder;
 public void initialize() {
-    holder = new Holder(42);
+ holder = new Holder(42);
 }
 ```
 
@@ -94,21 +93,21 @@ public void initialize() {
 @Immutable
 class OneValueCache {
 
-    private final BigInteger lastNumber;
-    private final BigInteger[] lastFactors;
+ private final BigInteger lastNumber;
+ private final BigInteger[] lastFactors;
 
-    public OneValueCache(BigInteger i, BigInteger[] factors) {
-        lastNumber = i;
-        lastFactors = Arrays.copyOf(factors, factors.length);
-    }
+ public OneValueCache(BigInteger i, BigInteger[] factors) {
+ lastNumber = i;
+ lastFactors = Arrays.copyOf(factors, factors.length);
+ }
 
-    public BigInteger[] getFactors(BigInteger i) {
-        if (lastNumber == null || !lastNumber.equals(i)) {
-            return null;
-        } else {
-            return Arrays.copyOf(lastFactors, lastFactors.length);
-        }
-    }
+ public BigInteger[] getFactors(BigInteger i) {
+ if (lastNumber == null || !lastNumber.equals(i)) {
+ return null;
+ } else {
+ return Arrays.copyOf(lastFactors, lastFactors.length);
+ }
+ }
 }
 ```
 When a thread sets the volatile cache field to reference a new OneValueCache, the new cached data becomes immediately visible to other threads

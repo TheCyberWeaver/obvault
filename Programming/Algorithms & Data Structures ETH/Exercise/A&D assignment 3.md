@@ -1,10 +1,10 @@
-#eth #exercise 
+ #exercise  
 # 3.1 Asymptotic growth
 a)
 $\lim_{ n \to \infty } \frac{\log _{a}(n)}{\log _{b}(n)}=\log _{b}a=C\in \mathbb{R}^{+}$
 $\implies \log _{a}(n)\leq O(\log _{b}(n))$ and $\log _{b}(n)\leq O(\log _{a}(n))$
 $\implies \log _{a}(n)=\Theta(\log _{b}(n))$
-The statement is proved
+The statement is proved 
 
 $\lim_{ n \to \infty } \frac{a^{n}}{b^{n}}=\lim_{ n \to \infty }\left( \frac{a}{b} \right)^{n}$
 If $a>b$ then $\frac{a}{b}>1$ meaning that $\lim_{ n \to \infty } \frac{a^{n}}{b^{n}}=\infty$
@@ -36,7 +36,7 @@ a) naive algorithm
 has_k_ones(string s)
 	int cnt = 0
 	for i=0 to s.length-1
-		if s[i]=='1' then cnt++
+ if s[i]=='1' then cnt++
 	if cnt==k then return true
 	else return false
 ```
@@ -45,8 +45,8 @@ has_k_ones(string s)
 int cnt=0
 for i=0 to n-k
 	for j=i+k to n
-		if has_k_ones(s[i:j])
-		cnt++
+ if has_k_ones(s[i:j])
+ cnt++
 ```
 
 We need $O(n^{2})$ time to iterate through every possible substring of $S$, and for each substring we need $O(n)$ time to check if it has $k$ ones (using the function has_k_ones). Thus, we need $O(n^{3})$ time to solve the problem
@@ -57,7 +57,7 @@ t[0...n]
 int j=0
 for i=0 to n-1
 	if s[i]==1
-		j++
+ j++
 	t[j]++
 ```
 
@@ -80,7 +80,7 @@ spanning(m,k,s)
 	prefix[]=calcualte_prefix()
 	cnt=0
 	for l=0 to k
-		cnt+=min(suffix[l],prefix[k-l])
+ cnt+=min(suffix[l],prefix[k-l])
 	
 	leftstring=s[0:m]
 	rightstring=s[m+1:s.length]
@@ -151,11 +151,11 @@ while f[i]<k do
 The algorithm continues to calculate the next Fibonacci number until it reaches $k$, so that we know `f[i]` is the answer when the program ends.
 
 Using the bound proved in [[A&D assignment 2#2.2 Fibonacci numbers|Exercise 2.2]] , we know $f_{n}\geq \frac{1}{3}\cdot 1.5^{n}$
-so we can find the answer as long as  $\frac{1}{3}\cdot 1.5^{n}\geq k$
+so we can find the answer as long as $\frac{1}{3}\cdot 1.5^{n}\geq k$
 $1.5^{n}\geq3k$
 $n\geq \log_{1.5}3k$
 assume n is the smallest n
-$n=\left\lceil  \frac{\log 3k}{\log 1.5}  \right\rceil$
+$n=\left\lceil \frac{\log 3k}{\log 1.5} \right\rceil$
 $n\leq\frac{\log 3k}{\log 1.5}+1=\frac{\log 3+\log k}{\log 1.5}+1= \frac{\log k}{\log 1.5}+\frac{\log 3}{\log 1.5}+1$
 Therefore, there exists $C,D\in R$ such that
 $n\leq C\cdot \log k+D$
@@ -189,11 +189,11 @@ IS: $k\to k+1$
 e)
 ```c++
 int power(int a, int n) {
-    if (n == 0) return 1;
-    int ans = power(a, n / 2);
-    ans *= ans;
-    if (n & 1) ans *= a;
-    return ans;
+ if (n == 0) return 1;
+ int ans = power(a, n / 2);
+ ans *= ans;
+ if (n & 1) ans *= a;
+ return ans;
 }
 ```
 OR

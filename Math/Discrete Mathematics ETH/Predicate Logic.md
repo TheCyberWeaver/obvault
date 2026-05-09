@@ -1,11 +1,11 @@
-#eth 
+ 
 # Bausteine
 - Universum $U$ : $U=\mathbb R, U=\{0,1\}…$
 - Konstanten aus $U$ : $0,1,\pi…$
 - Prädikate $P$,$Q$ : $prime(x), less(x)…$
 - Funktionen: $f,g$ : $square(x),add(x)…$
 - Operatoren: $\neg,\wedge,\vee,\to, \leftrightarrow$ similar to [[Propositional Logic]]
-- Quantoren: $\forall x$, $\exists x$
+- Quantoren: $\forall x$, $\exists x$ 
 
 ## Syntax
 ![[Pasted image 20251203144149.png|538]]

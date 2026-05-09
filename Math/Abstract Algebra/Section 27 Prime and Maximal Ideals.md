@@ -1,5 +1,5 @@
 ## 27.1 Example
-According to [[Section 19 Integral Domains#19.11 Theorem]]  $\mathbb Z_p$ is a field, if p is a prime. $\mathbb Z_p$ is isomorphic to $\mathbb Z/p\mathbb Z$. 
+According to [[Section 19 Integral Domains#19.11 Theorem]] $\mathbb Z_p$ is a field, if p is a prime. $\mathbb Z_p$ is isomorphic to $\mathbb Z/p\mathbb Z$. 
 Thus a factor ring of an integral domain may be a field.
 
 ## 27.3 Example 
@@ -12,7 +12,7 @@ and
 [[Section 19 Integral Domains#19.11 Theorem]]
 
 > [!NOTE]
->  if R is not even an integral domain, that is, if R has zero divisors, it is still possible for $R/N$ to be a field.
+> if R is not even an integral domain, that is, if R has zero divisors, it is still possible for $R/N$ to be a field.
 
 ## Definition: improper ideal and trivial ideal
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=251&selection=254,0,271,1&color=note|A First Course in Abstract Algebra, p.246]]
@@ -74,7 +74,7 @@ Remember:
 ## 27.13 Definition: prime ideal
 > [!PDF|note] [[A First Course in Abstract Algebra.pdf#page=253&selection=179,0,232,0&color=note|A First Course in Abstract Algebra, p.248]]
 > > An ideal $N \neq R$ in a commutative ring $R$ is a prime ideal if:
-> >  $ab \in N$ implies that either $a \in N$ or $b \in N$ for $a, b \in R$.
+> > $ab \in N$ implies that either $a \in N$ or $b \in N$ for $a, b \in R$.
 
  So we cannot have two elements outside of $N$, whose product is in the ideal $N$.
  And of course $\{0\}$ is a prime ideal in any integral domain, because of no 0 divisor.

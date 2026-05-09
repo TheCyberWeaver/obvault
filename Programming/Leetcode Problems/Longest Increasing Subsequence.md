@@ -1,9 +1,10 @@
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-Given an integer array `nums`, return _the length of the longest **strictly increasing**_ _**subsequence**_.
+Given an integer array 
+ums`, return _the length of the longest **strictly increasing**_ _**subsequence**_.
 
 
 Given ```a[]```
-```f[i]```  The length of the longest increasing subsequence with the last element being ```a[i]```
+```f[i]``` The length of the longest increasing subsequence with the last element being ```a[i]```
 $$f[i]=\begin{cases} 
 1,&\forall 1\le j \le i, a_j < a_i\\
 \max\limits_{1\le j \le i, a_j < a_i}​(f[j])+1,​&otherwise.​

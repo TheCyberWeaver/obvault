@@ -1,4 +1,4 @@
-#eth 
+ 
 ## Matrix transformation
 
 $$
@@ -50,12 +50,12 @@ So $T:\mathbb{R}^{n}\to \mathbb{R}$
 
 > [!Warning]
 > - In **axiomatic mathematics**, “class” = collection of all objects satisfying certain axioms.
-> 	- The class of groups is defined by the group axioms.
+> - The class of groups is defined by the group axioms.
 >	- The class of vector spaces is defined by the vector space axioms.
->     
+> 
 > - In [[Category Theory Intro|category theory]], “class” = a size notion (collection of objects or morphisms), not the same as “axiomatically defined class.”
-> 	- “a possibly proper class of objects,” i.e. too large to be a set
-> 	- [[Category Theory Intro#What is a class]]
+> - “a possibly proper class of objects,” i.e. too large to be a set
+> - [[Category Theory Intro#What is a class]]
 
 
 ## Matrix multiplication

@@ -1,4 +1,4 @@
-#eth #exercise 
+ #exercise
 
 # 12.5 Statements about Formulas
 ##### 1）

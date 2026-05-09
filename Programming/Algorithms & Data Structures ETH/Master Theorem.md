@@ -1,10 +1,13 @@
-#eth 
-$$
-T(n)=a\cdot T\left( \frac{n}{b}\right)+n^{c}
-$$
+ 
+
+> [!NOTE]
+> $$
+> T(n)=a\cdot T\left( \frac{n}{b}\right)+n^{c}
+> $$
+
 - $c>\log _{b}a\implies T(n)=O(n^{c})$
 - $c=\log _{b}a\implies T(n)=O(n^{c}\log n)$
-- $c<\log _{b}a\implies T(n)=O(n^{\log _{b}a})$
+- $c<\log _{b}a\implies T(n)=O(n^{\log _{b}a})$ 
 
 ### Example
 

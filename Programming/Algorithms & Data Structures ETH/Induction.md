@@ -2,7 +2,7 @@
 tags:
   - linker-exclude
 ---
-#eth 
+ 
 # Allgemein
 
 Beweise $A(k)$ für alle $k\in \mathbb{N}$
@@ -36,7 +36,7 @@ $$
 # Example: Star Suche
 Finde einen Star unter n Personen $p_{1},\dots p_{n}$ 
 **Definition**: $p_{s}$ ist ein Star wenn alle $p_{s}$ kennen, und $p_{s}$ niemand kennt
-**Operation**: Frage $p_{i}$ über  $p_{j}$ 
+**Operation**: Frage $p_{i}$ über $p_{j}$ 
 ## Idee 1
 Finde Lösung für $n$ basierend auf einer Lösung von $n-1$ Personen
 - Schicke einen raus (z.B. $p_{n}$)

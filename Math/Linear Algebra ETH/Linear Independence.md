@@ -2,7 +2,7 @@
 tags:
   - linker-exclude
 ---
-#eth 
+ 
 # Covector
 
 $\mathbf{v}= \begin{pmatrix}1 \\ 2\end{pmatrix}$, then $\mathbf{v}^{\top}=\begin{pmatrix}1 & 2\end{pmatrix}$.
@@ -21,7 +21,7 @@ Drei Vektoren im $\mathbb{R}^{2}$ sind immer linear abhängig:
 
 
 > [!Special Cases]
->  linear abhängig: 
+> linear abhängig: 
 >- $\mathbf{v}=\mathbf{0}$ 
 >- $\dots,\mathbf{0},\dots$
 >- $\dots,\mathbf{\mathbf{v}\dots,\mathbf{\mathbf{v}\dots}}$
@@ -29,7 +29,7 @@ Drei Vektoren im $\mathbb{R}^{2}$ sind immer linear abhängig:
 > linear unabhängig:
 > - $\mathbf{v}\neq \mathbf{0}$
 > - empty sequence: $()$ 
-> 	Es gibt kein $k\in[n]$, deswegen linear independent according to the definition above
+> Es gibt kein $k\in[n]$, deswegen linear independent according to the definition above
 
 
 # Equivalent Statements to linear dependence
@@ -78,7 +78,7 @@ $$
 Beweisidee:
  - Jedes Element von $S$ ist auch in $T$ ($S$ ist Teilmenge von $T$) 
  - Jedes Element von $T$ ist auch in $S$ ($T$ ist Teilmenge von $S$)
-	 $\implies$ Dann haben wir $S=T$
+ $\implies$ Dann haben wir $S=T$
 ***Proof***
 $S\subseteq T$: Jedes $\mathbf{w}\in S$ ist Linearkombination von $\mathbf{v}_{1},\dots,\mathbf{v}_{n}$ und deshalb auch eine Linearkombination von $\mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{n},\mathbf{v}$ (plus $0\mathbf{v}$), also $\mathbf{w}\in T$
 

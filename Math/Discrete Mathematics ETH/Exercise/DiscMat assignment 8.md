@@ -1,11 +1,11 @@
-#eth  #exercise 
+ #exercise 
 # Exercise 8.4
 ##### 1)
 **Reflexive**:
 $\forall{a\in G}\; (a\cdot e=a)$ and $e\in H$ (because $H$ is a subgroup of $G$, it must contains $e$)
 hence $\forall{a\in G} \;	\exists{h\in H}\; (a\cdot h=a)$, (take $h=e$)
 so $\forall{a\in G}\; (a\sim a)$
-$\implies \sim$ is reflexive
+$\implies \sim$ is reflexive 
 
 **Symmetric**:
 For any $a,b\in G$ that satisfies $a\sim b$
@@ -56,7 +56,7 @@ This means $\pi(a)\star \pi(e)=\pi(e)\star \pi(a)=\pi(a)$, which proves that $e'
 
 **Inverse**
 Let $a\in G$ and $\pi(a)\in G/H$ 
-We show that the inverse  $\widehat{\pi(a)}=\pi(\hat{a})$ ($\hat{a}$ exists because $G$ is a group, which means $\pi(\hat{a})$ exists)
+We show that the inverse $\widehat{\pi(a)}=\pi(\hat{a})$ ($\hat{a}$ exists because $G$ is a group, which means $\pi(\hat{a})$ exists)
 $\pi(a)\star \pi(\hat{a})=\pi(a\cdot \hat{a})=\pi(e)=e'$
 *Well-definedness*:
 To prove the inverse operation is well defined, we show:

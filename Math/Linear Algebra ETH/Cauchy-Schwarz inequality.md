@@ -1,4 +1,4 @@
-#eth 
+ 
 Lemma 1.12
 ![[Pasted image 20250919112948.png]]
 

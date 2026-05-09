@@ -1,5 +1,5 @@
-  #eth #exercise 
-# 1. Linear functional
+ #exercise 
+# 1. Linear functional 
 
 a)
 $T$ is linear functional if $T(\lambda_{1}\mathbf{u}+\lambda_{2}\mathbf{v})=\lambda_{1}T(\mathbf{u})+\lambda_{2}T(\mathbf{v})$
@@ -50,7 +50,7 @@ $T(0)=A\begin{pmatrix}\mathbf{0} \\ 1\end{pmatrix}=\mathbf{v}_{n+1}\cdot1=\mathb
 meaning that $\mathbf{v}_{n+1}=\mathbf{0}$
 
 **Sufficiency**
-if $\mathbf{v}_{n+1}=\mathbf{0}$, then $T=\sum_{i=1}^{n}\mathbf{v}_{i}x_{i}$  which is a matrix transformation and therefore a linear transformation
+if $\mathbf{v}_{n+1}=\mathbf{0}$, then $T=\sum_{i=1}^{n}\mathbf{v}_{i}x_{i}$ which is a matrix transformation and therefore a linear transformation
 
 # 5. Matrix multiplication
 $$

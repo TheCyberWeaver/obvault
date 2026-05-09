@@ -17,10 +17,7 @@ views:
       and:
         - '!file.tags.contains("exercise")'
         - or:
-            - file.path.startsWith("Math/Linear Algebra ETH")
-            - file.path.startsWith("Math/Discrete Mathematics ETH")
-            - file.path.startsWith("Programming/Algorithms und Data Structures ETH")
-            - file.path.startsWith("Programming/EProg ETH")
+            - file.folder.contains("ETH")
         - file.ext == "md"
     order:
       - file.name
@@ -32,10 +29,14 @@ views:
     sort:
       - property: formula.Untitled
         direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: formula.Untitled 2
+        direction: DESC
+      - property: formula.created datae
+        direction: DESC
       - property: file.ctime
         direction: DESC
-      - property: file.name
-        direction: ASC
     columnSize:
       file.name: 276
       formula.created datae: 160
@@ -51,12 +52,18 @@ views:
       - formula.created datae
       - formula.Untitled
       - file.tags
+    sort:
+      - property: file.tags
+        direction: ASC
     columnSize:
-      file.name: 199
+      file.name: 219
       formula.created datae: 111
+      formula.Untitled: 182
   - type: table
-    name: Books
-    filters:
-      and:
-        - file.ext == "pdf"
-        - file.name.contains("ETH")
+    name: All
+    order:
+      - file.name
+      - file.ctime
+    sort: []
+    columnSize:
+      file.name: 378

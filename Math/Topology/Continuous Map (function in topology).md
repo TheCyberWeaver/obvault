@@ -32,8 +32,11 @@ A **continuous** map is call **closed** if it takes closed subsets to closed set
 
 
 ## Proposition
-If $f:X\to$ is a bijective map, then 
-$f$ is a [[Homeomorphism]] $\Longleftrightarrow f$ is open
-$f$ is a [[Homeomorphism]] $\Longleftrightarrow f$ is closed
+Let $f:X\to Y$ be a continuous map that is open or closed
+- If $f$ is bijective, it is a homeomorphism
+	- $f$ is a [[Homeomorphism]] $\Longleftrightarrow f$ is open and closed
+- If $f$ is injective, it is a topological embedding
+	- a topological embedding is a map that is a [[Homeomorphism|homeomorphism]] onto its image
+- If $f$ is surjective, it is a [[Quotient Space#Definition|quotient map]]
 
-- [ ] Proof
+- continuous maps preserves [[Math/Topology/Connectedness|connectedness]]

@@ -1,9 +1,8 @@
-
 A **type family** is a type that _varies with a term_.
 
 **Intuition:** it’s like an “indexed collection of types.”
 
-If $A:\mathcal{U}$, then a type family over $A$ is  $B: A\to \mathcal{U}$.
+If $A:\mathcal{U}$, then a type family over $A$ is $B: A\to \mathcal{U}$.
 So for each $a:A$, you get a type $B\;	a:\mathcal{U}$
 
 > [!NOTE]

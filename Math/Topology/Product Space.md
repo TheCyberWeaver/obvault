@@ -42,7 +42,11 @@ Since $\mathcal{U}$ is continuous
 $\implies$ $f$ is continuous
 
 
-### Properties:
+## Properties:
 - If each $f_{i}$ is continuous, so is $f_{1}\times\dots \times f_{n}$
 - If each $f_{i}$ is a [[Homeomorphism|homeomorphism]], so is $f_{1}\times\dots \times f_{n}$
-
+Product space preserves:
+- [[Hausdorff spaces#Definition|Hausdorff property]]: If every $X_{\alpha}\in A$ is Hausdorff, then $\prod _{\alpha \in A}X_{\alpha}$ is Hausdorff
+- [[First and second countability#Definition first countable|First countability]] (over countable $A$)
+- [[First and second countability#Definition second countable|Second countability]] (over countable $A$)
+- [[Math/Topology/Connectedness|Connectedness]] and [[Path Connectedness]] (finitely many)

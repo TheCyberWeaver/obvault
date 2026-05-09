@@ -18,9 +18,9 @@ We try to prove that $\{ E_{ii}|i\in[m] \}$ is the basis of $\mathcal{D}_{m}$
 $\implies$ $\{ E_{ii}|i\in[m] \}$ is the basis of $\mathcal{D}_{m}$
 Since the dimension is the cardinality of a basis. $\text{dim} (\mathcal{D}_{m})=|\{ E_{ii}|i\in[m] \}|=m$
 
-#eth #exercise 
+ #exercise 
 ## 2. Skew-symmetric matrices as a subspace
-![[Pasted image 20251104223621.png]]
+![[Pasted image 20251104223621.png]] 
 
 ##### a)
 we prove the claim by showing the following statements (using the definition of Subspaces)
@@ -48,7 +48,7 @@ $$
 We prove the set $A=\{A_{xy} \;|\; x,y\in[m], y>x\}$ is a basis of $S_{m}$
 - This set spans $S_{m}$
 	- For any matrix $B$ in $S_{m}$ we can write $B$ as a linear combination of the matrices $A_{ij}$ 
-	- $$ B=\sum_{1\leq i<j\leq m}  b_{ij}A_{ij} $$
+	- $$ B=\sum_{1\leq i<j\leq m} b_{ij}A_{ij} $$
 	- so the $(i,j)$-th entry is $b_{ij}$ ($i<j$), and the $(j,i)$-th entry is $-b_{ij}$, matching the structure of $B$
 	- Therefore $A$ spans $S_{m}$
 - This set $A$ is linear independent
@@ -57,7 +57,7 @@ $$
 \sum_{1\leq x<y\leq m}c_{xy}A_{xy}=0 
 $$
 Consider the $i,j$-entry with $i<j$. 
-Since only $A_{ij}$ has a nonzero  element in that position, we obtain $c_{ij}=0$
+Since only $A_{ij}$ has a nonzero element in that position, we obtain $c_{ij}=0$
 This holds for all $i<j$
 Hence all coefficient $c_{ij}$ are zero, and the set $A$ is linear independent.
 **Conclusion**

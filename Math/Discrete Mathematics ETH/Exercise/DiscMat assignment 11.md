@@ -1,11 +1,11 @@
-#eth #exercise 
+ #exercise 
 # 11.2 A new linear code
 ##### 1)
-![[Pasted image 20251204192319.png]]
+![[Pasted image 20251204192319.png]] 
 
 Let $c=(c_{1},\dots,c_{n})$ where $c_{i}\in F$ for $i \in [n]$
 Take any $x,y\in \mathcal{C}$, for each coordinate $i$:
-If $(x+y)_{i}\neq0$, then $x_{i}\neq0$ or $y_{i}\neq0$  (If both are $0$, then $(x+y)_{i}=x_{i}+y_{i}=0$)
+If $(x+y)_{i}\neq0$, then $x_{i}\neq0$ or $y_{i}\neq0$ (If both are $0$, then $(x+y)_{i}=x_{i}+y_{i}=0$)
 Let $s(c)$ denotes the set of coordinates $i$ where $c_{i}\neq0$, with $hw(c)=\lvert s(c) \rvert$
 So all $i \in s(x+y)$, we have $i \in s(x)$ or $i \in s(y)$
 Therefore, we must have $s(x+y)\subseteq s(x)\cup s(y)$

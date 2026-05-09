@@ -35,11 +35,11 @@ We see the partition of the group again forms a group. This group is called as [
 The proof relies on the concept of **cosets**. A left coset of $H$ in $G$ is a set of the form $gH=\{gh∣h∈H\}$ for some $g∈G$. Similarly, a right coset is $Hg=\{hg∣h∈H\}$. We will focus on left cosets, but the argument is analogous for right cosets.
 
 1. **Cosets partition G:** The left cosets of H partition G. This means that every element of G belongs to exactly one left coset of H. To see this:
-    
-    - Every element $g∈G$ belongs to the coset $gH$ (since $g=ge$ and $e∈H$).
-    - If two cosets $g_{1}​H$ and $g_{2}H$ intersect (i.e., have a common element), then they are equal. Suppose $g_{1}h_{1}=g_{2}h_{2}$​ for some $h_{1}​,h_{2}​∈H$. Then $g_{1}=g_{2}h_{2}h_{1}−1$​. Since $H$ is a subgroup, $h_{2}h_{1}−1​∈H$. Let $h_{3}​=h_{2}​h_{1}−1$​. Then $g_{1}=g_{2}h_{3}$​, and therefore $g_{1}H=g_{2}h_{3}​H=g_{2}H$. Thus if two left cosets intersect they are equal.
+ 
+ - Every element $g∈G$ belongs to the coset $gH$ (since $g=ge$ and $e∈H$).
+ - If two cosets $g_{1}​H$ and $g_{2}H$ intersect (i.e., have a common element), then they are equal. Suppose $g_{1}h_{1}=g_{2}h_{2}$​ for some $h_{1}​,h_{2}​∈H$. Then $g_{1}=g_{2}h_{2}h_{1}−1$​. Since $H$ is a subgroup, $h_{2}h_{1}−1​∈H$. Let $h_{3}​=h_{2}​h_{1}−1$​. Then $g_{1}=g_{2}h_{3}$​, and therefore $g_{1}H=g_{2}h_{3}​H=g_{2}H$. Thus if two left cosets intersect they are equal.
 2. **All cosets have the same size:** Every left coset $gH$ has the same [[Cardinality|cardinality]] as H. This can be shown by defining a bijection $f:H→gH$ by $f(h)=gh$. This function is clearly surjective, and it’s injective because if $gh_{1}​=gh_{2}$​, then $h_{1}​=h_{2}$ by the cancellation law in $G$.
-    
+ 
 3. **Order of G is the sum of coset sizes:** Since the cosets partition $G$ and all have size $\lvert H \rvert$, the order of $G$ is the number of cosets multiplied by the size of each coset. Let n be the number of distinct left cosets of $H$ in $G$. Then $\lvert G \rvert=n\lvert H \rvert$.
 
 ## 10.11 Theorem
@@ -53,7 +53,7 @@ $$
 $$
 which has size $ord⁡(g)$.
 Lagrange says $ord⁡(g)$ divides $\lvert G\rvert=p$.
-Since$$ g≠e, ord⁡(g)>1$$The only divisors of the prime p are 1 and p.  
+Since$$ g≠e, ord⁡(g)>1$$The only divisors of the prime p are 1 and p. 
 Therefore $$ord⁡(g)=p$$
 
 ## 10.13 Definition

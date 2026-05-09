@@ -9,31 +9,31 @@ Given an array of integers `heights` representing the histogram's bar height w
 
 ```cpp fold:Implementation
 int largestRectangleArea(vector<int> &h) {
-    int n = h.size();
-    vector<int> nextsmaller(n, n);
-    vector<int> presmaller(n, -1);
-    stack<int> st;
-    for (int i = 0; i < n; i++) {
-      while (!st.empty() && h[i] < h[st.top()]) {
-        nextsmaller[st.top()] = i;
-        st.pop();
-      }
-      st.push(i);
-    }
-    st = {};
-    for (int i = n - 1; i >= 0; i--) {
-      while (!st.empty() && h[i] < h[st.top()]) {
-        presmaller[st.top()] = i;
-        st.pop();
-      }
-      st.push(i);
-    }
-    // dbg(presmaller);
-    // dbg(nextsmaller);
-    int maxa = 0;
-    for (int i = 0; i < n; i++) {
-      maxa = max(maxa, h[i] * (nextsmaller[i] - presmaller[i] - 1));
-    }
-    return maxa;
-  }
+ int n = h.size();
+ vector<int> nextsmaller(n, n);
+ vector<int> presmaller(n, -1);
+ stack<int> st;
+ for (int i = 0; i < n; i++) {
+ while (!st.empty() && h[i] < h[st.top()]) {
+ nextsmaller[st.top()] = i;
+ st.pop();
+ }
+ st.push(i);
+ }
+ st = {};
+ for (int i = n - 1; i >= 0; i--) {
+ while (!st.empty() && h[i] < h[st.top()]) {
+ presmaller[st.top()] = i;
+ st.pop();
+ }
+ st.push(i);
+ }
+ // dbg(presmaller);
+ // dbg(nextsmaller);
+ int maxa = 0;
+ for (int i = 0; i < n; i++) {
+ maxa = max(maxa, h[i] * (nextsmaller[i] - presmaller[i] - 1));
+ }
+ return maxa;
+ }
 ```

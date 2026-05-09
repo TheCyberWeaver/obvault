@@ -3,15 +3,15 @@ showHero: false
 title: Welcome to my second brain!
 description: Join me as I explore the world. Here, ideas, research, and sparks of inspiration are captured, organized, and interconnected.
 cta:
-  - href: https://www.thomas-hub.com/
-    label: About me
+ - href: https://www.thomas-hub.com/
+ label: About me
 tags:
-  - linker-exclude
+ - linker-exclude
 ---
 ## What Is This?
 
-This is my **digital garden**:  
-- A centralized place for notes and references  
+This is my **digital garden**: 
+- A centralized place for notes and references 
 - A networked repository where related concepts link and evolve 
 ---
 

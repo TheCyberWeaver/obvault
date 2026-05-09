@@ -1,10 +1,10 @@
-#eth #exercise 
+ #exercise 
 # 10.1 Depth-first search
 ##### a) b) d)
 ![[dca32467534cd2e7e60b91020c84aa63.jpg|438]]
 ##### c)
 Pre: $ACDEBGHFI$
-Post: $BEDHGCFAI$
+Post: $BEDHGCFAI$ 
 
 ##### e)
 No, we can find a cycle by using a backward edge. Let backward connects $v,u$ , there must exists a path from $u$ to $v$ inside the tree, together with the backward edge, a cycle is formed.
@@ -38,23 +38,23 @@ Use a DFS. While running DFS, look for a back edge. Any back edge $u\to v$ with 
 status[1...n]=-1 //-1:unvisited 0:in stack 1:visted
 
 function DFS(u):
-    status[u] = 0
-    for each v in Adj[u] do
-        if status[v] = -1 then
-            pair = DFS(v)
-            if pair ≠ null then
-                return pair
-        else if status[v] = 0 then // found back edge v -> u
-            return (u, v)      
-    status[u] = 1
-    return null
+ status[u] = 0
+ for each v in Adj[u] do
+ if status[v] = -1 then
+ pair = DFS(v)
+ if pair ≠ null then
+ return pair
+ else if status[v] = 0 then // found back edge v -> u
+ return (u, v) 
+ status[u] = 1
+ return null
 
 // main
 for v = 1 to n do
-    if status[v] = -1 then
-        pair = DFS(v)
-        if pair ≠ null then
-            output pair
-            halt
+ if status[v] = -1 then
+ pair = DFS(v)
+ if pair ≠ null then
+ output pair
+ halt
 output "no such pair exists"
 ```

@@ -2,7 +2,7 @@
 tags:
   - linker-exclude
 ---
-#eth 
+ 
 Vectors in form of matrix: 
 $$
 \begin{pmatrix}
@@ -69,7 +69,7 @@ $a_{ij}=\delta_{ij}$ with Kronecker-Delta $\delta_{ij}=1$ falls $i=j$ und $0$ so
 # Column space
 
 > [!Definition]
->  $\mathbf{C}(A):=\{Ax:x \in\mathbb{R}^{n}\}\subseteq \mathbb{R}^{m}$
+> $\mathbf{C}(A):=\{Ax:x \in\mathbb{R}^{n}\}\subseteq \mathbb{R}^{m}$
 
 $$
  \mathbf{C}(\begin{bmatrix}

@@ -1,8 +1,11 @@
-#eth 
-$$
-\ln(n!)=n\ln n-n+O(\ln n)
-$$
-![[Pasted image 20251006105129.png|388]]
+ 
+
+> [!NOTE]
+> $$
+> \ln(n!)=n\ln n-n+O(\ln n)
+> $$
+
+![[Pasted image 20251006105129.png|388]] 
 
 ### explanation
 $\ln(n!)-n\ln n+n\leq c\ln n \quad \exists c>0$

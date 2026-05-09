@@ -1,6 +1,11 @@
+---
+tags:
+  - linker-exclude
+---
 ## Definition: Limit points
 Let $X$ be a space and set $A\subseteq X$
 A point $p \in X$ is a **limit point of A** if every neighborhood of $p$ contains a point of $A$ other than $p$
+OR _accumulation point
 
 $A'$ denotes the set of limit points.
 
@@ -13,13 +18,13 @@ $\implies$ $A'\subseteq \bar{A}$
 ![[Pasted image 20251205235448.png|373]]
 In this case, $p$ and $b$ are limit points
 ## Definition: Isolated points
-A point $p \in A$ is an **isolated point  of A** if $p$ has a neighborhood $U$ in $X$ with $U\cap A=\{ p \}$
+A point $p \in A$ is an **isolated point of A** if $p$ has a neighborhood $U$ in $X$ with $U\cap A=\{ p \}$
 ![[Pasted image 20251205235411.png|324]]
 In this case, $a$ is a isolated point
 
 ## Definition: dense
 A subset $A$ of $X$ is dense if $\bar{A}=X$
-A subset $A$ is dense in $X$ $\Longleftrightarrow$ every non-empty open $B\subseteq X$ contains a point of $B$
+A subset $A$ is dense in $X$ $\Longleftrightarrow$ every non-empty open $B\subseteq X$ contains a point of $A$
 ### Example
 $\mathbb{Q}$ is **dense** in $\mathbb{R}$
 
@@ -33,7 +38,7 @@ we also say $x$ is a **limit point** of this sequence
 > For any neighborhood $U$ of $x$, there exists all the elements in the sequence from a certain index.
 
 
-![[Pasted image 20251206193941.png|273]]similar to definition of convergence in Euclidean space
+![[Pasted image 20251206193941.png|273]]similar to definition of [[Sequence#Definition Convergence|convergence]] in Euclidean space
 In $\mathbb{R}^{2}$, we take a ball of $x$ instead of an arbitrary neighborhood
 
 If $x_{i}\to x$ then $x \in \bar{A}$ (limits lies in [[Topology#closure|closure]])
