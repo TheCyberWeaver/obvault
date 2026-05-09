@@ -1,6 +1,8 @@
 ## Pipeline
 ![[Pasted image 20260217105929.png]]
-
+Big picture:
+![[Pasted image 20260223101807.png]]
+Inside:
 ![[Pasted image 20260217102438.png]]
 
 ## Bytecode Interpreter
