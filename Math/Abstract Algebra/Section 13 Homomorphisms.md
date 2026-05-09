@@ -47,7 +47,7 @@ let $\phi$ be a homomorphism of a group $G$ into a group $G'$
 
 > [!PDF|note] [[Math/_Books_/A First Course in Abstract Algebra.pdf#page=133&selection=395,0,511,1&color=note|p.128]]
 > > Let $\phi$ be a mapping of a set $X$ into a set $Y$ , and let $A ⊆ X$ and $B ⊆ Y$ . 
-> > - The image $\phi[A]$ of $A$ in $Y$ under $\phi$ is $\{\phi(a) | a \in A\}$.  Similar to [[Section 8 Groups of Permutations#8.14 Definition Image|Definition of Image of group under a function]]
+> > - The image $\phi[A]$ of $A$ in $Y$ under $\phi$ is $\{\phi(a) | a \in A\}$. Similar to [[Section 8 Groups of Permutations#8.14 Definition Image|Definition of Image of group under a function]]
 > > - The set $\phi[X]$ is the range of $\phi$. 
 > > - The inverse image $\phi^{-1}[B]$ of $B$ in $X$ is $\{x \in X | \phi(x) \in B\}$. 
 > 
@@ -61,7 +61,7 @@ In other words: The Elements in G that correspond to the identity element in G'
 **Example: Linear Transformation**
 Let $\phi:\mathbb{R}^n \rightarrow \mathbb{R}^m$ and A be an $m\times n$ matrix of real numbers: $$\phi(\mathbf v)=A \mathbf v$$ $\phi$ is a homomorphism, because $\phi(v+w)=A(v+w)=Av+Aw=\phi(v)+\phi(w)$ 
 This is known as a linear transformation.
-$Ker(\phi)$ is known as the *[[Null Space (Kernel of a Matrix)]]* of A. It consists all $\mathbf v\in \mathbb R^n$ such that $A\mathbf v=\mathbf 0$  (the zero vector)
+$Ker(\phi)$ is known as the *[[Null Space (Kernel of a Matrix)]]* of A. It consists all $\mathbf v\in \mathbb R^n$ such that $A\mathbf v=\mathbf 0$ (the zero vector)
 
 ## 13.15 Theorem
 let $H=Ker(\phi)$, $a \in G$. Then: $$\phi^{-1}[\{\phi(a)\}]=aH=Ha$$In other words. 
@@ -92,7 +92,7 @@ $Ker(\phi)$= all constant functions, which form a subgroup C of F.
 > A better way is to say C is a subgroup of D, since $Ker(\phi)$ is normally not defined in $G'$
 
 Let's consider an element of F, $x^2$ and all the elements in D that collapse into $x^2$
-we know one element is $\frac{x^3}{3}$ . According to [[#13.15 Theorem]] all such functions form the coset $\frac{x^3}{3}+C$ . which is exactly the integral of $x^2$  
+we know one element is $\frac{x^3}{3}$ . According to [[#13.15 Theorem]] all such functions form the coset $\frac{x^3}{3}+C$ . which is exactly the integral of $x^2$ 
 $\phi^{-1}[\{\phi(a)\}]=aH$
 $\phi(a)=x^2$
 $\phi^{-1}[\{x^2\}]=\frac{x^3}3 + Ker(\phi)$ 
@@ -112,10 +112,10 @@ This proves that:
 2. Show $Ker(\phi)={e}$
 3. Show $\phi$ maps G onto G'
 
-| Check            | Criterion                                             |
+| Check | Criterion |
 | ---------------- | ----------------------------------------------------- |
-| **Injective?**   | $Ker \; \phi = {e_G}$                                 |
-| **Surjective?**  | $Im\; \phi = G'$                                      |
+| **Injective?** | $Ker \; \phi = {e_G}$ |
+| **Surjective?** | $Im\; \phi = G'$ |
 | **Isomorphism?** | Both conditions above hold (homomorphism + bijective) |
 
 > [!Warning]
@@ -140,21 +140,21 @@ $Ker(\phi)$ is always a normal subgroup of $G$
 
 A subgroup \(H\) is normal (denoted \(H \triangleleft G\)) if it satisfies any of the following equivalent conditions:
 
-1. **Conjugation Closure**  
-   Prove directly that$$\forall\,g\in G,\;\forall\,h\in H:\quad g\,h\,g^{-1}\in H.$$
-   - *Proof Outline:*  
-     1. Take an arbitrary \($g\in G$\) and \($h\in H$\).  
-     2. Compute $g\,h\,g^{-1}$ and use properties of $H$ (e.g., how generators behave) to rewrite it as an element of H.  
-     3. Since this holds for all g and h, we conclude $g\,H\,g^{-1} = H$, so H is closed under conjugation by every element of G.
+1. **Conjugation Closure** 
+ Prove directly that$$\forall\,g\in G,\;\forall\,h\in H:\quad g\,h\,g^{-1}\in H.$$
+ - *Proof Outline:* 
+ 1. Take an arbitrary \($g\in G$\) and \($h\in H$\). 
+ 2. Compute $g\,h\,g^{-1}$ and use properties of $H$ (e.g., how generators behave) to rewrite it as an element of H. 
+ 3. Since this holds for all g and h, we conclude $g\,H\,g^{-1} = H$, so H is closed under conjugation by every element of G.
 
-2. **Left and Right Cosets Coincide**  
-   Equivalently, $$\forall\,g\in G:\quad gH = Hg.$$
-   - *Proof Idea:*  
-     - To show $gH \subseteq Hg$, take any element $g\,h\in gH$. If H is conjugation-closed, then $g\,h = (g\,h\,g^{-1})\,g$ with $g\,h\,g^{-1}\in H$, so $g\,h\in Hg$.  
-     - The reverse inclusion is similar. Hence $gH = Hg$ for all g, and that’s exactly the condition for normality.
+2. **Left and Right Cosets Coincide** 
+ Equivalently, $$\forall\,g\in G:\quad gH = Hg.$$
+ - *Proof Idea:* 
+ - To show $gH \subseteq Hg$, take any element $g\,h\in gH$. If H is conjugation-closed, then $g\,h = (g\,h\,g^{-1})\,g$ with $g\,h\,g^{-1}\in H$, so $g\,h\in Hg$. 
+ - The reverse inclusion is similar. Hence $gH = Hg$ for all g, and that’s exactly the condition for normality.
 
-3. **Kernel of a Group Homomorphism**  
-   If there exists a group homomorphism $$\varphi: G \;\longrightarrow\; K$$such that $$H = \ker(\varphi),$$
-   then automatically $H \triangleleft G$.  
-   - *Reason:* Every kernel of a homomorphism is a normal subgroup.
+3. **Kernel of a Group Homomorphism** 
+ If there exists a group homomorphism $$\varphi: G \;\longrightarrow\; K$$such that $$H = \ker(\varphi),$$
+ then automatically $H \triangleleft G$. 
+ - *Reason:* Every kernel of a homomorphism is a normal subgroup.
 See Summary [[Section 14 Factor Groups#Ways to Prove $H$ is a Normal Subgroup - Summary|Ways to Prove H is a Normal Subgroup - Summary]]
