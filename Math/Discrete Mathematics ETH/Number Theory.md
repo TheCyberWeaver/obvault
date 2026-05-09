@@ -1,7 +1,7 @@
 ## Theorem Euclid
 
 > [!NOTE]
-> For all integers $a$ and $d\neq0$ there exist  unique integers $q$ and $r$ satisfying 
+> For all integers $a$ and $d\neq0$ there exist unique integers $q$ and $r$ satisfying 
 > $$
 > a=dq+r \text{ and } 0\leq r<|d|
 > $$
@@ -12,7 +12,7 @@
 
 $r$ or the remainder is denoted as $R_{d}(a)$
 
-For $a,b$ with $a\neq0$ or $b\neq0$ is a g.g.T. an element $d$ with $(d|a)\wedge(d|b)\wedge(\forall c\; (c|a)\wedge(c|b)\to(c|d))$  
+For $a,b$ with $a\neq0$ or $b\neq0$ is a g.g.T. an element $d$ with $(d|a)\wedge(d|b)\wedge(\forall c\; (c|a)\wedge(c|b)\to(c|d))$ 
 $gcd(a,b)$ is the unique positive g.g.T. from $a$ and $b$
 
 > [!NOTE]
@@ -36,7 +36,7 @@ $(d)\subseteq(a,b)$
 - [ ] finish the proof
 ## Corollary 4.5
 > [!NOTE]
-> For $a,b\in \mathbb{Z}$, there exist  $u,v\in \mathbb{Z}$ such that 
+> For $a,b\in \mathbb{Z}$, there exist $u,v\in \mathbb{Z}$ such that 
 > $gcd(a,b)=ua+vb$
 
 ## Theorem 4.6 prime factorization
