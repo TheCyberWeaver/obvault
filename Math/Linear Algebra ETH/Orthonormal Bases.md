@@ -25,14 +25,14 @@ the columns of $Q$ form an orthonormal basis for $\mathbb{R}^{n}$.
 
 This means
 $$
-\lVert Qx \rVert =\lVert x \rVert \quad		\forall x \in \mathbb{R}^{n}
+\lVert Qx \rVert =\lVert x \rVert \quad \forall x \in \mathbb{R}^{n}
 $$
 $$
 (Qx)^{\top}(Qy)=x^{\top}y\quad	\forall{x,y\in \mathbb{R}^{n}}
 $$
 Let $S$ be a subspace of $\mathbb{R}^{m}$ and $q_{1},\dots,q_{n}$ form an orthonormal basis of $S$ 
 Then,
-- $S=span(q_{1},\dots q_{n})=\left\{  \sum_{i=1}^{n}\lambda _{i}q_{i}|\forall{i}\;	\lambda _{i}\in \mathbb{R}  \right\}$
+- $S=span(q_{1},\dots q_{n})=\left\{ \sum_{i=1}^{n}\lambda _{i}q_{i}|\forall{i}\;	\lambda _{i}\in \mathbb{R} \right\}$
 - The [[Projection#Theorem 5.2.5|projection matrix]] $P$ to $S$ is given by $Q Q^{\top}$
 	- $P=Q(Q^{\top}Q)^{-1}Q^{\top}=Q Q^{\top}$
 
