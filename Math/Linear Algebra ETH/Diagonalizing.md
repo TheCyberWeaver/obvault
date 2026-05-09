@@ -3,11 +3,11 @@ Suppose that $A$ has eigenvectors $v_{1},\dots v_{n}\in \mathbb{R}^{n}$ that for
 $$
 A=V\Lambda V^{-1}
 $$
-where $V=[v_{1},v_{2},\dots,v_{n}]$  are the eigenvectors
-$\Lambda=\begin{bmatrix}	\lambda_{1} & 0 & 0 \\ 0 & \ddots  & 0 \\ 0 & 0 & \lambda _{n}\end{bmatrix}$ are the [[Eigenvalues|eigenvalues]]
+where $V=[v_{1},v_{2},\dots,v_{n}]$ are the eigenvectors
+$\Lambda=\begin{bmatrix}	\lambda_{1} & 0 & 0 \\ 0 & \ddots & 0 \\ 0 & 0 & \lambda _{n}\end{bmatrix}$ are the [[Eigenvalues|eigenvalues]]
 
 **Proof**:
-$AV=\begin{bmatrix}	\lambda_{1}v_{1} & \lambda_{2}v_{2} & \dots & \lambda _{n}v_{n} & \end{bmatrix}=\begin{bmatrix}	v_{1} & v_{2} & \dots & v_{n}\end{bmatrix}\begin{bmatrix}	\lambda_{1} & 0 & 0 \\ 0 & \ddots  & 0 \\ 0 & 0 & \lambda _{n}\end{bmatrix}=V\Lambda$
+$AV=\begin{bmatrix}	\lambda_{1}v_{1} & \lambda_{2}v_{2} & \dots & \lambda _{n}v_{n} & \end{bmatrix}=\begin{bmatrix}	v_{1} & v_{2} & \dots & v_{n}\end{bmatrix}\begin{bmatrix}	\lambda_{1} & 0 & 0 \\ 0 & \ddots & 0 \\ 0 & 0 & \lambda _{n}\end{bmatrix}=V\Lambda$
 
 ## Requirement
 - $A$ is real symmetric $\implies$ $A$ is diagonalizable over $\mathbb{R}$ by an orthogonal matrix
