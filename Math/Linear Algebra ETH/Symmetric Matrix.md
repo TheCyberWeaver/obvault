@@ -2,8 +2,6 @@
 tags:
   - linker-exclude
 ---
-
-
 ## Proposition 9.2.11: PSD
  symmetric matrix $A$ is said to be Positive Semidefinite (PSD) if all its eigenvalues are non-negative. If all the [[Eigenvalues|eigenvalues]] of $A$ are strictly positive then we say $A$ is Positive Definite (PD).
 
