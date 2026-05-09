@@ -5,7 +5,7 @@ Given a type $A:\mathcal{U}$ and a [[Type Family|type family]] $B:A\to \mathcal{
 we construct a type of dependent pair: $\sum_{(x:A)}B(x):\mathcal{U}$
 
 A term $p:\sum_{(x:A)}B(x)$ consists of 
--  a first component $a:A$
+- a first component $a:A$
 - a second component $b:B(a)$
 
 so it is a pair $(a,b)$ where the second entry’s type is allowed to depend on the first.
