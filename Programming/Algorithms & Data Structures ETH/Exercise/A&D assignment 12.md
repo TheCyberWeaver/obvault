@@ -1,4 +1,4 @@
-#eth #exercise 
+ #exercise 
 # 12.1 MST practice
 ##### a)
 After the first step:
@@ -7,7 +7,7 @@ $(C,H),(D,H),(E,H),(F,I),(G,H),(H,I)$
 After the second step:
 $(A,B),(C,H),(D,H),(E,H),(F,I),(G,H),(H,I),(B,C)$
 ##### b)
-$(A,B),(D,H),(C,H),(B,C),(H,I),(F,I),(G,H),(E,H)$
+$(A,B),(D,H),(C,H),(B,C),(H,I),(F,I),(G,H),(E,H)$ 
 
 ##### c)
 $(G,H),(D,H),(C,H),(B,C),(A,B),(H,I),(F,I),(E,H)$
