@@ -1,4 +1,4 @@
-#eth #exercise 
+ #exercise 
 
 # 1. Lines in $\mathbb{R}^m$
 ![[Pasted image 20250924130937.png]]
@@ -89,7 +89,7 @@ $$
 1 \\
 0 \\
 0 \\
-\vdots  \\
+\vdots \\
 0 \\
 1
 \end{pmatrix}
@@ -114,11 +114,11 @@ $$
 
 # 6. Challenge 1.6
 ![[Pasted image 20250925095322.png]]
-$$  
+$$ 
 \begin{cases}
 u_{1}=\lambda_{1} v_{1}+\lambda_{2} w_{1} \\
 u_{2}=\lambda_{1}v_{2}+\lambda_{2}w_{2}
-\end{cases}  
+\end{cases} 
 $$
 solve for $\lambda_{1}$:
 $\frac{w_{2}}{w_{1}}I-II$
