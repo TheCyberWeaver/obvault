@@ -1,4 +1,3 @@
-
 > [!NOTE] In ordinary English (one direction)
 > > If not A and not B, then not (A or B)
 > 
