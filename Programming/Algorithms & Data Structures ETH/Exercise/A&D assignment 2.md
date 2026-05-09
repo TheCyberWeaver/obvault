@@ -1,4 +1,4 @@
-#eth #exercise
+ #exercise
 # 2.1 Induction
 a)
 IH: $2^{n}>n^{2},\: n\geq5$
@@ -10,9 +10,9 @@ IS: $n\to n+1$
 	- $\Longleftrightarrow n^{2}>2n+1$
 	- $\Longleftrightarrow n^{2}-2n+1>2$
 	- $\Longleftrightarrow (n-1)^{2}-2>0$
-	- for $n\geq5$ the equation holds because for $n=5$:  $(5-1)^{2}-2=14>0$
+	- for $n\geq5$ the equation holds because for $n=5$: $(5-1)^{2}-2=14>0$
 Hence $2n^{2}>(n+1)^{2}$ and $2^{n+1}>(n+1)^{2}$
-Thus, the hypothesis is proved.
+Thus, the hypothesis is proved. 
 
 b)
 IH: $(1+x)^{n}=\sum_{i=0}^{n}\begin{pmatrix}n \\ i\end{pmatrix}x^{i}$
@@ -52,9 +52,9 @@ Also known as the the **golden ratio** $\varphi$
 # 2.3 O-notation quiz
 ![[Pasted image 20251001133627.png]]
 1. $\lim_{ n \to \infty } \frac{f(n)}{g(n)}=\lim_{ n \to \infty }\frac{2n^{5}+10n^{2}}{\frac{1}{100}n^{6}}=\lim_{ n \to \infty } \frac{200}{n}+\lim_{ n \to \infty } \frac{1000}{n^{4}}=0+0=0$ 
-	-  Using Theorem 1, the statement is proved.
+	- Using Theorem 1, the statement is proved.
 2. $\lim_{ n \to \infty } \frac{n^{10}+2n^{2}+7}{100n^{9}}=\lim_{ n \to \infty } \frac{n+2n^{-7}+7n^{-9}}{100}=\infty$
-	-  Using Theorem 1, the statement is disproved.
+	- Using Theorem 1, the statement is disproved.
 3. $\lim_{ n \to \infty } \frac{e^{1.2n}}{e^{n}}=\lim_{ n \to \infty }e^{0.2n}=\infty$
 	- Using Theorem 1, the statement is disproved.
 4. $\lim_{ n \to \infty } \frac{n^{ \frac{2n+3}{n+1}}}{n^{2}}=\lim_{ n \to \infty }n^{ \frac{2n+3}{n+1}-2}=\lim_{ n \to \infty }n^{ \frac{1}{n+1}}=\lim_{ n \to \infty }e^{\ln(n^{1/n+1})}=\lim_{ n \to \infty }e^{\frac{\ln n}{n+1}}=e^{0}=1$
