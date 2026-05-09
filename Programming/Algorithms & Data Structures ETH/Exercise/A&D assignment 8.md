@@ -1,9 +1,9 @@
-#eth #exercise 
+ #exercise 
 # 8.1 Party & Beer & Party & Beer
 We first model the party as an undirected graph where vertices are people and edges represent “knowing each other.” The problem states that every person knows exactly 7 others. Therefore every vertex has degree 7.
 By the Handshaking Lemma $\sum_{u\in V} deg(u)=2\cdot \lvert E \rvert$
 The left side equals $7\cdot \lvert V \rvert$, which must be even.
-Since $7$ is odd, $\lvert V \rvert$ (or the number of people) must be even.
+Since $7$ is odd, $\lvert V \rvert$ (or the number of people) must be even. 
 
 # 8.3 Graph connectivity
 
@@ -37,7 +37,7 @@ Let a graph contains two vertices $u,v$ that are connected through an edge $e=\{
 The claim is disproved.
 **Claim**: If e = {u,v} is a cut edge and u and v have degree at least 2, then u and v are cut vertices.
 
-Deleting $e$ separates the graph into exactly two components, say $A$ containing $u$ and $B$ containing $v$.  
+Deleting $e$ separates the graph into exactly two components, say $A$ containing $u$ and $B$ containing $v$. 
 Since $deg(u)\geq2$, $u$ has at least one neighbor $x$ ($x\neq v$) that lies in component $A$.
 But every vertex in $B$ is now disconnected from $x$ when $u$ is removed, because any path from $x$ to a vertex in $B$ must go through $u\to v$ using the edge $e$, and that edge is gone.
 Thus removing $u$ disconnects the graph. So $u$ is a cut vertex.
