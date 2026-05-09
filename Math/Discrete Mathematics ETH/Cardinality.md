@@ -6,7 +6,7 @@ tags:
 - $A\preccurlyeq B$, if [[Set#Injective|injective]] function $f:A\to B$ exists
 	- reflexive, transitive, **not** antisymmetric (so not a partial order relation)
 	- $A\subseteq B\implies A\preccurlyeq B$
-- $A\sim  B$, if [[Set#Bijective (undoable)|bijective]] function $f:A\to B$ exists
+- $A\sim B$, if [[Set#Bijective (undoable)|bijective]] function $f:A\to B$ exists
 	- equivalence relation
 	- $A\preccurlyeq B\wedge B\preccurlyeq A\implies A\sim B$
 - $|A|=n$ if $A\sim n$ (n is a natural number defined using a set)
@@ -17,7 +17,7 @@ tags:
 $|\{ 1,2,5 \}|=3$
 - The number of elements
 $\mathbb{Z}\sim \mathbb{N}$
-- $f:\mathbb{N}\to \mathbb{Z}$ with $f(n)=(-1)^{n}\left\lceil  \frac{n}{2}  \right\rceil$ a bijective function
+- $f:\mathbb{N}\to \mathbb{Z}$ with $f(n)=(-1)^{n}\left\lceil \frac{n}{2} \right\rceil$ a bijective function
 Interval $(0,1)\sim \mathbb{R}$ 
 - $f:\mathbb{R}\to(0,1)$ with $f(x)=\frac{1}{e^{x}+1}$
 
@@ -64,7 +64,7 @@ Encode the finite sequence $(a_{1},\dots ,a_{n})$ with an unique bit string
 and let it be $f:A\to \{ 0,1 \}^{*}$ showing $A\sim \{ 0,1 \}^{*}$
 ...
 
-### Example  4
+### Example 4
 $\{ 0,1 \}^{\infty}$ (the set of semi-infinite binary sequences) is uncountable
 $\{ 0,1 \}^{\infty}\sim \mathbb{R}$
 or denoted as $\{ 0,1 \}^{\mathbb{N}}$ (see [[Function#Notation of the set of all functions]])
