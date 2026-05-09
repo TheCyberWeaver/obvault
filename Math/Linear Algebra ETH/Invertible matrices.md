@@ -1,8 +1,6 @@
-#eth 
-
 # Equivalent Statement to Invertible
 Let $A$ be an invertible $m\times m$ matrix:
-1. $T_{A}:\mathbb{R}^{m}\to \mathbb{R}^{m}$  is [[Set#Bijective (undoable)|bijective]]
+1. $T_{A}:\mathbb{R}^{m}\to \mathbb{R}^{m}$ is [[Set#Bijective (undoable)|bijective]]
 2. There is an $m\times m$ matrix $B$ such that $BA=I$
 3. The columns of $A$ are linearly independent
 
